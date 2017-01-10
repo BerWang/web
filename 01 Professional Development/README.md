@@ -5,8 +5,13 @@ Each week you will be expected to complete a series of lab activities in your tw
 ## GitHub
 You are required to maintain your code on the University GitHub repository at `https://github.coventry.ac.uk` where you will be added to the module organisation. For this to happen you will need to have logged in in order to generate your profile. The first task is to **log in using your University credentials** and notify your lab tutors if you can't do this.
 
+Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
+
 ## Teams
-The first task is to organise yourselves into teams of 4. Your team should understand the assignment brief and make a decision as to what product you will develop. Whatever you choose you need to ensure everyone in your team will be able to contribute to it development. Prepare a short summary of your proposal.
+You will have already been assigned to a team by the module leader. You can see a list of your team members by clicking on the **Participants** link on the Moodle module page. Since all the worksheet tasks need to be completed as a team you will need to email everyone and agree which two lab sessions you will be attending. Do this as soon as possible after the first lecture.
+
+## Project
+Read through the assignment brief and decide which project you will be working on, this choice will impact the work you carry out during this and subsequent weeks.
 
 ## Skills Audit
 Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project.
@@ -41,18 +46,8 @@ By this stage you will have had an opportunity to observe your group dynamics.
 1. Assess the contribution made by each member of the team using the information from the presentation.
 2. Using the Group Roles listed in the presentation identify which categories each member of your team belong to. Do you have a balanced team?
 
-## The Elevator Pitch
-You should now have a clear idea about what you will be developing. Your final task for this week is to put together an Elevator Pitch using the guidelines in the presentation. You will be asked to stand up and deliver your pitch to the rest of the group. You should take notes on the other group projects.
-
-1. Are there any other teams working on a similar idea? You should chat to them and see if you can divide the work between the teams.
-2. Are there any other teams proposing a project that might enhance your offering? Chat to them and see if you can make use of this other work.
-
-## Share Ideas
-To get a good grade in this module you need to collaborate with other teams. The steps below will help you start this process.
-
-1. Complete the Group Details Form on Moodle, describing both your team and your idea.
-2. Identify any teams on Moodle that you might collaborate with and explain how this could take place.
-3. Add these team members to your LinkedIn network.
+## Team Collaboration
+You should now have a clear idea about what you will be developing and there is a strong possibility that other teams will have chosen the same project. Sit down with other teams and use your skills audit and other information to decide whether you will collaborate on the development. You can choose to work with other teams or to complete the development using only your own team.
 
 ## Getting Support
 During this module you will be expected to work in a team to develop a sophisticated app using the language and platform of your choice, however this is not a technical module and you will not be taught the technical programming skills you need to apply.
