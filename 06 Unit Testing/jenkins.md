@@ -20,3 +20,19 @@ cat jenkins/env/JENKINS_USERNAME
 cat jenkins/env/JENKINS_PASSWORD
 ```
 Now you can use the url to access the Jenkins server and log in.
+
+# Installing Jenkins on Ubuntu
+
+```
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+```
+Installing GitLab Community Edition
+```
+sudo apt-get install curl openssh-server ca-certificates postfix
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+sudo apt-get install gitlab-ce
+sudo gitlab-ctl reconfigure
+```
