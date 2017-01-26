@@ -1,18 +1,15 @@
 
 # Agile Development
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/D306mp
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/ozFzjj
 
 ## Team Review
-From this point onwards you will be working in a close-knit team. Since your experiences of agile development (and hence your ultimate understanding) will depend on this interaction you need to have agreed your final team makeup and project focus by the end of this week.
 
-1. If you are not in a team make sure you attend every lab session and engage with others to find yourself a group.
-2. If you are in a small team (2-3 members) make every effort to combine with other small teams.
-3. Review team members' project commitment by discussing their attendance and punctuality and allow each team member to explain their position.
-4. Review the choice of project the team will be developing and make sure:
-  1. Each team member will be able to contribute to the technical development.
-  2. The choice will allow you to collaborate with other teams.
-  3. Update the Group List on Moodle by completing the Group Details Form again.
+You have already put together a development team with between 6 and 10 developers and from this week onwards you will be using agile development methodologies to build a solution to a real-world problem. Before starting:
+
+1. Review team members' project commitment by discussing their attendance and punctuality and allow each team member to explain their position.
+2. Review the choice of project the team will be developing and make sure each team member will be able to contribute to the technical development.
+3. Speak to your lab tutor and make sure the group list on Moodle is up to date with all the names of your team.
 
 ## Set Up Collaboration Tools
 Communication is key during agile development. You should set up and use both paper-based and electronic tools which you can compare and contrast in your reflective report.
@@ -25,11 +22,11 @@ Communication is key during agile development. You should set up and use both pa
 2. Install the smartphone apps to allow you to collaborate away from your computer.
 3. Use the flipchart paper and post-it notes to create a Kanban board and add your user stories.
 
-##Set Up Scrum
+## Set Up Scrum
 Make sure you are conversant with the principles of scrum:
 
 1. Assign roles to the members of your team and make sure those assigned the roles fully understand their jobs. Each sprint you should rotate the roles so that everyone in your team has had a chance to try them all.
-  1. Product owner
+  1. Product owner (the real client should assume this role if possible)
   2. Scrum master
   3. Development team
 2. Build the product backlog which comprises all the user stories that might form part of the product.
@@ -42,47 +39,21 @@ Make sure you are conversant with the principles of scrum:
   3. MoSCoW rules are applied to the backlog as a final check.
 
 
-## Technical Planning
-You will start development next week so take time to start planning.
+## Sprint Planning Meeting
 
-1. Identify the development platform
-  1. What will be your primary development language?
-  2. What frameworks will your team be using?
-  3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
-    1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
-    2. [JUnit](http://junit.org) for Java
-    3. [Jasmine](http://jasmine.github.io) for JavaScript
-    4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
-    5. XCUnit for Swift
-2. Starting with the stories that form the minimum viable product:
-  1. Design the interface
-  2. Identify any proof-of-concepts needed
+This week you will conduct your first sprint so you will need to conduct your first sprint planning meeting:
 
-## Estimation
-Return to your team of four and start estimating the size of the agreed set of user stories
-
-1. Play planning poker with your user stories, assigning a difficulty score to each.
-2. Arrange your stories in order of difficulty and make sure you are all in agreement.
-3. Identify the stories which are easy to estimate duration.
-4. Use this to estimate the duration of each job.
-  1. Estimate the team velocity.
-  2. Assuming a delivery date at the end of week 9, can the project be completed on schedule?
-  3. Discuss this with the collaborating teams and identify strategies to ensure this happens.
-5. Identify which stories make up the minimum viable product.
-
-## Sprint Planning
-Now that you have set up your scrum framework you will run through your first sprint planning session. Take care to follow and make sense of the process, you will be doing this every fortnight until the end of the module (4 iterations).
-
-1. Take the top item from the prioritised product backlog and decide whether it can be achieved in the current sprint.
-  1. If not, you may need to review your user stories to make them smaller.
-2. Take the second item and decide whether this should be included in the sprint or whether it should be the stretch task.
-3. The Product Owner should describe the functional requirements to the rest of the team who should ask questions to clarify their understanding.
-4. The entire team now discuss how this feature could be implemented:
-  1. Discuss how the solution will interact with the problem domain.
-  2. Use a range of design patterns to describe how this could be implemented.
-  3. Discuss the user interface and how the user could interact with it.
-  4. Define 'done' and describe how it could be tested.
-5. Split the work between pairs of developers.
+1. Make sure everyone in the meeting can see the latest **agile roadmap** that was created last week.
+2. The product owner should describe the highest priority feature to the team.
+  1. As this is being described, the development team should ask as many questions as needed to fully understand it.
+  2. The development team should define the **sprint goal**, a short one or two sentence description of what the team thinks they need to achieve.
+  3. The product owner will use this to check the team really understand the requirements.
+  4. Sketch out any interface elements needed to implement the current sprint and get sign-off from the _product owner_.
+  5. Once the product owner is comfortable with the team's understanding they can leave the meeting. If one of your team is taking on the role of product owner they can now resume their role as a developer.
+3. The development team now work on the **sprint backlog**.
+  1. The work required to achieve the sprint goal is broken down and described in technical terms.
+  2. The developers use an estimation technique such as **planning poker** to determine how long each part will take.
+  3. The tasks are assigned to the members of the development team who decide how much they will achieve by the end of the sprint.
 
 ## Starting the Sprint
 Now you can start writing code:
