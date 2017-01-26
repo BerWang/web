@@ -35,12 +35,20 @@ This activity should be carried out with the client. At the end of each step tak
 
 You now have a product roadmap. Because your client has been actively involved in the process they will be happy with your plans and because the development team were also involved, they will also fully understand not only what needs to be done but also why. This roadmap is a live document and will be updated on a regular basis. In a permanent lab this would be left on view at all times (radiator vs icebox).
 
-## Proof of Concept
+## Technical Planning
 
 Your development team now know what needs to be developed. Now is the time for a frank discussion:
 
 1. Are there any skills required to complete the project that need working on?
 2. Are there any potential issues with building any parts of the product?
+3. Identify the development platform
+  1. What will be your primary development language?
+  2. What frameworks will your team be using?
+  3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
+    1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
+    2. [JUnit](http://junit.org) for Java
+    3. [Jasmine](http://jasmine.github.io) for JavaScript
+    4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
+    5. XCUnit for Swift
 
 Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.
-
