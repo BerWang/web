@@ -20,7 +20,6 @@ Communication is key during agile development. You should set up and use both pa
   3. GitLab (create an organisation and project).
   4. Toggl (integrates with Trello)
 2. Install the smartphone apps to allow you to collaborate away from your computer.
-3. Use the flipchart paper and post-it notes to create a Kanban board and add your user stories.
 
 ## Set Up Scrum
 Make sure you are conversant with the principles of scrum:
@@ -54,15 +53,17 @@ This week you will conduct your first sprint so you will need to conduct your fi
   1. The work required to achieve the sprint goal is broken down and described in technical terms.
   2. The developers use an estimation technique such as **planning poker** to determine how long each part will take.
   3. The tasks are assigned to the pairs of developers in the development team who decide how much they will achieve by the end of the sprint.
+  4. The tasks are added to the team's Kanban board.
 
 ## Starting the Sprint
 The sprint will run for exactly one week. During this time the development team should briefly meet on a daily basis, this is the **daily standup** meeting. The format is:
 
 1. Each pair of programmers demonstrate the current state of their code.
 2. They describe what they have achieved since the last meeting, yesterday (this will have been recorded during the previous stand-up).
-3. They explain any barriers they have encountered and these must be actioned by the Scrum Master before the next stand-up meeting.
-3. Each pair of programmers now explain what they will have achieved before the next stand-up meeting tomorrow.
-4. This is recorded.
+3. The tasks on the Kanban board are moved to reflect the progress made.
+4. They explain any barriers they have encountered and these must be actioned by the Scrum Master before the next stand-up meeting.
+5. Each pair of programmers now explain what they will have achieved before the next stand-up meeting tomorrow.
+6. This is recorded.
 
 Now each pair of programmers now settle down to produce the code they have agreed to:
 
