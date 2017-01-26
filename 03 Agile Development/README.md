@@ -41,6 +41,19 @@ Make sure you are conversant with the principles of scrum:
   2. Final decision is taken by the product owner who needs to justify their decision to the rest of the team.
   3. MoSCoW rules are applied to the backlog as a final check.
 
+
+## Estimation
+Return to your team of four and start estimating the size of the agreed set of user stories
+
+1. Play planning poker with your user stories, assigning a difficulty score to each.
+2. Arrange your stories in order of difficulty and make sure you are all in agreement.
+3. Identify the stories which are easy to estimate duration.
+4. Use this to estimate the duration of each job.
+  1. Estimate the team velocity.
+  2. Assuming a delivery date at the end of week 9, can the project be completed on schedule?
+  3. Discuss this with the collaborating teams and identify strategies to ensure this happens.
+5. Identify which stories make up the minimum viable product.
+
 ## Sprint Planning
 Now that you have set up your scrum framework you will run through your first sprint planning session. Take care to follow and make sense of the process, you will be doing this every fortnight until the end of the module (4 iterations).
 
