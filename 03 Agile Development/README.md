@@ -53,11 +53,18 @@ This week you will conduct your first sprint so you will need to conduct your fi
 3. The development team now work on the **sprint backlog**.
   1. The work required to achieve the sprint goal is broken down and described in technical terms.
   2. The developers use an estimation technique such as **planning poker** to determine how long each part will take.
-  3. The tasks are assigned to the members of the development team who decide how much they will achieve by the end of the sprint.
+  3. The tasks are assigned to the pairs of developers in the development team who decide how much they will achieve by the end of the sprint.
 
 ## Starting the Sprint
-Now you can start writing code:
+The sprint will run for exactly one week. During this time the development team should briefly meet on a daily basis, this is the **daily standup** meeting. The format is:
 
-1. Use pair programming principles to develop code to solve the user story in the current sprint.
-2. Make sure you rotate the driver and navigator roles roughly every hour.
-3. Hold a stand-up meeting regularly and update your burndown chart beforehand.
+1. Each pair of programmers demonstrate the current state of their code.
+2. They describe what they have achieved since the last meeting, yesterday (this will have been recorded during the previous stand-up).
+3. They explain any barriers they have encountered and these must be actioned by the Scrum Master before the next stand-up meeting.
+3. Each pair of programmers now explain what they will have achieved before the next stand-up meeting tomorrow.
+4. This is recorded.
+
+Now each pair of programmers now settle down to produce the code they have agreed to:
+
+1. Pair programming principles should be used to develop code to meet the target they have agreed.
+2. The driver and navigator roles should be rotated regularly.
