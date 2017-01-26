@@ -42,6 +42,22 @@ Make sure you are conversant with the principles of scrum:
   3. MoSCoW rules are applied to the backlog as a final check.
 
 
+## Technical Planning
+You will start development next week so take time to start planning.
+
+1. Identify the development platform
+  1. What will be your primary development language?
+  2. What frameworks will your team be using?
+  3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
+    1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
+    2. [JUnit](http://junit.org) for Java
+    3. [Jasmine](http://jasmine.github.io) for JavaScript
+    4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
+    5. XCUnit for Swift
+2. Starting with the stories that form the minimum viable product:
+  1. Design the interface
+  2. Identify any proof-of-concepts needed
+
 ## Estimation
 Return to your team of four and start estimating the size of the agreed set of user stories
 
