@@ -4,6 +4,10 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 By this stage you should have decided on your team project brief. Some of these have a named customer so you need to contact them to help you with some of activities in this worksheet. For the other project briefs, one or two of the team will need to represent the customer.
 
+## Update Team List
+
+Make sure you have emailed the module leader with the **name of your development team** together with the **names and email addresses** of all the team members. Remember to include details of the **lab sessions** you will be attending so that the online registration system can be updated to allow you to sign in each week.
+
 ## Documentation
 
 As a group decide on the tools you will be using to capture project documentation.
