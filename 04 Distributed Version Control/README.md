@@ -1,7 +1,12 @@
 
 # Distributed Version Control
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/HtacrJ
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/3udHd9.
+
+if you are still unfamiliar with basic git principles:
+
+1. Complete the tutorial on Codeacademy (https://www.codecademy.com/learn/learn-git)
+2. Read through the **Version Control Fundamentals** presentation (https://goo.gl/dpD1gG)
 
 ## Configuring GitLab
 By now you should have started to implement your first user story so you will already have some code under development. In this first task you will be putting this code under version control to help track changes and manage issues.
