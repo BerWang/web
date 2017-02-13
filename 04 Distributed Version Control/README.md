@@ -3,6 +3,8 @@
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/3udHd9.
 
+The reflection section at the end of this worksheet will get you thinking about your work and provide useful information to put in your individual report.
+
 if you are still unfamiliar with basic git principles:
 
 1. Complete the tutorial on Codeacademy (https://www.codecademy.com/learn/learn-git)
@@ -34,3 +36,15 @@ By now you should have started to implement your first user story so you will al
 
 During this sprint you will continue to apply the agile skills you have already learned (such as scrum) but will also be applying the Git Flow branching workflow we covered in the lecture.
 
+## Second Sprint
+
+Now you have a sprint backlog you will need to spend the week completing this. Daily standups have an important role in making sure your team are working effectively, don't skip these.
+
+## Reflection
+
+Now you have mastered the basics, explore some alternative working practices and compare their effectiveness. During the week:
+
+1. Get the scrum master to book a group space such as in the Library or the Hub. Spend a whole day working in this space.
+2. Spend a day with each member of the team working from home.
+
+Now compare the efficiency of these working practices.
