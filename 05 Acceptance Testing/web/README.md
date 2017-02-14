@@ -4,14 +4,14 @@
 Make sure the latest Chrome browser is installed.
 
 Make sure the latest version of NodeJS is installed.
-```
+```shell
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 source ~/.bashrc
 nvm list-remote
 nvm install 7.5.0
 ```
 Navigate to this directory and install required packages then run cucumber:
-```
+```shell
 npm install cucumber selenium-webdriver chromedriver
 ./node_modules/.bin/cucumber-js
   Feature: Example feature
