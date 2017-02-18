@@ -32,6 +32,16 @@ By now you should have started to implement your first user story so you will al
 3. Create as many _private_ repositories as you need and add the team to it.
 4. Try creating a _main_ project repository and adding the other repositories as _submodules_.
 
+### Updating Your Profile
+
+This step must be carried out for each of your clones repositories. If your local profile settings don't match the ones on GitHub server your commits won't be registered to your name!
+
+1. Open your GitHub profile and check the name and email address it uses.
+2. Use the bash shell and navigate to the root of your cloned repository (the directory with a `.git/` directory.
+3. Update your name by running the `git config user.name "John Doe"` command, substituting your name as it appears in your profile.
+4. Update your **email address** by running the `git config user.name "doej@coventry.ac.uk"` command, substituting your email address as it appears in your profile.
+5. Repeat for each of your remotes.
+
 ## Branching Strategy
 
 During this sprint you will continue to apply the agile skills you have already learned (such as scrum) but will also be applying the Git Flow branching workflow we covered in the lecture.
