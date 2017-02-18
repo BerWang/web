@@ -1,53 +1,58 @@
 
 # Acceptance Testing
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/JxMDl5
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Tx8nWx
 
-## Regression Testing
-In your first sprint, you devised a set of detailed, manual tests to verify that your code solved the user story. You will now learn the concepts and syntax of the testing framework for your chosen platform by writing a set of tests to prove your code has passed.
+## Acruing Knowledge
 
-1. Write detailed acceptance tests that describe the user story you have finished
-  1. Write tests that test correct input
-  2. Write tests that test incorrect input
-2. Make sure all the tests pass
+As you begin each sprint you should aim to apply more of the knowledge and skills covered in the lectures. For this sprint you will need to include:
+
+1. The sprint planning and review meetings
+2. The daily standups
+3. Pair programming
+4. Version control including a good branching strategy
+
+You will also be implementing acceptance testing at one of three levels:
+
+1. You should work with a DSL to define your tests
+2. You should use an appropriate framework to define these as automated tests
+3. Finally, you should attempt to write step-definitions to automatically convert the tests written in a DSL to automated tests.
+
+## Behaviour-Driven Development
+
+Before starting your next sprint, revisit each of the completed _user stories_ and define each of them using a _business-readable DSL_ such as Gherkin.
+
+1. Create a `features/` directory.
+2. Create a file with a `.feature` extension for each user story.
+3. At the top of each of the files create a **feature** and add the user story.
+4. Now define a number of **scenarios** to clearly and unambiguously define all the tests you need to carry out.
+5. Under each scenario, list the steps required.
+6. Install and run a tool such as `gherkindoc` to generate your **documentation site** so it can be viewed through github.coventry.ac.uk
 
 ## Sprint Review
-The current sprint is ending so you will need to perform a review.
 
-1. Form a standing group around a (large) monitor.
-  1. Make sure all the team are present.
-  2. Make sure one of the academic lab staff is also present.
-2. The Product Owner reads out the user story.
-3. One of the team demonstrates that this has been fully implemented by showing the working software (don't use the automated tests).
-4. The product owner and customers present try out the new features and ask questions which need to be clearly answered by the team.
-5. If the product owner and customers are happy with the working product, it is signed off.
-6. If there are concerns there are two options:
-  1. If the solution fails to deliver any benefits the user story is replaced at the top of the product backlog.
-  2. If the solution partially works, the team, together with the customer write a new user story to fill in the gaps.
-7. Issues are discussed and a solution established to prevent these issues recurring.
-8. The planning meeting now needs to be carried out for the next sprint.
+By this stage you have completed  first sprint and so you will need to hold a sprint review meeting. _Make sure you have invited your client_.
 
-## Sprint Planning
-You are now ready to run your second sprint planning meeting. Assign the roles of Scrum Master and Product Owner to different team members.
+1. The team:
+  1. displays the **documentation site** generated from the `.feature` files and recap the tasks that were agreed on during the previous meeting.
+  2. demonstrate the product, showing that the agreed user story(s) have been completed and that the product is useful to the client.
+2. The client gives feedback and may be in a position to sign off the work carried out so far.
+3. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
+  1. Issues are added to the issue tracker in GitHub.
+  2. These issues are added to the sprint backlog column on the Kanban board.
+4. The client and developers update the _User Story Map_:
+  1. Change the story priority based on the client's current requirements.
+  2. Decide what will be included in the next sprint.
+5. A new `.feature` file is created for each user story in the new sprint and the team work with the customer to write the scenarios and steps.
+6. The Kanban board is updated with the user stories from the new sprint.
 
-1. Carry out the same process as described in the previous labs.
-2. If you are collaborating with other teams you should run a combined planning meeting.
-3. Go through the product backlog and use MoSCoW rules to re-order the cards based on input from the team.
-4. Take the top-most card and use BDD rules to design a suitable technical solution.
-  1. Design the interface (use a whiteboard or paper)
-  2. Iteratively design the architecture using the BDD process.
-5. Divide up the work between members of the team.
-  1. Members should be assigned work in their skill area.
-  2. Ideally each task should be assigned to a pair of developers.
+## The Sprint
 
-## Test-Driven Development
-Instead of writing out a sequence of manual tests to ensure compliance your team will practice TDD.
+During this sprint, try to implement each of the _scenarios_ as an automated acceptance test. By the end of the sprint you should have one test per scenario and all the tests should have passed.
 
-1. Create a feature branch for the user story.
-2. Extend the existing acceptance tests you wrote earlier to write detailed tests.
-3. Run the tests, they should fail.
-4. Start your feature development.
-5. Re-run your test suite regularly to check what still needs to be implemented.
+### Step Definitions
+
+As a bare minimum you will need to write the tests but you should have a go at writing a step-definition file which will read the `.feature` files and automatically generate and run the acceptance tests.
 
 ## Supporting Materials
 
