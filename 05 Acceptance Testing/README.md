@@ -18,6 +18,16 @@ You will also be implementing acceptance testing at one of three levels:
 2. You should use an appropriate framework to define these as automated tests
 3. Finally, you should attempt to write step-definitions to automatically convert the tests written in a DSL to automated tests.
 
+## Business Domain Modelling
+
+Start by modelling the problem domain. This can be done either on paper or using a whiteboard. Make sure you include:
+
+1. The **Entities**
+2. The **Relationships**
+3. The **Responsibilities**
+
+Now take each of your completed user stories and map them against this problem domain.
+
 ## Behaviour-Driven Development
 
 Before starting your next sprint, revisit each of the completed _user stories_ and define each of them using a _business-readable DSL_ such as Gherkin.
