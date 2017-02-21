@@ -56,3 +56,12 @@ Your development team now know what needs to be developed. Now is the time for a
     5. XCUnit for Swift
 
 Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.
+
+## Documentation
+
+The output for this week is a User Story Map showing:
+
+1. The user stories written in the correct format demonstrating the INVEST principles.
+2. The user stories aligned by flow and criticality
+3. A clear indication of the MVP
+
