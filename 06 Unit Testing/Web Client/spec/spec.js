@@ -2,6 +2,7 @@
 /* simple Jasmine test suite to illustrate how to unit test a closure */
 
 describe('calculating total costs', function() {
+
 	it('should calculate a simple total', function() {
 		try {
 			var shopping = new Shopping()
@@ -32,4 +33,5 @@ describe('calculating total costs', function() {
 			expect(err.message).toBe('quantity needs to a a whole number')
 		}
 	})
+	
 })
