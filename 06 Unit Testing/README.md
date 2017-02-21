@@ -15,7 +15,9 @@ If you keep this architecture in mind you should be able to tidy up your code re
 
 ## Unit Testing
 
-It is assumed that you already know how to write unit tests for your chosen language. Your first step is to write a series of unit tests for the code you have already created. Don't start this until you have implemented the MVC design pattern.
+It is assumed that you already know how to write unit tests for your chosen language however there are some working examples in this repository which you can use as a starting point if your skills are a bit rusty!
+
+Your first step is to write a series of unit tests for the code you have already created. Don't start this until you have implemented the MVC design pattern.
 
 1. You may need to re-design some of your application code to ensure there are clearly separate blocks of code that you can test.
 2. Write a suite of tests to demonstrate the code you have written works as expected.
