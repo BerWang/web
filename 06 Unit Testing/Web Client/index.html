@@ -8,6 +8,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/shopping.js"></script>
 </head>
 
 <body>
@@ -41,6 +42,17 @@
         </fieldset>
     </form>
     <script src="js/shopping.js"></script>
+    <script>
+        theForm.onsubmit = function() {
+            console.log('submit button clicked')
+            var shopping = new Shopping()
+            shopping.setPrice(document.getElementById('price').value)
+            shopping.setQuantity(document.getElementById('quantity').value)
+            shopping.setTax(document.getElementById('tax').value)
+            document.getElementById('total').value = shopping.getTotal()
+            return false
+        }
+    </script>
 </body>
 
 </html>
