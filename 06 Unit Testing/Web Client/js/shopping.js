@@ -21,7 +21,6 @@ function Shopping() {
             console.log('getTotal')
             var total = Math.round(this.price * this.quantity * 100) / 100
             taxFraction = this.tax/100 + 1
-            console.log(total)
             return total
         }
     }
