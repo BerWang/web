@@ -1,58 +1,58 @@
-# Unit Testing
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/jqjQ2D
+# Test-Driven Development
+
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Ztcjd1
+
+## Application Architecture
+
+Before you can write unit tests you need to ensure the application architecture supports this. This normally means applying the **Model-View-Controller** design pattern. Many modern platforms such as iOS and Android support this out of the box.
+
+1. **Model**: this is where you create and maintain the business logic for your application and it is this code that you will be writing unit tests for.
+2. **View**: this is the public-facing interface for your application. It should not contain any business logic, its job is solely to accept user input and display information.
+3. **Controller**: this acts as the _interface_ between the _Model_ and the _View_. It makes sense of the user input and calls upon the logic in the model to solve problems. It also takes the results of the model and sends it to the view. It must not contain any business logic.
+
+If you keep this architecture in mind you should be able to tidy up your code ready for your _unit tests_.
+
+## Unit Testing
+
+It is assumed that you already know how to write unit tests for your chosen language however there are some working examples in this repository which you can use as a starting point if your skills are a bit rusty!
+
+Your first step is to write a series of unit tests for the code you have already created. Don't start this until you have implemented the MVC design pattern.
+
+1. You may need to re-design some of your application code to ensure there are clearly separate blocks of code that you can test.
+2. Write a suite of tests to demonstrate the code you have written works as expected.
+3. Run code coverage tools to check that there are no gaps in the test suite.
+
+You now have a complete set of **regression tests**. As you continue to develop your product you should run all these tests to make sure that nothing has broken.
 
 ## Sprint Review
-You are now at the end of your second sprint so take time to review your progress.
 
-1. Form a standing group around a (large) monitor.
-  1. Make sure all the team are present.
-  2. Make sure one of the academic lab staff is also present.
-2. The Product Owner reads out the user story.
-3. One of the team demonstrates that this has been fully implemented by showing the working software (don't use the automated tests)..
-4. The product owner and customers present try out the new features and ask questions which need to be clearly answered by the team.
-5. If the product owner and customers are happy with the working product, it is signed off.
-6. If there are concerns there are two options:
-  1. If the solution fails to deliver any benefits the user story is replaced at the top of the product backlog.
-  2. If the solution partially works, the team, together with the customer write a new user story to fill in the gaps.
-7. Issues are discussed and a solution established to prevent these issues recurring.
+By this stage you have completed  first sprint and so you will need to hold a sprint review meeting. _Make sure you have invited your client_.
 
-## Refactor the Application Architecture
-Before starting the third sprint take time to review your application architecture.
+1. The team:
+  1. displays the **documentation site** generated from the `.feature` files and recap the tasks that were agreed on during the previous meeting.
+  2. demonstrate the product, showing that the agreed user story(s) have been completed and that the product is useful to the client.
+2. The client gives feedback and may be in a position to sign off the work carried out so far.
+3. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
+  1. Issues are added to the issue tracker in GitHub.
+  2. These issues are added to the sprint backlog column on the Kanban board.
+4. The client and developers update the _User Story Map_:
+  1. Change the story priority based on the client's current requirements.
+  2. Decide what will be included in the next sprint.
+5. The Kanban board is updated with the user stories from the new sprint.
 
-1. Review the different ways to implement the Presentation Model design pattern.
-2. Your team should agree which option suits your application.
-3. Refactor your code to implement your chosen architecture (make sure all the business logic is separated from the UI).
-  1. As you change the code run the acceptance tests to make sure no functionality is broken.
-  2. As you successfully implement changes make sure the code is committed.
-  3. If your acceptance tests fail, revert to your previous commit.
-
-## Write Regression Tests
-None of your code is currently covered by units tests.
-
-1. Split the code modules between your team members.
-2. Each team member writes a full suite of tests for their allotted module(s).
-3. After writing tests they are passed to a second team member for review.
-  1. At this point more tests might be required.
-4. Once all tests are written they should be tested together and pass.
-
-## Sprint Planning
-You are now ready to run your second sprint planning meeting. Assign the roles of Scrum Master and Product Owner to different team members.
-
-1. Carry out the same process as described in the previous labs.
-2. If you are collaborating with other teams you should run a combined planning meeting.
-3. Go through the product backlog and use MoSCoW rules to re-order the cards based on input from the team.
-4. Take the top-most card and use BDD rules to design a suitable technical solution.
-  1. Design the interface (use a whiteboard or paper)
-  2. Iteratively design the architecture using the BDD process.
-5. Divide up the work between members of the team.
-  1. Members should be assigned work in their skill area.
-  2. Ideally each task should be assigned to a pair of developers.
 
 ## Test-Driven Development
-Instead of writing out a sequence of manual tests to ensure compliance your team will practice TDD.
+
+Before trying to solve the next user story take time to learn the process of **Test-Driven Development** (TDD).
+
 1. Create a feature branch for the user story.
-2. Extend the existing acceptance tests you wrote earlier to write detailed tests.
-3. Run the tests, they should fail.
-4. Start your feature development.
-5. Re-run your test suite regularly to check what still needs to be implemented.
+2. Add a new `.feature` file is created for the user story and the team work with the customer to write the scenarios and steps. At this stage the work with the customer is completed and they can leave.
+3. Update the **Step Definition File(s)** to ensure all the scenario steps are covered.
+4. Now run the acceptance test suite and ensure the new tests fail.
+5. Decide how you will update the model to implement the new user story.
+6. Write _code stubs_ for each additional function/method
+7. Write a suite of unit tests to define the functionality
+8. Run these tests, they should fail
+9. Start your feature development.
+10. Re-run your test suite regularly to check what still needs to be implemented.
