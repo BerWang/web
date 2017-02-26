@@ -7,12 +7,13 @@ The pace of development in this module has been fast so this week there will be 
 
 By next week's lecture you will be starting a new sprint so you need to have:
 
-1. Completed your **business domain model**.
-2. Brought your **user story map** up to date.
-3. Consolidated your **Kanban board**.
-4. Implemented a suitable _git branching strategy_.
-5. Written all your completed _user stories_ in a suitable _DSL_ together with enough _scenarios_ to demonstrate compliance.
-6. Written a suite of acceptance tests (preferably as _Cumcumber Step Definitions_).
+1. Complete a **sprint review** (but _not_ a planning meeting).
+2. Completed your **business domain model**.
+3. Brought your **user story map** up to date.
+4. Consolidated your **Kanban board**.
+5. Implemented a suitable _git branching strategy_.
+6. Written all your completed _user stories_ in a suitable _DSL_ together with enough _scenarios_ to demonstrate compliance.
+7. Written a suite of acceptance tests (preferably as _Cumcumber Step Definitions_).
 
 Make a thorough job of completing these tasks and avoid the temptation to squeeze in another sprint!
 
