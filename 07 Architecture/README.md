@@ -1,42 +1,51 @@
 
 # Architecture
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/wwTHZK
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/cyc4sn
 
-## Sprint 3
-You should be applying concepts covered in earlier labs to this sprint.
+## Acruing Knowledge
 
-1. Your team have agreed a version control strategy and are refining this.
-2. All completed user stories are backed by comprehensive acceptance tests that demonstrate success.
+As you begin each sprint you should aim to apply more of the knowledge and skills covered in the lectures. For this sprint you will need to include:
 
-This sprint you have been learning about Unit Testing.
+1. The sprint planning and review meetings
+2. The daily standups
+3. Pair programming
+4. Version control including a good branching strategy
+5. You should work with a DSL to define your tests
+6. You should use an appropriate framework to define these as automated tests
+7. Finally, you should attempt to write step-definitions to automatically convert the tests written in a DSL to automated tests.
 
-1. The app architecture of your current solution needs to implement MVC.
-  1. Each platform uses different libraries to achieve this but typically for a dynamic website you should be using a templating solution, make sure your team have agreed which one they will use.
-  2. As you modify your code this could break your product. Run the automated acceptance tests frequently to make sure nothing is broken!
-2. You need to write comprehensive unit tests to cover the functionality in your current codebase. These tests will form your regression tests.
-3. Now you can fully implement Test-Driven Development (TDD).
-  1. In the technical planning agree on the public functions/methods in your code modules and their signatures.
-  2. Write a comprehensive suite of unit tests that can be used to confirm functionality, these tests will fail when run.
-  3. Implement the functionality in your modules and measure progress in terms of the number of tests that pass.
+## Architecture
 
-## Bugs
-As you roll out your product to end users they will normally find bugs that need fixing. Use the process described below to report, track and fix them.
+Analyse each component in your full-stack solution:
 
-1. Ask other teams to represent your users. As they find bugs these must be added to the issue tracker. You will need to grant reporter access to the reporter access to the repository which will allow them to add bugs to the system.
-2. Each bug needs to be rated for severity using the labels in GitLab and assigned to a developer for fixing.
-3. If the team are implementing TDD, a bug represents a missing test.
-  1. Create a branch in which the bug will be fixed, use the issue tracking number in the branch name.
-  2. Write a Unit and/or acceptance tests to replicate the bug.
-  3. Modify the code until all tests pass.
-  4. Issue a merge request and assign to a different developer who will check the bug is fixed them merge the branch
-  5. The issue is now closed in the issue tracker. This will notify the person who reported the initial bug.
+1. Could any of this functionality be isolated in one or more libraries?
+2. You are already using one service (your RESTful API), are there any other opportunities to divide your product into additional services? How could message queues and pub-sub help decouple your system components?
+3. What are the pros and cons of each approach, can you define a useful strategy to decide which is the most appropriate solution for a given scenario?
 
-## Microarchitecture
-The lecture discussed how APIs can be used to build fully distributed systems. Take time to analyse your solution and identify where this approach could be used to improve the development of the product.
+## Microservices
 
-## Data Persistence
-Reflect on your data-persistence options. How does the CAP theory impact on your choices?
+Analyse your product and identify ways to divide it into multiple microservices. Can you implement these as a series of Docker containers?
 
-## Messaging
-How could message queues and pub-sub help decouple your system components?
+1. Start by sketching out each service.
+2. Write a `Dockerfile` for each of these in its own directory.
+3. Given the ephemeral nature of Docker containers, how will you manage persistence?
+3. Now add lines to represent the connections between the containers.
+4. Define these in a `docker-compose.yml` file.
+
+## Sprint Planning
+
+By this stage you have completed and signed off several sprints Before your bnext sprint you will need to carry out a sprint plamming meeting. _Make sure you have invited your client_.
+
+1. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
+  1. Issues are added to the issue tracker in GitHub.
+  2. These issues are added to the sprint backlog column on the Kanban board.
+2. The client and developers update the _User Story Map_:
+  1. Change the story priority based on the client's current requirements.
+  2. Decide what will be included in the next sprint.
+3. A new `.feature` file is created for each user story in the new sprint and the team work with the customer to write the scenarios and steps.
+4. The Kanban board is updated with the user stories from the new sprint.
+
+## Sprint
+
+During this sprint make sure you use your acceptance tests to measure progress.
