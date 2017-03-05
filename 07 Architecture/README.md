@@ -19,9 +19,10 @@ As you begin each sprint you should aim to apply more of the knowledge and skill
 
 Analyse each component in your full-stack solution:
 
-1. Could any of this functionality be isolated in one or more libraries?
-2. You are already using one service (your RESTful API), are there any other opportunities to divide your product into additional services? How could message queues and pub-sub help decouple your system components?
-3. What are the pros and cons of each approach, can you define a useful strategy to decide which is the most appropriate solution for a given scenario?
+1. Implement the **Model View Controller** pattern in your solution.
+2. Can your model functionality be isolated in one or more libraries?
+3. You are already using one service (your RESTful API), are there any other opportunities to divide your product into additional services? How could message queues and pub-sub help decouple your system components?
+4. What are the pros and cons of each approach, can you define a useful strategy to decide which is the most appropriate solution for a given scenario?
 
 ## Microservices
 
