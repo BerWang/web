@@ -77,14 +77,14 @@ Innovation accounting refers to the rigorous process of defining, empirically me
 
 ### Dynamic System Development Method
 
-1) Active user involvement is imperative.
-2) Teams must be empowered to make decisions. The four key variables of empowerment are: authority, resources, information and accountability.
-3) Frequent delivery of products is essential.
-4) Fitness for business purpose is the essential criterion for acceptance of deliverables.
-5) Iterative and incremental development is necessary to converge on an accurate business solution.
-6) All changes during development are reversible, i.e. you do not proceed further down a particular path if problems are encountered, you backtrack to the last safe or agreed point, and then start down a new path.
-7) Requirements are baselined at a high level, i.e. the high-level business requirements, once agreed, are frozen. This is essentially the scope of the project.
-8) Testing is integrated throughout the life cycle, i.e. ‘test as you go’ rather than testing just at the end where it frequently gets squeezed.
+1. Active user involvement is imperative.
+2. Teams must be empowered to make decisions. The four key variables of empowerment are: authority, resources, information and accountability.
+3. Frequent delivery of products is essential.
+4. Fitness for business purpose is the essential criterion for acceptance of deliverables.
+5. Iterative and incremental development is necessary to converge on an accurate business solution.
+6. All changes during development are reversible, i.e. you do not proceed further down a particular path if problems are encountered, you backtrack to the last safe or agreed point, and then start down a new path.
+7. Requirements are baselined at a high level, i.e. the high-level business requirements, once agreed, are frozen. This is essentially the scope of the project.
+8. Testing is integrated throughout the life cycle, i.e. ‘test as you go’ rather than testing just at the end where it frequently gets squeezed.
 
 ### Soft vs Hard Thinking
 
