@@ -1,58 +1,62 @@
 
 # Test-Driven Development
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Ztcjd1
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/AtH9sZ
 
-## Application Architecture
+## Acruing Knowledge
 
-Before you can write unit tests you need to ensure the application architecture supports this. This normally means applying the **Model-View-Controller** design pattern. Many modern platforms such as iOS and Android support this out of the box.
+As you begin each sprint you should aim to apply more of the knowledge and skills covered in the lectures. For this sprint you will need to include:
 
-1. **Model**: this is where you create and maintain the business logic for your application and it is this code that you will be writing unit tests for.
-2. **View**: this is the public-facing interface for your application. It should not contain any business logic, its job is solely to accept user input and display information.
-3. **Controller**: this acts as the _interface_ between the _Model_ and the _View_. It makes sense of the user input and calls upon the logic in the model to solve problems. It also takes the results of the model and sends it to the view. It must not contain any business logic.
+1. The sprint planning and review meetings
+2. The daily standups
+3. Pair programming
+4. Version control including a good branching strategy
 
-If you keep this architecture in mind you should be able to tidy up your code ready for your _unit tests_.
+You will also be implementing acceptance testing at one of three levels:
+
+1. You should work with a DSL to define your tests
+2. You should use an appropriate framework to define these as automated tests
+3. Finally, you should attempt to write step-definitions to automatically convert the tests written in a DSL to automated tests.
 
 ## Unit Testing
 
-It is assumed that you already know how to write unit tests for your chosen language however there are some working examples in this repository which you can use as a starting point if your skills are a bit rusty!
+It is assumed that you already know how to write unit tests for your chosen language however there are some working examples in this repository which you can use as a starting point if your skills are a bit rusty! You have already refactored your code to identify the business logic model and it is this code you will be writing the unit tests for.
 
 Your first step is to write a series of unit tests for the code you have already created. Don't start this until you have implemented the MVC design pattern.
 
-1. You may need to re-design some of your application code to ensure there are clearly separate blocks of code that you can test.
-2. Write a suite of tests to demonstrate the code you have written works as expected.
-3. Run code coverage tools to check that there are no gaps in the test suite.
+1. Write a suite of tests to demonstrate the code you have written works as expected.
+2. Run code coverage tools to check that there are no gaps in the test suite.
 
 You now have a complete set of **regression tests**. As you continue to develop your product you should run all these tests to make sure that nothing has broken.
 
-## Sprint Review
+## Sprint Planning
 
-By this stage you have completed  first sprint and so you will need to hold a sprint review meeting. _Make sure you have invited your client_.
+You will have already completed the _sprint review_ so you need to _invited your client_ and carry out a detailed _sprint planning meeting_.
 
-1. The team:
-  1. displays the **documentation site** generated from the `.feature` files and recap the tasks that were agreed on during the previous meeting.
-  2. demonstrate the product, showing that the agreed user story(s) have been completed and that the product is useful to the client.
-2. The client gives feedback and may be in a position to sign off the work carried out so far.
-3. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
+1. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
   1. Issues are added to the issue tracker in GitHub.
   2. These issues are added to the sprint backlog column on the Kanban board.
-4. The client and developers update the _User Story Map_:
+2. The client and developers update the _User Story Map_:
   1. Change the story priority based on the client's current requirements.
   2. Decide what will be included in the next sprint.
-5. The Kanban board is updated with the user stories from the new sprint.
+3. A new `.feature` file is created for each user story in the new sprint and the team work with the customer to write the scenarios and steps.
+4. The Kanban board is updated with the user stories from the new sprint.
+5. The step definition file is updated to cover the new scenario steps.
 
+## The Sprint
+
+During this sprint, try to implement each of the _scenarios_ as an automated acceptance test. By the end of the sprint you should have one test per scenario and all the tests should have passed.
 
 ## Test-Driven Development
 
 Before trying to solve the next user story take time to learn the process of **Test-Driven Development** (TDD).
 
 1. Create a feature branch for the user story.
-2. Add a new `.feature` file is created for the user story and the team work with the customer to write the scenarios and steps. At this stage the work with the customer is completed and they can leave.
-3. Update the **Step Definition File(s)** to ensure all the scenario steps are covered.
-4. Now run the acceptance test suite and ensure the new tests fail.
-5. Decide how you will update the model to implement the new user story.
-6. Write _code stubs_ for each additional function/method
-7. Write a suite of unit tests to define the functionality
-8. Run these tests, they should fail
-9. Start your feature development.
-10. Re-run your test suite regularly to check what still needs to be implemented.
+2. Decide how you will update the model to implement the new user story.
+3. Write _code stubs_ for each additional function/method
+4. Write a suite of unit tests to define the functionality
+5. Run these tests, they should fail
+6. Start your feature development.
+7. Re-run your test suite regularly to check what still needs to be implemented.
+
+In this sprint you will be applying not only the new unit testing skills but should aim to apply the skills and concepts covered in earlier weeks.
