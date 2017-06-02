@@ -80,3 +80,7 @@ The final step is to copy some files into the container. You should find a simpl
 docker cp website/. /usr/share/nginx/html/
 ```
 Try loading the web page at http://localhost:8080 and you should see the website.
+
+## Automation
+
+we can automate the process of building docker containers by writing a **DockerFile** which will describe the steps needed to build and run the container. 
