@@ -89,7 +89,7 @@ Innovation accounting refers to the rigorous process of defining, empirically me
 ### Soft vs Hard Thinking
 
 | Soft Systems Thinking | Hard Systems Thinking |
------------------------------------------------------
+| --- | --- |
 | organisational problems are ‘messy’ (Ackoff, 1974), poorly defined | objective reality of systems in the world |
 | stakeholders interpret problems differently (no objective reality) | well-defined problem to be solved |
 | human factors important | technical factors foremost |
