@@ -8,7 +8,7 @@ You are required to maintain your code on the University GitHub repository at `h
 Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
 
 ## Teams
-You will have already been assigned to a team by the module leader. You can see a list of your team members by clicking on the **Participants** link on the Moodle module page. Since all the worksheet tasks need to be completed as a team you will need to email everyone and agree which two lab sessions you will be attending. Do this as soon as possible after the first lecture.
+You will have already been assigned to a team by the module leader. You can see a list of your team members by clicking on the relevent file in this repository. Since all the worksheet tasks need to be completed as a team you will need to email everyone to ensure you all meet up together for _every_ lab session.
 
 ## Project
 Read through the assignment brief and decide which project you will be working on, this choice will impact the work you carry out during this and subsequent weeks. Make sure you choose a **real client**, for some of the projects this is a named person but for the other projects you will need to choose someone (not one of the module staff though).
