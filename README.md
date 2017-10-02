@@ -6,39 +6,11 @@ This repository contains all the worksheets and teaching materials.
 
 The assignment brief can be found here:
 
-https://goo.gl/J81OjF
+https://goo.gl/ikXX5r
 
 The grading rubric is available here:
 
-https://goo.gl/FE3RQq
-
-## New Topics for 2017-18
-
-### Benefits of web services
-
-- Platform independent 
-- Language independent
-- Standard based – e.g. HTTP, XML, JSON, URI standards
-- Application components
-- Communicate using open protocols
-- Self-contained and self-describing
-- Can be discovered
-- Can be used by other applications
-
-### Principles of RESTful web services
-
-Use HTTP methods explicitly 
--	(GET for retrieving, POST for creating a resource, DELETE, PUT)
-
-Stateless
--	each request from client to server must contain all the information necessary to execute the request
-
-Expose directory structure-like URIs
--	the structure of a URI should be straightforward, predictable, and easily understood.
-
-
-Transfer XML, JavaScript Object Notation (JSON), or both.
--	This allows the service to be used by a variety of clients written in different languages running on different platforms and devices
+https://goo.gl/tDTfUo
 
 ### Features of revision control
 
