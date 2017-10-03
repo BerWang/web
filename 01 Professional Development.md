@@ -25,6 +25,10 @@ Perform a detailed analysis of the problem you are going to solve and perform a 
   2. Use the Summary Chart to identify the skills you are competent in and use the full documentation to identify your level.
   3. Use the SFIA Reference Guide to understand what is required to achieve each level of each skill
 
+## Team Psychology
+
+You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
+
 ## LinkedIn
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
 
@@ -36,9 +40,6 @@ Use this information gained in the previous section to update your LinkedIn Prof
 6. Repeat for other people in the group.
 7. Can you find any of your lecturers? Invite some of them to your network.
 8. Install LinkedIn on your smartphone...
-
-## SWOT Analysis
-Your next task is to carry out a SWOT analysis on your team and their proposed project.
 
 ## Team Building
 By this stage you will have had an opportunity to observe your group dynamics.
