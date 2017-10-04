@@ -8,13 +8,26 @@ By this stage you should have decided on your team project brief. Some of these 
 
 Make sure you have emailed the module leader with the **name of your development team** together with the **names and email addresses** of all the team members. Remember to include details of the **lab sessions** you will be attending so that the online registration system can be updated to allow you to sign in each week.
 
-## Documentation
+## Introduction to Agile
 
-As a group decide on the tools you will be using to capture project documentation.
+During your lecture you were introduced to the principles behind agile development.
 
-1. What type of documentation do you anticipate recording?
-2. What tools will you use?
-3. Who will act as final arbiter?
+1. Discuss how the **Agile Manifesto** could impact how your team develop the product for your customer. Compare this to traditional **Waterfall** development processes.
+2. With reference to the **Iron Triangle of Planning**, discuss how agile approaches can help project planning.
+3. If the _scope_ is not fixed how can you manage customer expectations?
+4. How would you explain agile methodologies to the customer?
+
+## Domain Modelling
+
+Now its time to meet with your customer and start planning the product. The first step is to draw a domain model. This will be quite large and complex so you should use either a whiteboard or flipchart paper.
+
+1. Discuss the problem in your team and start mapping out the:
+    1. Entities
+    2. Relationships
+    3. Responsibilities
+2. As you do this you will identify questions that need clarification by the customer. Write down these questions as you think of them.
+3. Your lab tutor(s) will be taking on the client role. Invite them over and get clear answers to your questions.
+4. Repeat this process until you have a complete _domain model_, invite the client over and walk through this to make sure it is correct (matches the customer's expectations).
 
 ## Requirements Gathering
 
@@ -24,6 +37,7 @@ The team should support the client to record these requirements as user stories 
 
 1. Make sure you have applied INVEST principles.
 2. Prioritise these based on value to the user, rejecting those which are no longer relevent.
+3. Have you considered the _alternative user stories_?
 
 Now work with your client to apply **MoSCoW** rules so that these requirements are prioritised correctly.
 
@@ -38,6 +52,14 @@ This activity should be carried out with the client. At the end of each step tak
 5. Finally transfer this information to a digital board such as Trello or even a spreadsheet.
 
 You now have a product roadmap. Because your client has been actively involved in the process they will be happy with your plans and because the development team were also involved, they will also fully understand not only what needs to be done but also why. This roadmap is a live document and will be updated on a regular basis. In a permanent lab this would be left on view at all times (radiator vs icebox).
+
+## Documentation
+
+As a group decide on the tools you will be using to capture project documentation.
+
+1. What type of documentation do you anticipate recording?
+2. What tools will you use?
+3. Who will act as final arbiter?
 
 ## Technical Planning
 
@@ -56,12 +78,3 @@ Your development team now know what needs to be developed. Now is the time for a
     5. XCUnit for Swift
 
 Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.
-
-## Documentation
-
-The output for this week is a User Story Map showing:
-
-1. The user stories written in the correct format demonstrating the INVEST principles.
-2. The user stories aligned by flow and criticality
-3. A clear indication of the MVP
-
