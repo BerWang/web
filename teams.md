@@ -46,11 +46,20 @@ You have been put into teams of 8-9 for this module.
 
 | LAST NAME  | FIRST NAMES       | EMAIL                   |
 |------------|-------------------|-------------------------|
-| ALZIBALI   | Sarah Abdulaziz S | alzibals@coventry.ac.uk |
-| DHALIWAL.  | Gavin             | dhaliw30@coventry.ac.uk |
-| JIBRIL     | Bachir            | jibrilb@coventry.ac.uk  |
+| ANADIF     | Narmin            | anadifn@coventry.ac.uk  |
+| AZMII      | Adhitama          | ---                     |
+| DHALIWAL   | Gavin             | dhaliw30@coventry.ac.uk |
+| GOULD      | Lamar             | ---                     |
 | KAUR       | Harpreet          | kaurh20@coventry.ac.uk  |
 | O'GARRA    | Shakeel           | ogarras2@coventry.ac.uk |
+| SHOFOWORA  | Samuel            | ---                     |
+
+## Team E
+
+| LAST NAME  | FIRST NAMES       | EMAIL                   |
+|------------|-------------------|-------------------------|
+| ALZIBALI   | Sarah Abdulaziz S | alzibals@coventry.ac.uk |
+| JIBRIL     | Bachir            | jibrilb@coventry.ac.uk  |
 | SAHOTA     | Pavilion          | sahotap4@coventry.ac.uk |
 | TACU       | Iulian            | tacui@coventry.ac.uk    |
 | YUSHA'U    | Munir Ahamed      | yushaum@coventry.ac.uk  |
