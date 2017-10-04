@@ -1,6 +1,6 @@
 # Agile Planning
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/CXk4Nt
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/9WP4cV
 
 By this stage you should have decided on your team project brief. Some of these have a named customer so you need to contact them to help you with some of activities in this worksheet. For the other project briefs, one or two of the team will need to represent the customer.
 
