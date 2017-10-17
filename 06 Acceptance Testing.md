@@ -70,3 +70,35 @@ There are a number of supporting labs that will help you implement your acceptan
 
 1. If you are creating a **website**, use the materials in the **casperjs** directory.
 2. If you are creating an **API**, use the materials in the **frisbyjs** directory.
+
+ 
+-----
+
+## Acruing Knowledge
+
+As you begin each sprint you should aim to apply more of the knowledge and skills covered in the lectures. For this sprint you will need to include:
+
+1. The sprint planning and review meetings
+2. The daily standups
+3. Pair programming
+4. Version control including a good branching strategy
+5. You should work with a DSL to define your tests
+6. You should use an appropriate framework to define these as automated tests
+7. Finally, you should attempt to write step-definitions to automatically convert the tests written in a DSL to automated tests.
+
+## Sprint Planning
+
+By this stage you have completed and signed off several sprints Before your bnext sprint you will need to carry out a sprint plamming meeting. _Make sure you have invited your client_.
+
+1. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed:
+  1. Issues are added to the issue tracker in GitHub.
+  2. These issues are added to the sprint backlog column on the Kanban board.
+2. The client and developers update the _User Story Map_:
+  1. Change the story priority based on the client's current requirements.
+  2. Decide what will be included in the next sprint.
+3. A new `.feature` file is created for each user story in the new sprint and the team work with the customer to write the scenarios and steps.
+4. The Kanban board is updated with the user stories from the new sprint.
+
+## Sprint
+
+During this sprint make sure you use your acceptance tests to measure progress.
