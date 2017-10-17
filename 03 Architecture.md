@@ -17,13 +17,13 @@ There is a lot of planning to be carried out before you can start development. U
 Based on the system requirements and the team expertise you need to agree the technology stack that will be employed:
 
 1. Analyse the data storage requirements and decide:
-  1. What _type_ of database is best suited (relational, document, graph, etc.)
-  2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
+    1. What _type_ of database is best suited (relational, document, graph, etc.)
+    2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
 2. For each tier in the proposed solution:
-  1. Where will the tiers physically be located?
-  2. Will any of the tiers be hosted together?
-  3. What OS will be used to host the tier?
-  4. What language will be used and why?
+    1. Where will the tiers physically be located?
+    2. Will any of the tiers be hosted together?
+    3. What OS will be used to host the tier?
+    4. What language will be used and why?
 
 ## Presentation Model
 
@@ -39,8 +39,8 @@ Now you need to organise your team in preparation for the first sprint which wil
 
 1. Based on your skills audit, divide the team into different groups to tackle the different tiers in your solution.
 2. Each group should map out how they will achieve the first user story, this should include:
-  1. The language they will be using and why.
-  2. The editor/IDE to be used.
+    1. The language they will be using and why.
+    2. The editor/IDE to be used.
   
 ## Technical Preparation
 
