@@ -11,6 +11,7 @@ There is a lot of planning to be carried out before you can start development. U
 2. Identify where the different tiers will be located physically.
 3. How will communication be handled between the tiers?
 4. Are there any other opportunities to divide your product into additional services? How could message queues and pub-sub help decouple your system components?
+5. Can a hexagonal architecture improve your system?
 
 ## Technology Stack
 
@@ -47,17 +48,6 @@ Now you need to organise your team in preparation for the first sprint which wil
 Each group should now prepare their computers to avoid time being wasted when the sprint starts next week:
 
 1. Install/configure the editor/IDE
-2. Make sure the language compiler/interpreter is correctly configured by writing a simple hello world script
-3. Make sure all the necessary libraries/frameworks are installed and working
-
-## Microservices (advanced)
-
-Analyse your product and identify ways to divide it into multiple microservices. Can you implement these as a series of Docker containers?
-
-1. Start by sketching out each service.
-2. Write a `Dockerfile` for each of these in its own directory.
-3. Given the ephemeral nature of Docker containers, how will you manage persistence?
-3. Now add lines to represent the connections between the containers.
-4. Define these in a `docker-compose.yml` file.
-
-
+2. Make sure the language compiler/interpreter is correctly configured by writing a simple hello world script.
+3. Make sure all the necessary libraries/frameworks are installed and working.
+4. Make sure everyone has a local copy of the chosen database.
