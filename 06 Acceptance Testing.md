@@ -99,6 +99,17 @@ By this stage you have completed and signed off several sprints Before your bnex
 3. A new `.feature` file is created for each user story in the new sprint and the team work with the customer to write the scenarios and steps.
 4. The Kanban board is updated with the user stories from the new sprint.
 
+
+## Microservices (advanced)
+
+Analyse your product and identify ways to divide it into multiple microservices. Can you implement these as a series of Docker containers?
+
+1. Start by sketching out each service.
+2. Write a `Dockerfile` for each of these in its own directory.
+3. Given the ephemeral nature of Docker containers, how will you manage persistence?
+3. Now add lines to represent the connections between the containers.
+4. Define these in a `docker-compose.yml` file.
+
 ## Sprint
 
 During this sprint make sure you use your acceptance tests to measure progress.
