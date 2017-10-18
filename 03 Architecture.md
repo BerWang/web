@@ -26,6 +26,18 @@ Based on the system requirements and the team expertise you need to agree the te
     3. What OS will be used to host the tier?
     4. What language will be used and why?
 
+You will probably decide to use an API as your model to handle communication between your client and the data persistence tier. There are a couple of options:
+
+1. Build a full API using a suitable language (this is covered in greater detail in the 304CEM module). You will need to choose a suitable framework that supports your chosen language:
+    1. [NodeJS](https://nodejs.org/en/) and the [Restify](https://www.npmjs.com/package/restify) module. There is a good [tutorial](https://github.coventry.ac.uk/304CEM-1718SEPJAN/TEACHING-MATERIALS) and an [example API](https://github.coventry.ac.uk/304CEM-1718SEPJAN/bookshop). Avoid using the [Express](https://www.npmjs.com/package/express) framework!
+    2. [Python](https://www.python.org/) and [Flask](http://flask.pocoo.org/). There are a number of good [tutorials] available online.(https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq) available.
+    2. PHP and [Codeigniter](https://codeigniter.com/) using the [REST Server](https://github.com/chriskacerguis/codeigniter-restserver) library.
+
+2. Use an API builder such as:
+    1. [Loopback](https://loopback.io)
+
+You choice will depend on the overall complexity of the API you are developing and the skills you have in your team.
+
 ## Presentation Model
 
 Analyse the presentation tier:
