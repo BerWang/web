@@ -1,60 +1,55 @@
 
 # Distributed Version Control
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/3udHd9.
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/oqHvbt.
 
 The reflection section at the end of this worksheet will get you thinking about your work and provide useful information to put in your individual report.
 
-if you are still unfamiliar with basic git principles:
+if you are still unfamiliar with basic git principles complete the tutorial on Codeacademy (https://www.codecademy.com/learn/learn-git)
 
-1. Complete the tutorial on Codeacademy (https://www.codecademy.com/learn/learn-git)
-2. Read through the **Version Control Fundamentals** presentation (https://goo.gl/dpD1gG)
+## Setting up Your Team
 
-## Sprint Review
+By now you will already have a substantial code base and this will need to be added to some online remote repositories on the university github server.
 
-By this stage you have completed your first sprint and so you will need to hold a sprint review meeting. Make sure you have invited your client.
+1. Make sure all members of your team can log onto the University GitHub server (https://github.coventry.ac.uk/)
+2. Make sure you all have membership of the 302CEM-1718OCTJAN organisation by accessing the organisation and seeing if there is a green **New repository** button
+3. One person in your group needs to set up a team:
+    1. Click on the **Teams** tab.
+    2. Click on the green **New team** button and give your team the correct name (eg. Team A), keep visibility to **Visible**.
+    3. On the next screen set the role to **Owner**.
+    4. Use the green **Add a member** button to add each person to your team.
 
-1. The team demonstrate the product, showing that the first user story(s) have been completed and that the product is useful to the client.
-2. The client gives feedback and may be in a position to sign off the work carried out so far.
-3. The client and developers use the Kanban board to identify any issues in the sprint backlog that were not completed.
-4. The client and developers update the _User Story Map_:
-  1. Change the story priority based on the client's current requirements.
-  2. Decide what will be included in the next sprint.
-5. The Kanban board is updated with:
-  1. Any issues resulting from the first sprint.
-  2. The user stories from the new sprint.
+## Setting up Remote Repositories
 
-## Configuring GitHub
-By now you should have started to implement your first user story so you will already have some code under development. In this first task you will be putting this code under version control to help track changes and manage issues.
+Now you need to create a separate repository for each of your code bases. You will therefore end up with one for your API and at least one for your client(s). This task can be carried out by one member of your team but make sure everyone else is watching and following the steps.
 
-1. Make sure all of your team members have access to the University GitHub server at https://github.coventry.ac.uk and have added their full name and photo to their user profile. If any of your team can't log in they will need to request access by visiting the IT Help Desk in the Library.
-2. One of your team should create a private group and invite all the members of your team.
-3. Create as many _private_ repositories as you need and add the team to it.
-4. Try creating a _main_ project repository and adding the other repositories as _submodules_.
+1. From the oranisation [home page](https://github.coventry.ac.uk/302CEM-1718OCTJAN) click on the **New** button.
+2. Assign a name to your repository that includes the group letter and the code it contains (eg. `a-api` or `b-android`), keep the visibility as _private_ and click on **Create repository** (make sure the checkbox to add a README is _NOT_ selected).
+3. Choose the **Settings** tab and **Collaborators & teams** then use the dropdown to add your team. Set the permission to **Admin**.
 
-### Updating Your Profile
+## Uploading Existing Code
 
-This step must be carried out for each of your clones repositories. If your local profile settings don't match the ones on GitHub server your commits won't be registered to your name!
+Now you can add the new GitHub remote to your local codebases and push to your newly-created remotes.
 
-1. Open your GitHub profile and check the name and email address it uses.
-2. Use the bash shell and navigate to the root of your cloned repository (the directory with a `.git/` directory.
-3. Update your name by running the `git config user.name "John Doe"` command, substituting your name as it appears in your profile.
-4. Update your **email address** by running the `git config user.name "doej@coventry.ac.uk"` command, substituting your email address as it appears in your profile.
-5. Repeat for each of your remotes.
+1. Decide who has the most up to date version of the different code bases.
+2. Set the local name and email address substituting the name and email address _currently stored on GitHub_:
+    1. `$ git config --global user.name 'John Doe'`
+    2. `$ git config --global user.email 'johndoe@coventry.ac.uk'`
+3. Initialise a repository inside the folder of the most up-to-date versions of each code base and add the remote copied from the appropriate repository:
+    1. `$ git init`
+    2. `$ git remote add origin https://github.coventry.ac.uk/302CEM-1718OCTJAN/x-xxx.git`
+4. Stage and commit all changes then push to the remote:
+    1. `$ git add --all`
+    2. `$ git commit -m 'initial commit'`
+    3. `$ git push origin master`
+5. Repeat for each codebase and check the code is now uploaded to GitHub.
+
+## Cloning Copies and Working Locally
+
+You all need to have copies of the remote repositories.
+
+1. Start by deleting _all_ local copies of your code base on all computers.
+2. Now clone the GitHub repositories onto your development computers so you are all working from the same codebase.
+3. Now you can continue working on your code, remember to pull remote commits before pushing your own!
 
 ## Branching Strategy
-
-During this sprint you will continue to apply the agile skills you have already learned (such as scrum) but will also be applying the Git Flow branching workflow we covered in the lecture.
-
-## Second Sprint
-
-Now you have a sprint backlog you will need to spend the week completing this. Daily standups have an important role in making sure your team are working effectively, don't skip these.
-
-## Reflection
-
-Now you have mastered the basics, explore some alternative working practices and compare their effectiveness. During the week:
-
-1. Get the scrum master to book a group space such as in the Library or the Hub. Spend a whole day working in this space.
-2. Spend a day with each member of the team working from home.
-
-Now compare the efficiency of these working practices.
