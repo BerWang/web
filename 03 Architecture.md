@@ -45,7 +45,7 @@ You choice will depend on the overall complexity of the API you are developing a
 Your team will need to implement some form of front-end to the system which could be either a website or a smartphone app. You have two possible approaches to this technology stack:
 
 1. Use the standard tech stack (eg. Swift language / iOS frameworks)
-2. If your team are not competent programmers you might consider using a visual tool such as [App Inventor](http://ai2.appinventor.mit.edu/?locale=en#129660001.
+2. If your team are not competent programmers you might consider using a visual tool such as [App Inventor](http://ai2.appinventor.mit.edu).
 
 Whatever solution you choose, make sure you learn and practice how to make API calls so you can easily integrate with the backend systems.
 
