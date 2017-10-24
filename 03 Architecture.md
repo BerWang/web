@@ -26,6 +26,8 @@ Based on the system requirements and the team expertise you need to agree the te
     3. What OS will be used to host the tier?
     4. What language will be used and why?
 
+### Backend
+
 You will probably decide to use an API as your model to handle communication between your client and the data persistence tier. There are a couple of options:
 
 1. Build a full API using a suitable language (this is covered in greater detail in the 304CEM module). You will need to choose a suitable framework that supports your chosen language:
@@ -37,6 +39,15 @@ You will probably decide to use an API as your model to handle communication bet
     1. [Loopback](https://loopback.io)
 
 You choice will depend on the overall complexity of the API you are developing and the skills you have in your team.
+
+### Front-End
+
+Your team will need to implement some form of front-end to the system which could be either a website or a smartphone app. You have two possible approaches to this technology stack:
+
+1. Use the standard tech stack (eg. Swift language / iOS frameworks)
+2. If your team are not competent programmers you might consider using a visual tool such as [App Inventor](http://ai2.appinventor.mit.edu/?locale=en#129660001.
+
+Whatever solution you choose, make sure you learn and practice how to make API calls so you can easily integrate with the backend systems.
 
 ## Presentation Model
 
