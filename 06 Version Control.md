@@ -51,5 +51,4 @@ You all need to have copies of the remote repositories.
 1. Start by deleting _all_ local copies of your code base on all computers.
 2. Now clone the GitHub repositories onto your development computers so you are all working from the same codebase.
 3. Now you can continue working on your code, remember to pull remote commits before pushing your own!
-
-## Branching Strategy
+4. As you work on the next sprint try using branches for each new feature.
