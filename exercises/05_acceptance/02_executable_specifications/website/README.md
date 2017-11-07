@@ -29,3 +29,17 @@ npm install cucumber selenium-webdriver chromedriver
   3 steps (3 passed)
   0m03.953s
 ```
+
+## Useful References
+
+https://www.custardbelly.com/blog/blog-posts/2014/01/08/bdd-in-js-cucumberjs/
+
+https://dzone.com/articles/getting-started-with-cucumberjs-on-nodejs
+
+https://www.npmjs.com/package/selenium-cucumber-js
+
+https://github.com/john-doherty/selenium-cucumber-js
+
+https://www.npmjs.com/package/webdriverio-cucumber-js
+
+https://github.com/larryg01/webdriverio-cucumber-js
