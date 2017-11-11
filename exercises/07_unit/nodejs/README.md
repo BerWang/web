@@ -6,8 +6,7 @@
 $ node spec/testRunnerTAP.js | node_modules/.bin/faucet
 ```
 
-The `tap` module takes input in TAP format and can be used to generate pretty reports that include code coverage.
+The `tap` module takes input in TAP format and can be used to generate pretty reports that include code coverage. We use the `istanbul` module and import the tap data.
 ```shell
-$ node spec/testRunnerTAP.js | node_modules/.bin/tap -- --cov
-$ node spec/testRunnerTAP.js | node_modules/.bin/tap -- --coverage-report=lcov
+$ node_modules/.bin/istanbul cover --dir docs/coverage/ -x '**schema/**' -x '**spec/**' spec/testRunnerTAP
 ```
