@@ -3,52 +3,73 @@
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/vHSaJF.
 
-The reflection section at the end of this worksheet will get you thinking about your work and provide useful information to put in your individual report.
+This will be your team's second sprint and you will need to apply all the skills and knowledge you have been shown so far.
 
-if you are still unfamiliar with basic git principles complete the tutorial on Codeacademy (https://www.codecademy.com/learn/learn-git)
+## Pre-Sprint Preparation
 
-## Setting up Your Team
+By now you should have some working code. Before you start the second sprint work together to make sure each developer has a complete development environment set up on their computer for all parts of the project and that the work that has already been completed will fully run on all the development computers and that everyone has access to all remote repositories.
 
-By now you will already have a substantial code base and this will need to be added to some online remote repositories on the university github server.
+## Sprint Planning
 
-1. Make sure all members of your team can log onto the University GitHub server (https://github.coventry.ac.uk/)
-2. Make sure you all have membership of the 302CEM-1718OCTJAN organisation by accessing the organisation and seeing if there is a green **New repository** button
-3. One person in your group needs to set up a team:
-    1. Click on the **Teams** tab.
-    2. Click on the green **New team** button and give your team the correct name (eg. Team A), keep visibility to **Visible**.
-    3. On the next screen set the role to **Owner**.
-    4. Use the green **Add a member** button to add each person to your team.
+As a team:
 
-## Setting up Remote Repositories
+1. Choose a person in your team to act as the **Scrum Master** and as the **Product Owner**.
+2. With the client present, discuss the remaining stories on the user story map:
+    1. Remove any stories that are no longer relevent.
+    2. Add user stories to reflect additional functionality identified by the client.
+3. re-prioritise the user stories by moving them up or down the user story map.
+4. Identify what can be achieved in the next sprint and draw a horizontal line across the user story map to clearly identify this.
+5. Take each of these user stories and, with the client present:
+    1. The product owner describes it from the user's perspective
+    2. The team and client discuss how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
+    3. Add enough _scenarios_ to the `.feature` files to clearly define the tests that will be necessary to indicate it has been completed successfully.
+6. Once the client has left:
+    1. Break the story into the component tasks and write these on sticky notes.
+    2. Use planning poker to estimate how many hours each task will take.
+    3. Add them to the left column of your Kanban board (leave any uncompleted tasks from the first sprint in place).
+    4. Draw up a fresh burndown chart for the current sprint.
+    5. Run the complete suite of automated acceptance tests noting that those for the current sprint will fail.
 
-Now you need to create a separate repository for each of your code bases. You will therefore end up with one for your API and at least one for your client(s). This task can be carried out by one member of your team but make sure everyone else is watching and following the steps.
+## Conducting the Sprint
 
-1. From the oranisation [home page](https://github.coventry.ac.uk/302CEM-1718OCTJAN) click on the **New** button.
-2. Assign a name to your repository that includes the group letter and the code it contains (eg. `a-api` or `b-android`), keep the visibility as _private_ and click on **Create repository** (make sure the checkbox to add a README is _NOT_ selected).
-3. Choose the **Settings** tab and **Collaborators & teams** then use the dropdown to add your team. Set the permission to **Admin**.
+During this second sprint, your development team will need to meet every morning. At each meeting.
 
-## Uploading Existing Code
+1. Review the burndown chart to see if the team are ahead or behind schedule
+2. Now each member:
+    1. Runs the **acceptance test suite** to explain what they have achieved since the last daily standup meeting.
+    2. uses the Kanban board to identify the tasks they will work on until the next meeting (tomorrow), flags with the team responsible and moves these forward on the board.
+    3. Describes any technical challenges that are holding back development work.
 
-Now you can add the new GitHub remote to your local codebases and push to your newly-created remotes.
+If any problems were identified during the standup these will need to be resolved by the appropriate team immediately after the daily standup. Make sure the resolution is explained to the _Scrum Master_ before continuing work.
 
-1. Decide who has the most up to date version of the different code bases.
-2. Set the local name and email address substituting the name and email address _currently stored on GitHub_:
-    1. `$ git config --global user.name 'John Doe'`
-    2. `$ git config --global user.email 'johndoe@coventry.ac.uk'`
-3. Initialise a repository inside the folder of the most up-to-date versions of each code base and add the remote copied from the appropriate repository:
-    1. `$ git init`
-    2. `$ git remote add origin https://github.coventry.ac.uk/302CEM-1718OCTJAN/x-xxx.git`
-4. Stage and commit all changes then push to the remote:
-    1. `$ git add --all`
-    2. `$ git commit -m 'initial commit'`
-    3. `$ git push origin master`
-5. Repeat for each codebase and check the code is now uploaded to GitHub.
+Now each team have tasks assigned and will need to implement these before the next daily standup.
 
-## Cloning Copies and Working Locally
+## Daily Routine
 
-You all need to have copies of the remote repositories.
+In this sprint you will be focussing far more on the daily routine. Make sure you stick to this on each day in the sprint.
 
-1. Start by deleting _all_ local copies of your code base on all computers.
-2. Now clone the GitHub repositories onto your development computers so you are all working from the same codebase.
-3. Now you can continue working on your code, remember to pull remote commits before pushing your own!
-4. As you work on the next sprint try using branches for each new feature.
+1. All work to be carried out in pairs (pair programming).
+2. Development for each user story should be done on its own branch.
+3. Only the **Scrum Master** is authorised to merge branches back into the master.
+    1. The scenarios in the acceptance test `.feature` file should all run without any errors.
+    2. The code base should be checked for readability and coding standards.
+4. The code in the master branch should be checked periodically to ensure that it is stable and runs without errors.
+
+## Review Meeting
+
+You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
+
+1. The **Product Owner** reads the user story/storys completed during the sprint.
+2. The **Scrum Master** runs the complete suite of acceptance tests to show what has been achieved.
+3. The **Scrum Master** manually demonstrates the new features to the client to get sign-off.
+3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
+
+The team then move on to the next _sprint planning meeting_ whilst the client is present.
+
+## Retrospective
+
+Each week the development team should meet up (without the client) and ask each member of the team to identify:
+
+1. What they should continue to do (existing good practice)
+2. What they should **start** doing (new good practice)
+2. What they should **stop** doing (eliminiate bad practices)
