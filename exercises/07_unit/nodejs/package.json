@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jasmine": "^2.8.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-tapreporter": "^0.2.2",
+    "tap": "^10.7.3"
+  },
+  "scripts": {
+    "test": "node spec/testRunner.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
