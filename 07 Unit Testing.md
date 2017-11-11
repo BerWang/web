@@ -1,11 +1,11 @@
 
 # Unit Testing
 
-It is vital that you provide a comprehensive suite of tests for your existing code.
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Wf8HZv
 
 ## Modularising Your Code
 
-Before you can write effective unit tests you need to ensure that your code is split into a number of independent units. Each module:
+It is vital that you provide a comprehensive suite of tests for your existing code. but before you can write effective unit tests you need to ensure that your code is split into a number of independent units. Each module:
 
 1. Should not be dependent on any other modules.
 2. Should contain code that shares a similar function.

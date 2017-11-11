@@ -1,7 +1,7 @@
 
 # Distributed Version Control
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/oqHvbt.
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/vHSaJF.
 
 The reflection section at the end of this worksheet will get you thinking about your work and provide useful information to put in your individual report.
 
