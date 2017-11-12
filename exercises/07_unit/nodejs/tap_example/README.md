@@ -40,9 +40,9 @@ We can also generate a visual coverage report in the web browser:
 $ npm test -- --coverage-report=lcov
 ```
 The initial web page shows the code coverage per module.
-![code coverage summary](../../.images/code_coverage_summary.png)
+![code coverage summary](../../../.images/code_coverage_summary.png)
 You can also drill down and see the coverage for each line of each module.
-![code coverage by line](../../.images/code_coverage_lines.png)
+![code coverage by line](../../../.images/code_coverage_lines.png)
 Note that you can include both the `--cov` and `--coverage-report` flags if you want.
 
 ## Test Your Knowledge
