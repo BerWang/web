@@ -10,3 +10,7 @@ The `tap` module takes input in TAP format and can be used to generate pretty re
 ```shell
 $ node_modules/.bin/istanbul cover --dir docs/coverage/ -x '**schema/**' -x '**spec/**' spec/testRunnerTAP
 ```
+
+There are a lot of different TAP reporters, you should try out a few to decide which one you prefer.
+
+https://github.com/sindresorhus/awesome-tap#reporters
