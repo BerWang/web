@@ -14,6 +14,7 @@
     "readline-sync": "^1.4.6"
   },
   "devDependencies": {
+    "complexity-report": "^2.0.0-alpha",
     "jasmine": "^2.5.3",
     "jasmine-console-reporter": "^1.2.7"
   }

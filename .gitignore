@@ -7,3 +7,4 @@ testResults/
 package-lock.json
 results.json
 coverage.lcov
+*.class
