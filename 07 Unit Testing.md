@@ -24,4 +24,15 @@ Once you have written the tests, run the code coverage tool which will identify 
 
 ## The TAP Protocol
 
-The final step is to modify the output of your tests to generate data that follows the _TAP Protocol_. Once you have achieved this, pipe this data into a number of different **reporters** to generate the tests report as a web page and json file. Are there any other reporters that could be useful?
+Now modify the output of your tests to generate data that follows the _TAP Protocol_. Once you have achieved this, pipe this data into a number of different **reporters** to generate the tests report as a web page and json file. Are there any other reporters that could be useful?
+
+## Integration Testing
+
+Now that you have a suite of unit tests with good code coverage it is time to write integration tests. These will test the interaction between the modules of code and other external systems such as APIs and databases. These tests will check that the whole system works as expected with messages being passed between the different modules.
+
+## Software Complexity Analysis
+
+The final step is to generate a report into the relative complexity of different parts of your system.
+
+1. Identify the parts that have a relatively high complexity and find ways to refactor your code to reduce these.
+2. Keep a record of the complexity score and use this to identify where changes have increased the complexity of a module. This may indicate poor architecture or code.
