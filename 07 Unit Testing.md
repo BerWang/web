@@ -3,6 +3,10 @@
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Wf8HZv
 
+## Learning About Unit Testing
+
+If you have never done unit testing you should take time to complete the [Testing Your Code](https://www.codecademy.com/courses/testing-your-code) exercises on [Codeacademy](https://www.codecademy.com).
+
 ## Modularising Your Code
 
 It is vital that you provide a comprehensive suite of tests for your existing code. but before you can write effective unit tests you need to ensure that your code is split into a number of independent units. Each module:
@@ -18,9 +22,11 @@ You should now create a separate test suite for each of these code modules. Make
 
 Now your team needs to write a set of comprehensive tests for each of these modules. Split the work between the team members, remembering that you should be writing tests for both the server (API) and the code in the client (app or website).
 
+There are examples of unit tests for multiple languages in the `/exercises/07_unit/` directory on GitHub.
+
 ## Code Coverage
 
-Once you have written the tests, run the code coverage tool which will identify any code that is not being tested. You should now aim to get 100% code coverage by writing additional tests.
+Once you have written the tests, run the code coverage tool on your chosen platform which will identify any code that is not being tested. You should now aim to get 100% code coverage by writing additional tests.
 
 ## The TAP Protocol
 
