@@ -9,8 +9,8 @@
   "author": "Mark J Tyers",
   "license": "ISC",
   "dependencies": {
-    "avsc": "^5.0.7",
-    "kafka-node": "^2.3.0"
+    "kafka-node": "^2.3.0",
+    "readline-sync": "^1.4.7"
   },
   "devDependencies": {
     "eslint": "^4.11.0"

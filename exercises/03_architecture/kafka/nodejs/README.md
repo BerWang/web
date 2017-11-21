@@ -3,14 +3,22 @@
 
 ## Installation on MacOS
 
-The following installs Kafka and runs it as a service.
+The following installs Kafka on MacOS.
 ```shell
 $ brew install kafka
-$ brew services start kafka
-$ brew services start zookeeper
+```
+
+Now start both _zookeeper_ and _kafka_.
+```shell
+$ zkserver start
+$ zkserver status
+$ cd /usr/local/Cellar/kafka/0.11.0.1/bin/
+$ kafka-server-start /usr/local/etc/kafka/server.properties
 ```
 
 Check version of  JDK:
 ``` shell
 $ java -version
 ```
+
+
