@@ -3,16 +3,6 @@
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/tPVbVA.
 
-## Branching Strategy
-
-As a team, discuss the branching strategy you will be using for this sprint, this should be one of the following:
-
-1. Feature branch workflow (refining the one you are currently using)
-2. GitFlow
-3. Forking workflow
-
-Once you have decided, everyone in the team needs to make sure the correct tools are installed before starting the sprint.
-
 ## Adding a Second Remote
 
 The tools you will be using in this sprint are only available on GitLab and so you will need to add a GitLab remote to each of your local repositories.
