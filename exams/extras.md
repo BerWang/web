@@ -5,6 +5,11 @@ Here are some more questions to help you revise for the 302CEM exam. Unlike the 
 
 ----
 
+1. Why should developers adopt an agile methodology?
+2. Describe 3 risks when developing software and how agile methodologies help reduce this?
+
+----
+
 Define the following and explain how they influence team behaviour:
 
 1. Maslow's Stages of Competence
@@ -13,9 +18,50 @@ Define the following and explain how they influence team behaviour:
 
 ----
 
+Explain the difference between _the Abilene Effect_ and _groupthink_.
+
+----
+
+1. Explain what us meant by the _GitFlow workflow_.
+2. Use diagrams to help explain how GitFlow implements:
+    1. Historic branches
+    2. Feature branches
+    3. Hotfix branches
+    4. Releases
+
+----
+
+1. Explain what is meant by the _Forking Workflow_
+2. How does it support very large development teams?
+
+----
+
+When working with Git
+
+1. What is a _protected branch_
+2. What protection can typically be added?
+3. Why is this important?
+
+----
+
+What is BDD?
+
+1. Describe the business-facing stack
+2. Describe the developer-facing stack
+
+----
+
 List and explain four problems with detailed specifications.
 
 How does an agile methodology reduce risk?
+
+----
+
+1. What is the difference between:
+    1. Unit tests
+    2. Integration tests
+    3. Acceptance tests
+2. What is _code coverage_, why is this carried out and what are its limitations?
 
 ----
 
