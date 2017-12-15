@@ -1,7 +1,9 @@
 
 # Test-Driven Development
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/NB6mHK.
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
+
+You should refer to [this week's presentation](https://drive.google.com/open?id=1mqtXeAPd0uhShlDuvd4G25thJHE-AdHOEB-qwf-anB8).
 
 You have already completed two sprints and this week you will be completing a third which will focus on applying the principles of **test-driven development**. The number of tasks you will be carrying out is growing each sprint. Some of these are the same as you have done in previous sprints and these will become embedded but some of the tasks are new to this sprint so make sure you learn the steps carefully.
 

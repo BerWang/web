@@ -1,7 +1,11 @@
 
-# Acceptance Testing
+# Continuous Delivery (and Deployment)
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/Ufds2i
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
+
+You should refer to [this week's presentation](https://drive.google.com/open?id=1SY1VGNr4X9-gLq0OLeOPmVmH1E4CeaBxFKJUygLSd_c).
+
+Need to include deployment information as well.
 
 ## Behaviour-Driven Development
 

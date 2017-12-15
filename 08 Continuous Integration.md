@@ -1,7 +1,11 @@
 
 # Continuous Integration
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/tPVbVA. There is an example repository on [GitLab](https://gitlab.com/covcom/continuous-integration-example)
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
+
+You should refer to [this week's presentation](https://drive.google.com/open?id=16zG4yQJBIRq8SfnK8749vnE-rsmDMSchQRa73TOQtDI).
+
+There is an example repository on [GitLab](https://gitlab.com/covcom/continuous-integration-example)
 
 ## Adding a Second Remote
 

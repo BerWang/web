@@ -1,6 +1,6 @@
 # Professional Development
 
-Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/QZCu58
+Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. You should refer to [this week's presentation](https://drive.google.com/open?id=1maN7cEkJXG__t6YWewKS0CRNGLpGPmmDgYxusmk7LRA).
 
 ## GitHub
 You are required to maintain your code on the University GitHub repository at `https://github.coventry.ac.uk` where you will be added to the module organisation. For this to happen you will need to have logged in in order to generate your profile. The first task is to **log in using your University credentials** and notify your lab tutors if you can't do this.

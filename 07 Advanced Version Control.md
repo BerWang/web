@@ -1,7 +1,9 @@
 
 # Distributed Version Control
 
-Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/vHSaJF.
+Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
+
+You should refer to [this week's presentation](https://drive.google.com/open?id=1JmtlJWZy5Y5pFhDoggkLzaCSrbSa3plBh105nZtU2qA).
 
 This will be your team's second sprint and you will need to apply all the skills and knowledge you have been shown so far.
 
