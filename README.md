@@ -36,6 +36,10 @@ During this module you will be working in medium-sized multi-skilled development
 10. Continuous delivery (and the final sprint)
 11. Exam revision
 
+## The Team
+
+You should already have access to the Moodle Site for this module. On it you will see that you have been assigned to a team of between 8 and 9 students. The teams contain a balance of skills that will enable you to complete the project. You should take a moment to identify the other members of your team and get in contact with them.
+
 ## The Problem
 
 You have been approached by an environmental monitoring company to develop a new range of smart sensors. These should capture data and send it over a wifi network to a central server. They also want a smartphone app that their customers can use to monitor the system. You will be finding out more during the week 2 labs.
