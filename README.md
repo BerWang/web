@@ -2,7 +2,14 @@
 
 Welcome to the final year **Agile Development** module. This will teach you the skills you need to work in a modern software development team. Along the way you will gain lots of experience in developing a software solution.
 
-This repository contains all the worksheets and teaching materials.
+## Teaching Materials
+
+The teaching materials are broken into 10 labs with each labsheet containing a link to the appropriate presentation. The labs follow a 2-week cycle:
+
+1. the first week requires you to do preparations and think about your work.
+2. in the second week you will be required to work as a professional development team.
+
+## Assessment
 
 The assignment brief can be found here:
 
@@ -12,58 +19,33 @@ The grading rubric is available here:
 
 https://goo.gl/tDTfUo
 
-### Features of revision control
 
-Each change is usually identified by a revision number
-Each revision has a timestamp and the person responsible
-Revisions can be compared, restored, and merged
+## Module Overview
 
-### Principles of agile supporting change
+During this module you will be working in medium-sized multi-skilled development teams on a real problem. The content of the module is as follows:
 
-The highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+1. Professional development
+2. Agile planning
+3. Architecture
+4. Agile development (and your first sprint)
+5. Automated code testing
+6. Test-driven development (and the second sprint)
+7. Advanced version control
+8. Continuous integration (and the third sprint)
+9. Acceptance testing
+10. Continuous delivery (and the final sprint)
+11. Exam revision
 
-Changing requirements are welcome, even late in development. Agile processes harness change for the customer’s competitive advantage.
+## The Problem
 
-Working software is delivered frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+You have been approached by an environmental monitoring company to develop a new range of smart sensors. These should capture data and send it over a wifi network to a central server. They also want a smartphone app that their customers can use to monitor the system. You will be finding out more during the week 2 labs.
 
-Business people and developers must work together daily throughout the project.
+## The Sensor Technology
 
-### Principles of Lean Startups
+As part of the project outcomes you will be expected to build prototype remote sensors using off-the-shelf components. Whilst you can use anything you can source, here are a few options you might consider, given the requirements for the sensor to communicate over a WiFI network:
 
-1. Innovation Accounting
-2. Entrepreneurs are Everywhere
-3. Entrepreneurship is Management
-4. Validated Learning
-5. Build Learn Measure
+1. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) - Either a model 3 with built-in wifi (and bluetooth) or an earier version with additional dongles.
+2. [NodeMCU](http://www.nodemcu.com/index_en.html) - a low cost (£3) development board compatible with Arduino IDEs and can be programmed in C++, Python or Lua.
+3. [Arduino Uno Wifi](https://store.arduino.cc/arduino-uno-wifi): A standard Arduino board with integrated Wifi.
 
-
-### Innovation Accounting
-
-Innovation accounting refers to the rigorous process of defining, empirically measuring and communicating the true progress of innovation 
-
-### Lean Startup Methodology
-
-1. Lean Startup helps manage uncertainty using the Lean startup methodology. The methodology will help determine whether her product is viable hence helping her work smarter.
-2. Pivot means to change directions to test a new fundamental hypothesis about product but stay grounded in what we have learned.
-3. Should start pivoting once they believes that their current approaching is not working. This can be validated by measuring their progress and whether it is moving the drivers of her business model. If it is not, it is time to pivot.
-
-### Dynamic System Development Method
-
-1. Active user involvement is imperative.
-2. Teams must be empowered to make decisions. The four key variables of empowerment are: authority, resources, information and accountability.
-3. Frequent delivery of products is essential.
-4. Fitness for business purpose is the essential criterion for acceptance of deliverables.
-5. Iterative and incremental development is necessary to converge on an accurate business solution.
-6. All changes during development are reversible, i.e. you do not proceed further down a particular path if problems are encountered, you backtrack to the last safe or agreed point, and then start down a new path.
-7. Requirements are baselined at a high level, i.e. the high-level business requirements, once agreed, are frozen. This is essentially the scope of the project.
-8. Testing is integrated throughout the life cycle, i.e. ‘test as you go’ rather than testing just at the end where it frequently gets squeezed.
-
-### Soft vs Hard Thinking
-
-| Soft Systems Thinking | Hard Systems Thinking |
-| --- | --- |
-| organisational problems are ‘messy’ (Ackoff, 1974), poorly defined | objective reality of systems in the world |
-| stakeholders interpret problems differently (no objective reality) | well-defined problem to be solved |
-| human factors important | technical factors foremost |
-| creative, intuitive approach to problem-solving | scientific approach to problem-solving |
-| outcomes are learning, better understanding, rather than a ‘solution’ | one correct solution|
+If you plan on working on the sensor module you should get hold of some suitable hardware and learn to use it before the start of the module.
