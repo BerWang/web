@@ -11,14 +11,9 @@ The teaching materials are broken into 10 labs with each labsheet containing a l
 
 ## Assessment
 
-The assignment brief can be found here:
+The assignment brief can be found [here](https://docs.google.com/document/d/1nVFiPvzr2JUlvnpQTUqGl7gcrk3CzTI_euat3zIUFDk/edit?usp=sharing).
 
-https://goo.gl/ikXX5r
-
-The grading rubric is available here:
-
-https://goo.gl/tDTfUo
-
+The grading rubric is available [here](https://docs.google.com/document/d/1AO4dH6ZYQdrIcbOK5APYjq0SOeiysu1diDILMEcU__c/edit?usp=sharing).
 
 ## Module Overview
 
