@@ -29,7 +29,7 @@ The grading rubric is available [here](https://docs.google.com/document/d/1AO4dH
 During this module you will be working in medium-sized multi-skilled development teams on a real problem. The content of the module is as follows:
 
 1. Professional development
-2. Agile planning
+2. Agile planning (planning your agile project)
 3. Architecture
 4. Agile development (and your first sprint)
 5. Automated code testing
