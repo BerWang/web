@@ -82,6 +82,7 @@
 1. Radoslav TSECIAK
 2. Kristiyan IVANOV
 3. Kristiyan Dimitrov
+4. Marks Gniteckis
 5. Joanna MALANOWSKA
 6. Nathan Zengamambu
 7. Gibril Rabbin KAMARA
