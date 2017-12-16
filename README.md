@@ -2,6 +2,15 @@
 
 Welcome to the final year **Agile Development** module. This will teach you the skills you need to work in a modern software development team. Along the way you will gain lots of experience in developing a software solution.
 
+## Learning Outcomes
+
+On completion of this module the student should be able to:
+
+1. Demonstrate a sound understanding of how Agile Methodologies can be used to define users’ requirements, analysis and design of information systems.
+2. Compare and contrast a range of current and emerging agile methodologies
+3. Evaluate the methods, techniques and tools for rapid development of various types of information systems, and the reasons for their selection and use.
+4. Use a range of appropriate tools to contribute to the development of a solution to a real-world problem.
+
 ## Teaching Materials
 
 The teaching materials are broken into 10 labs with each labsheet containing a link to the appropriate presentation. The labs follow a 2-week cycle:
@@ -20,7 +29,7 @@ The grading rubric is available [here](https://docs.google.com/document/d/1AO4dH
 During this module you will be working in medium-sized multi-skilled development teams on a real problem. The content of the module is as follows:
 
 1. Professional development
-2. Agile planning
+2. Agile planning (planning your agile project)
 3. Architecture
 4. Agile development (and your first sprint)
 5. Automated code testing
