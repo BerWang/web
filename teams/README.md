@@ -1,111 +1,112 @@
 
 ## Team Bear	
 
-1. Hassan WARIS
-2. Jabor Mubarak J M AL-ALI
-3. Tahir Saddique Gulzed
-4. Daniel Steven BEGLIN
-5. Wenjun Wei
-6. Nikhil Dassor
-7. Mario NIKOLOV
-8. Thomas Bassett
-9. John Francis MALLON
+1. Thomas Bassett
+2. Daniel Steven Beglin
+3. Nikhil Dassor
+4. Tahir Saddique Gulzed
+5. Jabor Mubarak J M Al-Ali
+6. John Francis Mallon
+7. Mario Nikolov
+8. Hassan Waris
+9. Wenjun Wei 
 			
 ## Team Cat	
 
-1. Oghenefejiro Anita EBUNU
-2. Ahmad Ali M A AL-KHALDI
-4. Run Liu
-5. Ravi Paul
-6. Janak Haja KARAVDRA
-7. Karlis Juris FILIPSONS
-8. Mohamed HASAN
-9. Ben AGYEKUM
-			
+1. Ben Agyekum
+2. Fazal Amin
+3. Oghenefejiro Anita Ebunu
+4. Karlis Juris Filipsons
+5. Mohamed Hasan
+6. Janak Haja Karavdra
+7. Run Liu
+8. Ahmad Ali M A Al-Khaldi
+9. Ravi Paul
+
 ## Team Chicken
 
-1. Fatema Ali Said ALMAMARI
-2. Chantal EL-MOKDAD
-3. Rayann Tedds
-4. Yuchen CHEN
-5. Syed Askor ALI
-6. Ralfs LAGZDA
-7. Safiyah Ali	KHAN
-8. Kalifa CHAMBERS
+1. Syed Askor Ali
+2. Fatema Ali Said Almamari
+3. Kalifa Chambers
+4. Yuchen Chen
+5. Chantal El-Mokdad
+6. Safiyah Ali Khan
+7. Ralfs Lagzda
+8. Rayann Tedds
 			
 ## Team Cow
 
-1. Samiya Salim Saif AL MAAMARI
-2. Polwattage Nicholas GOMIS SAMSON
-3. Kate Sturmey
-4. Gongzhi Wang
-5. Ross Patrick Aneurin MILLER
-6. Rhys Bridges
-7. James MENSAH
-8. Livia IONESCU
+1. Samiya Salim Saif Al Maamari
+2. Rhys Bridges
+3. Polwattage Nicholas Gomis Samson
+4. Livia Ionescu
+5. James Mensah
+6. Ross Patrick Aneurin Miller
+7. Kate Sturmey
+8. Gongzhi Wang 
 			
 ## Team Deer
 
-1. Alexander MOSES
-2. Daniel PETT
-3. Vishal WADHIA
-4. Hao Wang
-5. Aaron Bhandal
+1. Habibat Motunrayo ABODUNRIN
+2. Aaron Bhandal
+3. Alexander MOSES
+4. Daniel PETT
+5. Benjamin ROSSER
 6. Harvey VIRK
-7. Benjamin ROSSER
-8. Habibat Motunrayo ABODUNRIN
+7. Vishal WADHIA
+8. Hao Wang
 			
 ## Team Horse
 
-1. Abdul Mannan KHAWAJA
-2. Rodolfos Christos MASLIAS
-3. Mark LEAMAN
-4. Nicola WEBB
-5. Hok Kan CHONG
-6. Khadiza YESMIN
-7. Dominic Tuck
-8. Emmanuel ADEBAYO
+1. Emmanuel Adebayo
+2. Hok Kan Chong
+3. Abdul Mannan Khawaja
+4. Mark Leaman
+5. Rodolfos Christos Maslias
+6. Dominic Tuck
+7. Nicola Webb
+8. Khadiza Yesmin
 			
 ## Team Lion
 
-1. Kieran DOWNES
-2. Paulius MALINAUSKAS
-3. Lina RAGAUSKAITE
-4. Peter Gradson JAMES
-5. Joe ROBINSON
-6. Patrick Stuart ALI
-7. Mariah Senaa
-8. Tuan Nguyen
+1. Patrick Stuart Ali
+2. Kieran Downes
+3. Peter Gradson James
+4. Paulius Malinauskas
+5. Tuan Nguyen
+6. Lina Ragauskaite
+7. Joe Robinson
+8. Mariah Senaa
 			
 ## Team Monkey
 
-1. Radoslav TSECIAK
-2. Kristiyan IVANOV
-3. Kristiyan Dimitrov
-4. Marks Gniteckis
-5. Joanna MALANOWSKA
-6. Nathan Zengamambu
-7. Gibril Rabbin KAMARA
-8. Valmar KALJURAND
+1. Kristiyan Dimitrov
+2. Marks Gniteckis
+3. Kristiyan Ivanov
+4. Valmar Kaljurand
+5. Gibril Rabbin Kamara
+6. Joanna Malanowska
+7. Radoslav Tseciak
+8. Nathan Zengamambu
 			
 ## Team Penguin
 
 1. Maryan Ali
-2. David Ifeanyi OBICHUKWU
-3. Llewellyn MILLER
-4. Robert Noel JAMESON
-5. Calum CHAMBERLAIN
-6. Jaewoong Yu
-7. Jessica Pearson
-8. Erin RAI
+2. Calum Chaimberlain
+3. Robert Noel Jameson
+4. Llewellyn Miller
+5. David Ifeanyi Obichukwu
+6. Jessica Pearson
+7. Erin Rai
+8. Jaewoong Yu
 			
 ## Team Rabbit
 
-1. Trisha Gloria FERNANDES
-2. Constantin Pavelescu
-3. Jiaqi ZHOU
-4. Guanqun WANG
-5. Prince AGYEI FRIMPONG
-6. Georgi Iliev
-7. Fathi Rashid EGE
-8. Vlad Pavel VITAN
+1. Prince AGYEI FRIMPONG
+2. Fathi Rashid EGE
+3. Trisha Gloria FERNANDES
+4. Georgi Iliev
+5. Constantin Pavelescu
+6. Vlad Pavel VITAN
+7. Guanqun WANG
+8. Jiaqi ZHOU
