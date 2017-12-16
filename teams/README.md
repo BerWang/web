@@ -1,6 +1,5 @@
-
-# 🐻 
-## Team Bear	
+ 
+## 🐻 Team Bear	
 
 1. Thomas Bassett
 2. Daniel Steven Beglin
@@ -11,9 +10,8 @@
 7. Mario Nikolov
 8. Hassan Waris
 9. Wenjun Wei 
-			
-# 🐱
-## Team Cat	
+
+## 🐱 Team Cat	
 
 1. Ben Agyekum
 2. Fazal Amin
@@ -25,8 +23,7 @@
 8. Ahmad Ali M A Al-Khaldi
 9. Ravi Paul
 
-# 🐔
-## Team Chicken
+## 🐔 Team Chicken
 
 1. Syed Askor Ali
 2. Fatema Ali Said Almamari
@@ -37,8 +34,7 @@
 7. Ralfs Lagzda
 8. Rayann Tedds
 			
-# 🐮
-## Team Cow
+## 🐮 Team Cow
 
 1. Samiya Salim Saif Al Maamari
 2. Rhys Bridges
@@ -47,10 +43,9 @@
 5. James Mensah
 6. Ross Patrick Aneurin Miller
 7. Kate Sturmey
-8. Gongzhi Wang 
-			
-# 🦌
-## Team Deer
+8. Gongzhi Wang 			
+
+## 🦊 Team Fox
 
 1. Habibat Motunrayo ABODUNRIN
 2. Aaron Bhandal
@@ -60,9 +55,8 @@
 6. Harvey VIRK
 7. Vishal WADHIA
 8. Hao Wang
-			
-# 🐴
-## Team Horse
+
+## 🐴 Team Horse
 
 1. Emmanuel Adebayo
 2. Hok Kan Chong
@@ -72,9 +66,8 @@
 6. Dominic Tuck
 7. Nicola Webb
 8. Khadiza Yesmin
-			
-# 🦁
-## Team Lion
+
+## 🦁 Team Lion
 
 1. Patrick Stuart Ali
 2. Kieran Downes
@@ -84,9 +77,8 @@
 6. Lina Ragauskaite
 7. Joe Robinson
 8. Mariah Senaa
-			
-# 🐵
-## Team Monkey
+
+## 🐵 Team Monkey
 
 1. Kristiyan Dimitrov
 2. Marks Gniteckis
@@ -96,9 +88,8 @@
 6. Joanna Malanowska
 7. Radoslav Tseciak
 8. Nathan Zengamambu
-			
-# 🐧
-## Team Penguin
+
+## 🐧 Team Penguin
 
 1. Maryan Ali
 2. Calum Chaimberlain
@@ -108,9 +99,8 @@
 6. Jessica Pearson
 7. Erin Rai
 8. Jaewoong Yu
-			
-# 🐰
-## Team Rabbit
+
+## 🐰 Team Rabbit
 
 1. Prince Agyei Frimpong
 2. Fathi Rashid Ege
