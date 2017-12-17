@@ -44,16 +44,42 @@ During this module you will be working in medium-sized multi-skilled development
 
 You should already have access to the [Moodle Site](https://cumoodle.coventry.ac.uk/course/view.php?id=48328) for this module. On it you will see that you have been assigned to a team of between 8 and 9 students. The teams contain a balance of skills that will enable you to complete the project. You should take a moment to identify the other members of your team and get in contact with them.
 
-## The Problem
+## The Scenario
 
-You have been approached by an environmental monitoring company to develop a new range of smart sensors. These should capture data and send it over a wifi network to a central server. They also want a smartphone app that their customers can use to monitor the system. You will be finding out more during the week 2 labs.
+Local authorities such as Coventry are required to monitor the environment and report their findings to DEFrA. There are a number of targets imposed by the government. At the moment the equipment to do this is expensive. There are [guidelines](https://uk-air.defra.gov.uk/assets/documents/reports/cat06/0608141644-386_Purchasing_Guide_for_AQ_Monitoring_Equipment_Version2.pdf) issued by DEFRA that explain what should be monitored and the acceptable levels as well as guidance on purchasing the equipment to carry this out.
+
+There are two levels of monitoring:
+
+1. General monitoring through the use of large numbers of sensors to help identify the blackspots.
+2. Specialist units that can be placed in the worst blackspots that are capable of capturing a wider range of data at a higher accuracy. There is an example of this on Ball Hill. The systems are heavy, expensive and difficult to operate and are therefore only installed whre there is an existing pollution problem.
+
+There are already companies providing solutions to point 2 but little on the market to give an overall picture.
+
+You have been approached by an environmental monitoring company to develop the prototype of a new range of low-cost smart sensor boxe which they plan to sell to local authorities. These should capture data and send it over a wifi network to a central server. They also want a smartphone app that residents can use to find out about the pollution levels where they are, track over time and warn them if they exceed specified limits.
+
+They would like to be able to monitor:
+
+- Temperature
+- Humidity
+- Light levels
+- Levels of UV
+- CO2
+- Airbourne dust particles
+- Ambient background noise
+- low frequency vibration caused by lorries, buses and aircraft
+
+They would like to have a smartphone app to use the data in the following ways:
+
+- Map of the area with overlays showing pollution levels.
+- Summary of the pollution in the user's current location mapped against acceptable norms
+- alerts if pollution exceeds the agreed levels.
 
 ## The Sensor Technology
 
 As part of the project outcomes you will be expected to build prototype remote sensors using off-the-shelf components. Whilst you can use anything you can source, here are a few options you might consider, given the requirements for the sensor to communicate over a WiFI network:
 
 1. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) - Either a model 3 with built-in wifi (and bluetooth) or an earier version with additional dongles.
-2. [NodeMCU](http://www.nodemcu.com/index_en.html) - a low cost (£3) development board compatible with Arduino IDEs and can be programmed in C++, Python or Lua.
+2. [NodeMCU](http://www.nodemcu.com/index_en.html) - a low cost (£7) development board compatible with Arduino IDEs and can be programmed in C++, Python or Lua.
 3. [Arduino Uno Wifi](https://store.arduino.cc/arduino-uno-wifi): A standard Arduino board with integrated Wifi.
 
 If you plan on working on the sensor module you should get hold of some suitable hardware and learn to use it before the start of the module.
