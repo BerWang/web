@@ -24,6 +24,7 @@ Below is a list of skills your team will need in order to successfull build the 
 2. Programming microcontrollers
 3. Building APIs
 4. Building smartphone apps
+5. Configuring, securing and deploying cloud servers
 
 In addition there are some _crossover_ skills that apply to multiple teams:
 
@@ -33,8 +34,11 @@ In addition there are some _crossover_ skills that apply to multiple teams:
     2. NodeJS
     3. C++
 3. Automated testing
+4. Design and implementation of data persistence:
+    1. Relational (such as mySQL)
+    2. Object (such as MongoDB)
 
-Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include all the skills listed above plus any others you feel might be useful.
+Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include all 12 of the skills listed above plus any others you feel might be useful.
 
 Refine the matrix using a 5 point scale.
 
