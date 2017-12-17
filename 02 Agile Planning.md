@@ -4,9 +4,9 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 By this stage you should have decided on your team project brief. Some of these have a named customer so you need to contact them to help you with some of activities in this worksheet. For the other project briefs, one or two of the team will need to represent the customer.
 
-## Update Team List
+## Check GitHub Access
 
-Make sure you have emailed the module leader with the **name of your development team** together with the **names and email addresses** of all the team members. Remember to include details of the **lab sessions** you will be attending so that the online registration system can be updated to allow you to sign in each week.
+Make sure everyone in your team has access to this organisation on GitHub and is part of the correct team. Alert your lab suervisor if anyone needs adding.
 
 ## Introduction to Agile
 
@@ -52,7 +52,6 @@ Here are some user stories to get you started:
 -  As an _environmental officer_ I want to be able to _identify areas suffering from regular high levels of air pollution_ so that I _can install detailed air monitoring tools and take action to reduce the level of pollution_.
 -  As an _local politician_ I want to be able to _see a map of the average pollution across the city_ so that I _can target air-quality planning more effectively_.
 -  As an _house buyer_ I want to be able to _see noise and air pollution for a given postcode_ so that I _can decide whether to make a house purchase_.
--  As an _xxx_ I want to be able to _xxx_ so that I _xxx_.
 - As a _police officer_ I want to be able to _track noise levels in residential areas_ so that I _can identify nuisance residents and enforce noise restrictions_
 
 Now work with your client to apply **MoSCoW** rules so that these requirements are prioritised correctly.
