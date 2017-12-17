@@ -61,6 +61,7 @@ Below is a full costed kit list that includes the microcontroller, breadboard an
 | [Vibration sensor SW-420](http://amzn.eu/crleUBd)           | £1.76 |
 | [Sound sensor KY-038](http://amzn.eu/3tkqZG2)               | £3.60 |
 | [Dust sensor GP2Y1010AU0F](http://amzn.eu/5xqZT1y)          | £8.76 |
+| [Stanley storage box](http://amzn.eu/hyI4x9J)               | £7.30 |
 
 ## References
 
