@@ -21,25 +21,25 @@ Create a library.
 
 ## Sensors
 
-| Environment                              | Sensor       |
-| ---------------------------------------- | ------------ |
-| Temperature                              | DS18B20      |
-| Temperature and humidity                 | DHT11        |
-| NH3,NOx, alcohol, Benzene, smoke, CO2    | MQ-135       |
-| Hygrometer                               | YL-69        |
-| UV                                       | GUVA-S12SD   |
-| Light                                    | TSL2561      |
-| Dust                                     | GP2Y1010AU0F |
-| Dust                                     | DSM501A      |
-| Vibration                                | SW-420       |
-| Sound                                    | KY-038       |
-| Combustible Gas, Smoke                   | MQ-2         |
-| Alcohol gas                              | MQ-3         |
-| CH4 / Natural gas                        | MQ-4         |
-| LPG, Natural Gas, Town Gas               | MQ-5 MQ-6    |
-| CO (carbon monoxide)                     | MQ-7         |
-| Hydrogen                                 | MQ-8         |
-| Carbon Monoxide, Coal Gas, Liquefied Gas | MQ-9         |
+| Environment                              | Sensor       | Tutorial              |
+| ---------------------------------------- | ------------ | --------------------- |
+| Temperature                              | DS18B20      | https://goo.gl/aNBgtK |
+| Temperature and humidity                 | DHT11        | https://goo.gl/xdoFG6 |
+| NH3,NOx, alcohol, Benzene, smoke, CO2    | MQ-135       | https://goo.gl/zxCetD |
+| Hygrometer                               | YL-69        | -                     |
+| UV                                       | GUVA-S12SD   | https://goo.gl/3s6J4o |
+| Light                                    | TSL2561      | https://goo.gl/YUftqv |
+| Dust                                     | GP2Y1010AU0F | https://goo.gl/MTNiyf |
+| Dust                                     | DSM501A      | -                     |
+| Vibration                                | SW-420       | https://goo.gl/4tNLi5 |
+| Sound                                    | KY-038       | https://goo.gl/bCxrXF |
+| Combustible Gas, Smoke                   | MQ-2         | https://goo.gl/2fBk1t |
+| Alcohol gas                              | MQ-3         | -                     |
+| CH4 / Natural gas                        | MQ-4         | -                     |
+| LPG, Natural Gas, Town Gas               | MQ-5 MQ-6    | -                     |
+| CO (carbon monoxide)                     | MQ-7         | -                     |
+| Hydrogen                                 | MQ-8         | -                     |
+| Carbon Monoxide, Coal Gas, Liquefied Gas | MQ-9         | -                     |
 
 ## Equipment List
 
