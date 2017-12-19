@@ -43,7 +43,7 @@ Create a library.
 
 ## Equipment List
 
-Below is a full costed kit list that includes the microcontroller, breadboard and all sensors. Prices and links are for Amazon but you can find these a lot cheaper if you shop around and you may be able to find some of this kit in the electronics lab (ask the supervisor in the lab first).
+Below is a full costed kit list that includes the microcontroller, breadboard and all sensors. Prices and links are for Amazon but you can find these a lot cheaper if you shop around and you may be able to find some of this kit in the electronics lab (ask the supervisor in the lab first). _You will be provided with kit to use in the lab sessions but may wish to purchase your own_.
 
 | Equipment                                                   | Cost  |
 | ----------------------------------------------------------- | ----- |
