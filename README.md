@@ -42,7 +42,7 @@ During this module you will be working in medium-sized multi-skilled development
 
 ## The Team
 
-You should already have access to the [Moodle Site](https://cumoodle.coventry.ac.uk/course/view.php?id=48328) for this module. On it you will see that you have been assigned to a team of between 8 and 9 students. The teams contain a balance of skills that will enable you to complete the project. You should take a moment to identify the other members of your team and get in contact with them.
+You should already have access to the [Moodle Site](https://cumoodle.coventry.ac.uk/course/view.php?id=48328) for this module. On it you will see that you have been assigned to [a team of between 8 and 9 students](https://github.coventry.ac.uk/302CEM-1718JANMAY/TEACHING-MATERIALS/blob/master/teams/README.md). The teams contain a balance of skills that will enable you to complete the project. You should take a moment to identify the other members of your team and get in contact with them.
 
 ## The Scenario
 
