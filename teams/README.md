@@ -1,5 +1,11 @@
- 
-## 🐻 Team Bear	
+
+# Agile Teams
+
+You have been placed in multi-skilled teams and will be working in these throughout the module. Each team has been allocated 4 hours of lab time, all labs running in **EC2-12**.
+
+## 🐻 Team Bear
+
+Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 
 1. Thomas Bassett
 2. Daniel Steven Beglin
@@ -11,7 +17,9 @@
 8. Hassan Waris
 9. Wenjun Wei 
 
-## 🐱 Team Cat	
+## 🐱 Team Cat
+
+Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 
 1. Ben Agyekum
 2. Fazal Amin
@@ -25,6 +33,8 @@
 
 ## 🐔 Team Chicken
 
+Tuesday 09:00-11:00 and Wednesday 11:00-13:00
+
 1. Syed Askor Ali
 2. Fatema Ali Said Almamari
 3. Kalifa Chambers
@@ -35,6 +45,8 @@
 8. Rayann Tedds
 			
 ## 🐮 Team Cow
+
+Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 
 1. Samiya Salim Saif Al Maamari
 2. Rhys Bridges
@@ -47,6 +59,8 @@
 
 ## 🦊 Team Fox
 
+Tuesday 16:00-18:00 and Wednesday 09:00-11:00 
+
 1. Habibat Motunrayo ABODUNRIN
 2. Aaron Bhandal
 3. Alexander MOSES
@@ -57,6 +71,8 @@
 8. Hao Wang
 
 ## 🐴 Team Horse
+
+Tuesday 16:00-18:00 and Wednesday 09:00-11:00 
 
 1. Emmanuel Adebayo
 2. Hok Kan Chong
@@ -69,6 +85,8 @@
 
 ## 🦁 Team Lion
 
+Tuesday 16:00-18:00 and Wednesday 09:00-11:00 
+
 1. Patrick Stuart Ali
 2. Kieran Downes
 3. Peter Gradson James
@@ -79,6 +97,8 @@
 8. Mariah Senaa
 
 ## 🐵 Team Monkey
+
+Tuesday 11:00-13:00 and Friday 09:00-11:00
 
 1. Kristiyan Dimitrov
 2. Marks Gniteckis
@@ -91,6 +111,8 @@
 
 ## 🐧 Team Penguin
 
+Tuesday 11:00-13:00 and Friday 09:00-11:00
+
 1. Maryan Ali
 2. Calum Chaimberlain
 3. Robert Noel Jameson
@@ -101,6 +123,8 @@
 8. Jaewoong Yu
 
 ## 🐰 Team Rabbit
+
+Tuesday 11:00-13:00 and Friday 09:00-11:00
 
 1. Prince Agyei Frimpong
 2. Fathi Rashid Ege
