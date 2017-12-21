@@ -99,7 +99,7 @@ You together with your team will need to decide on which protocol to use. To hel
 
 Now you have a prototype sensor module can you design a custom PCB ready for manufacture?
 
-1. Start by downloading the [Fritzing] software and reproduce your breadboard layout.
+1. Start by downloading the [Fritzing](http://fritzing.org/home/) software and reproduce your breadboard layout.
   1. You will need to install [additional components](https://github.com/squix78/esp8266-fritzing-parts).
 2. Switch to the Schematic tab and refine your circuit schematic.
 3. Finally use the PCB tab to design a compact PCB.
