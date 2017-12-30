@@ -8,3 +8,5 @@ package-lock.json
 results.json
 coverage.lcov
 *.class
+dependency-check-report.html
+linter.xml
