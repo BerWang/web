@@ -2,21 +2,21 @@
 
 Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. You should refer to [this week's presentation](https://drive.google.com/open?id=1maN7cEkJXG__t6YWewKS0CRNGLpGPmmDgYxusmk7LRA).
 
-## GitHub
+## 1 GitHub
 You are required to maintain your code on the [University GitHub repository](https://github.coventry.ac.uk) where you will be added to the module organisation. For this to happen you will need to have logged in in order to generate your profile. The first task is to **log in using your University credentials** and notify your lab tutors if you can't do this.
 
 Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
 
-## Teams
-You will have already been assigned to a team by the module leader. You can see a list of your team members by clicking on the relevent file in this repository. Since all the worksheet tasks need to be completed as a team you will need to email everyone to ensure you all meet up together for _every_ lab session.
+## 2 Teams
 
-## Project
-Read through the assignment brief and decide which project you will be working on, this choice will impact the work you carry out during this and subsequent weeks. Make sure you choose a **real client**, for some of the projects this is a named person but for the other projects you will need to choose someone (not one of the module staff though).
+The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable). Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
 
-## Skills Audit
+## 3 Project
+
+Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
+
+## 4 Skills Audit
 Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project.
-
-### Skill List
 
 Below is a list of skills your team will need in order to successfull build the product for your client:
 
@@ -42,13 +42,22 @@ Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) sca
 
 Refine the matrix using a 5 point scale.
 
-Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed in future weeks.
+## 5 Professional Development Plan
 
-## Team Psychology
+Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed in future weeks. If any member of the team don't complete the tasks in their development plan by week 4 there is a risk the project will fail! The plan should include:
+
+1. What they need to learn.
+2. Why they need to learn it
+3. How they will learn:
+    1. taught by another member of the team.
+    2. learn using specified online resources (list these).
+    3. learn from specific chapters of suitable books.
+
+## 6 Team Psychology
 
 You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
 
-## LinkedIn
+## 7 LinkedIn
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
 
 1. Add a suitable professional profile picture
@@ -59,9 +68,3 @@ Use this information gained in the previous section to update your LinkedIn Prof
 6. Repeat for other people in the group.
 7. Can you find any of your lecturers? Invite some of them to your network.
 8. Install LinkedIn on your smartphone...
-
-## Team Building
-By this stage you will have had an opportunity to observe your group dynamics.
-
-1. Assess the contribution made by each member of the team using the information from the presentation.
-2. Using the Group Roles listed in the presentation identify which categories each member of your team belong to. Do you have a balanced team?
