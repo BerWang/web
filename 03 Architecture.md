@@ -19,15 +19,18 @@ There is a lot of planning to be carried out before you can start development. U
 2. model-view-controller
 3. web apis
 
-why is the n-tier architecture poorly suited to agile development approaches?
+why is the _n-tier architecture_ poorly suited to agile development approaches?
 
 ## 2 Data Storage
 
 Analyse the data storage requirements and decide:
+
     1. What _type_ of database is best suited (relational, document, graph, etc.)
     2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
 
 ## 3 Deciding on the Technology Stack
+
+During this module you will be working in a team to develop a sophisticated suite of tools using a variety of different languages and platforms. It is assumed that you already have the required programming skills...
 
 You should now choose ap appropriate technology stack, making sure you understand the key technologies such as Web APIs and MQTT? Your development team now know what needs to be developed. Now is the time for a frank discussion:
 
@@ -43,7 +46,7 @@ You should now choose ap appropriate technology stack, making sure you understan
     4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
     5. XCUnit for Swift
 
-allocating each person to an appropriate sub-team based on their skills and experiences.
+Any skills shortage should be discussed with the team and added to the **Continuous Professional Development** (CDP) plans for the appropriate team members.
 
 ## 4 Team Organisation
 
@@ -67,6 +70,3 @@ Now you need to organise your team in preparation for the first sprint which wil
     4. adding the team to each of these so everyone has access to all project repositories.
 
 Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.  
-
-## 6 Getting Support
-During this module you will be expected to work in a team to develop a sophisticated app using the language and platform of your choice, however this is not a technical module and you will not be taught the technical programming skills you need to apply.
