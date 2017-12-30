@@ -44,7 +44,7 @@ Refine the matrix using a 5 point scale.
 
 ## 5 Professional Development Plan
 
-Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed in future weeks. If any member of the team don't complete the tasks in their development plan by week 4 there is a risk the project will fail! The plan should include:
+Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed during the **week 3 lab**. If any member of the team don't complete the tasks in their development plan by week 4 there is a risk _the project will fail!_ The plan should include:
 
 1. What they need to learn.
 2. Why they need to learn it

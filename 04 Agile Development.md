@@ -15,21 +15,33 @@ As a team:
     2. Discusses how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
     3. Explain the success criteria (how will the team know they have completed the story implementation.
 3. Once the client has left:
-    1. Break the story into the component tasks and write these on sticky notes
-    2. Use planning poker to estimate how many hours each task will take
-    2. Add them to the left column of your Kanban board
+    1. Break the story into the component tasks and write these on sticky notes.
+    2. Use planning poker to estimate how many hours each task will take.
+        -  If the estimated time for a task is longer than 4 hours, consider splitting the task down.
+    3. Add them to the left column of your Kanban board.
+    4. Finally the _Scrum Master_:
+        1. adds up the estimated durations for the tasks on the Kanban board and
+        2. draws out a burndown chart:
+            1. The X axis should show the days in the sprint.
+            2. the Y axis should show the combined duration.
+        3. draws a staight line from the top of the Y axis to the end of the X axis to indicate the optimal burn rate. 
 
 ## Conducting the Sprint
 
-During this first sprint, your development team will need to meet every morning. At each meeting.
+During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
-1. Review the burndown chart to see if the team are ahead or behind schedule
+1. Check the _Kanban board_ is up to date.
+1. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+
+During the meeting:
+
+1. The Scrum Master reviews the burndown chart and tells the team whether they are ahead or behind schedule:
 2. Now each member:
     1. explains what they have achieved since the last daily standup meeting.
     2. uses the Kanban board to identify the tasks they will work on until the next meeting (tomorrow), flags with the team responsible and moves these forward on the board.
     3. Describes any technical challenges that are holding back development work.
 
-If any problems were identified during the standup these will need to be resolved by the appropriate team immediately after the daily standup. Make sure the resolution is explained to the _Scrum Master_ before continuing work.
+If any problems were identified during the standup these will need to be resolved by the appropriate team immediately **after** the daily standup. Make sure the resolution is explained to the _Scrum Master_ before continuing work.
 
 Now each team have tasks assigned and will need to implement these before the next daily standup.
 
@@ -50,10 +62,3 @@ Each week the development team should meet up (without the client) and ask each 
 1. What they should continue to do (existing good practice)
 2. What they should **start** doing (new good practice)
 2. What they should **stop** doing (eliminiate bad practices)
-
-
-
-
-
-## Set Up Collaboration Tools
-

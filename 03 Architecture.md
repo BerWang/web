@@ -7,7 +7,11 @@ You should refer to [this week's presentation](https://drive.google.com/open?id=
 
 In this worksheet you will be carrying out the initial planning which needs to take place before the first _sprint_ which will be next week. This stage is often referred to as **sprint zero**.
 
-## 1 High-Level Architecture
+## 1 Reviewing the CPD Plan
+
+Back in the first lab each member of your team created a **continous professional development** (CPD) plan where they identified the skills they needed to learn before the first sprint. Since the first sprint starts next week its time to review each of the plans. Split into pairs (or groups of 3) and within each group, print out copies of the plans and go through them, checking off any parts that have been completed and agreeing a suitable date (and some resources) to ensure each member of the team is ready for the first sprint.
+
+## 2 High-Level Architecture
 
 There is a lot of planning to be carried out before you can start development. Using both your _Domain Model_ and _User Story Map_, start to plan the architecture of the product you will be developing. This architecture needs to be [evolutionary](https://www.thoughtworks.com/books/building-evolutionary-architectures) to allow for changes and support the agile development process you will be using. You should evaluate a number of architectural design patterns including:
 
