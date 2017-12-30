@@ -5,6 +5,54 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1GUZTf_4yCVUBWiOS3ACQ8ngkEFak7mZy9lzYwDWePq0).
 
+## NEW STRUCTURE
+
+Draw out a domain model that represents the scope of the project. Discuss this will your client until it reflects their understanding (use the lab supervisors as your client).
+
+Design a flexible architecture that makes use of the following architectural design patterns:
+
+1. publish-subscribe
+2. model-view-controller
+3. web apis
+
+discuss how you can use these to implement a modular architecture (hexagonal).
+
+why is the n-tier architecture poorly suited to agile development approaches?
+
+Data Storage
+
+where will the data be stored? What type of data and what format will be used?
+
+SPRINT ZERO
+
+often used to describe the planning steps that need to be carried out before the development process can begin.
+
+choosing the tech stack, making sure you understand the key technologies such as Web APIs and MQTT?
+
+allocating each person to an appropriate sub-team based on their skills and experiences.
+
+## Team Organisation
+
+Now you need to organise your team in preparation for the first sprint which will start next week. Base your discussions on the first sprint identified in the _User Story Map_:
+
+1. Based on your skills audit, divide the team into different groups to tackle the different tiers in your solution.
+2. Each group should map out how they will achieve the first user story, this should include:
+    1. The language they will be using and why.
+    2. The editor/IDE to be used.
+
+
+1. setting up the development workstations:
+    1. installing the software needed.
+    2. building simple hello-world programs to check development environment is set up.
+2. building and configuring any test servers and platforms
+3. configuring GitHub:
+    1. making sure everyone in the team can log in!
+    2. creating a team in the correct organisation on GitHub.
+    3. creating enough correctly named private repositories.
+    4. adding the team to each of these so everyone has access to all project repositories.
+    
+----
+
 ## High-Level Architecture
 
 There is a lot of planning to be carried out before you can start development. Using both your _Domain Model_ and _User Story Map_, start to plan the architecture of the product you will be developing by mapping your problem to an n-tier or hexagonal architectural model. Record your design using either a whiteboard or flipchart paper and make sure everyone in the team is contributing:
@@ -59,14 +107,7 @@ Analyse the presentation tier:
 2. How will you ensure that there is clear separation between the model and view?
 3. Can you achieve better separation of concerns by writing the model as a stand-alone module/framework?
 
-## Team Organisation
 
-Now you need to organise your team in preparation for the first sprint which will start next week. Base your discussions on the first sprint identified in the _User Story Map_:
-
-1. Based on your skills audit, divide the team into different groups to tackle the different tiers in your solution.
-2. Each group should map out how they will achieve the first user story, this should include:
-    1. The language they will be using and why.
-    2. The editor/IDE to be used.
   
 ## Technical Preparation
 
