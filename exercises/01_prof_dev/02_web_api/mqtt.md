@@ -6,9 +6,9 @@ MQTT is a lightweight pub/sub protocol, especially suited for low processor/band
 you will need to build an MQTT message broker. The wireless sensors can then publish messages to it and the RESTful API can subscribe to it so it receives the data. Take a look at the block diagram below to see how this works.
 ```
    ┌─────────┐          ┌─────────┐           ┌─────────┐           ┌────────────┐
-	 │ ESP8266 ├─────────→│  MQTT   ├──────────→│ RESTful │←─────────→│ SMARTPHONE │
-	 │         │ publish  │ BROKER  │ subscribe │   API   │ req/res   │    APP     │
-	 └─────────┘          └─────────┘           └─────────┘           └────────────┘
+   │ ESP8266 ├─────────→│  MQTT   ├──────────→│ RESTful │←─────────→│ SMARTPHONE │
+   │         │ publish  │ BROKER  │ subscribe │   API   │ req/res   │    APP     │
+   └─────────┘          └─────────┘           └─────────┘           └────────────┘
 ```
 It is straightforward to set up a **message broker** using the [Heroku](https://www.heroku.com) cloud platform, a link to detailed instructions being included in the reference section at the end of this document.
 
