@@ -27,3 +27,19 @@ $ node -prof-process  isolate-0xnnnnnnnnnnnn-v8.log > processes.txt
 ## References
 
 https://nodejs.org/en/docs/guides/simple-profiling/
+
+# Profiling in Java
+
+java includes a native profiler called [hprof](https://docs.oracle.com/javase/7/docs/technotes/samples/hprof.html) which is run from the commandline.  
+
+# Profiling in Swift
+
+There is a third-party tool called [xcprofiler](https://github.com/giginet/xcprofiler) which can be used to profile swift code.
+
+## References
+
+http://irace.me/swift-profiling
+
+# Profiling in C++
+
+Use the [gprof](https://users.cs.duke.edu/~ola/courses/programming/gprof.html) tool to profile your C++ programs.
