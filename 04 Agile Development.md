@@ -5,7 +5,7 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs).
 
-## Sprint Planning
+## 1 Sprint Planning
 
 As a team:
 
@@ -26,7 +26,7 @@ As a team:
             2. the Y axis should show the combined duration.
         3. draws a staight line from the top of the Y axis to the end of the X axis to indicate the optimal burn rate. 
 
-## Conducting the Sprint
+## 2 Conducting the Sprint
 
 During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
@@ -45,7 +45,7 @@ If any problems were identified during the standup these will need to be resolve
 
 Now each team have tasks assigned and will need to implement these before the next daily standup.
 
-## Review Meeting
+## 3 Review Meeting
 
 You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
 
@@ -55,7 +55,7 @@ You will be given a date for the review meeting, this will typically be a week a
 
 The team then move on to the next _sprint planning meeting_ whilst the client is present.
 
-## Retrospective
+## 4 Retrospective
 
 Each week the development team should meet up (without the client) and ask each member of the team to identify:
 
