@@ -37,14 +37,14 @@ You should now choose ap appropriate technology stack, making sure you understan
 1. Are there any skills required to complete the project that need working on?
 2. Are there any potential issues with building any parts of the product?
 3. Identify the development platform
-  1. What will be your primary development language?
-  2. What frameworks will your team be using?
-  3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
-    1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
-    2. [JUnit](http://junit.org) for Java
-    3. [Jasmine](http://jasmine.github.io) for JavaScript
-    4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
-    5. XCUnit for Swift
+    1. What will be your primary development language?
+    2. What frameworks will your team be using?
+    3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
+        1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
+        2. [JUnit](http://junit.org) for Java
+        3. [Jasmine](http://jasmine.github.io) for JavaScript
+        4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
+        5. XCUnit for Swift
 
 Any skills shortage should be added to the **Continuous Professional Development** (CDP) plans for the appropriate team members.
 
