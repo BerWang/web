@@ -5,33 +5,43 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1GUZTf_4yCVUBWiOS3ACQ8ngkEFak7mZy9lzYwDWePq0).
 
-## NEW STRUCTURE
+In this worksheet you will be carrying out the initial planning which needs to take place before the first _sprint_ which will be next week. This stage is often referred to as **sprint zero**.
 
-Draw out a domain model that represents the scope of the project. Discuss this will your client until it reflects their understanding (use the lab supervisors as your client).
+## 1 High-Level Architecture
 
-Design a flexible architecture that makes use of the following architectural design patterns:
+There is a lot of planning to be carried out before you can start development. Using both your _Domain Model_ and _User Story Map_, start to plan the architecture of the product you will be developing. This architecture needs to be [evolutionary](https://www.thoughtworks.com/books/building-evolutionary-architectures) to allow for changes and support the agile development process you will be using. You should evaluate a number of architectural design patterns including:
 
 1. publish-subscribe
 2. model-view-controller
 3. web apis
 
-discuss how you can use these to implement a modular architecture (hexagonal).
-
 why is the n-tier architecture poorly suited to agile development approaches?
 
-Data Storage
+## 2 Data Storage
 
-where will the data be stored? What type of data and what format will be used?
+Analyse the data storage requirements and decide:
+    1. What _type_ of database is best suited (relational, document, graph, etc.)
+    2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
 
-SPRINT ZERO
+## 3 Deciding on the Technology Stack
 
-often used to describe the planning steps that need to be carried out before the development process can begin.
+You should now choose ap appropriate technology stack, making sure you understand the key technologies such as Web APIs and MQTT? Your development team now know what needs to be developed. Now is the time for a frank discussion:
 
-choosing the tech stack, making sure you understand the key technologies such as Web APIs and MQTT?
+1. Are there any skills required to complete the project that need working on?
+2. Are there any potential issues with building any parts of the product?
+3. Identify the development platform
+  1. What will be your primary development language?
+  2. What frameworks will your team be using?
+  3. Make sure you are comfortable with the mechanics of writing automated tests for your chosen language including testing async code and creating mocks:
+    1. [UnitTest](https://docs.python.org/3/library/unittest.html) for Python
+    2. [JUnit](http://junit.org) for Java
+    3. [Jasmine](http://jasmine.github.io) for JavaScript
+    4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
+    5. XCUnit for Swift
 
 allocating each person to an appropriate sub-team based on their skills and experiences.
 
-## Team Organisation
+## 4 Team Organisation
 
 Now you need to organise your team in preparation for the first sprint which will start next week. Base your discussions on the first sprint identified in the _User Story Map_:
 
@@ -40,6 +50,7 @@ Now you need to organise your team in preparation for the first sprint which wil
     1. The language they will be using and why.
     2. The editor/IDE to be used.
 
+## 5 Technical Preparation
 
 1. setting up the development workstations:
     1. installing the software needed.
@@ -50,70 +61,8 @@ Now you need to organise your team in preparation for the first sprint which wil
     2. creating a team in the correct organisation on GitHub.
     3. creating enough correctly named private repositories.
     4. adding the team to each of these so everyone has access to all project repositories.
-    
-----
 
-## High-Level Architecture
+Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.  
 
-There is a lot of planning to be carried out before you can start development. Using both your _Domain Model_ and _User Story Map_, start to plan the architecture of the product you will be developing by mapping your problem to an n-tier or hexagonal architectural model. Record your design using either a whiteboard or flipchart paper and make sure everyone in the team is contributing:
-
-1. Split your system into different tiers based on shared functionality.
-2. Identify where the different tiers will be located physically.
-3. How will communication be handled between the tiers?
-4. Are there any other opportunities to divide your product into additional services? How could message queues and pub-sub help decouple your system components?
-5. Can a hexagonal architecture improve your system?
-
-## Technology Stack
-
-Based on the system requirements and the team expertise you need to agree the technology stack that will be employed:
-
-1. Analyse the data storage requirements and decide:
-    1. What _type_ of database is best suited (relational, document, graph, etc.)
-    2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
-2. For each tier in the proposed solution:
-    1. Where will the tiers physically be located?
-    2. Will any of the tiers be hosted together?
-    3. What OS will be used to host the tier?
-    4. What language will be used and why?
-
-### Backend
-
-You will probably decide to use an API as your model to handle communication between your client and the data persistence tier. There are a couple of options:
-
-1. Build a full API using a suitable language (this is covered in greater detail in the 304CEM module). You will need to choose a suitable framework that supports your chosen language:
-    1. [NodeJS](https://nodejs.org/en/) and the [Restify](https://www.npmjs.com/package/restify) module. There is a good [tutorial](https://github.coventry.ac.uk/304CEM-1718SEPJAN/TEACHING-MATERIALS) and an [example API](https://github.coventry.ac.uk/304CEM-1718SEPJAN/bookshop). Avoid using the [Express](https://www.npmjs.com/package/express) framework!
-    2. [Python](https://www.python.org/) and [Flask](http://flask.pocoo.org/). There are a number of good [tutorials] available online.(https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq) available.
-    2. PHP and [Codeigniter](https://codeigniter.com/) using the [REST Server](https://github.com/chriskacerguis/codeigniter-restserver) library.
-
-2. Use an API builder such as:
-    1. [Loopback](https://loopback.io)
-
-You choice will depend on the overall complexity of the API you are developing and the skills you have in your team.
-
-### Front-End
-
-Your team will need to implement some form of front-end to the system which could be either a website or a smartphone app. You have two possible approaches to this technology stack:
-
-1. Use the standard tech stack (eg. Swift language / iOS frameworks)
-2. If your team are not competent programmers you might consider using a visual tool such as [App Inventor](http://ai2.appinventor.mit.edu).
-
-Whatever solution you choose, make sure you learn and practice how to make API calls so you can easily integrate with the backend systems.
-
-## Presentation Model
-
-Analyse the presentation tier:
-
-1. How will you implement the presentation model in your presentation tier(s)?
-2. How will you ensure that there is clear separation between the model and view?
-3. Can you achieve better separation of concerns by writing the model as a stand-alone module/framework?
-
-
-  
-## Technical Preparation
-
-Each group should now prepare their computers to avoid time being wasted when the sprint starts next week:
-
-1. Install/configure the editor/IDE
-2. Make sure the language compiler/interpreter is correctly configured by writing a simple hello world script.
-3. Make sure all the necessary libraries/frameworks are installed and working.
-4. Make sure everyone has a local copy of the chosen database.
+## 6 Getting Support
+During this module you will be expected to work in a team to develop a sophisticated app using the language and platform of your choice, however this is not a technical module and you will not be taught the technical programming skills you need to apply.

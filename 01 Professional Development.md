@@ -65,9 +65,3 @@ By this stage you will have had an opportunity to observe your group dynamics.
 
 1. Assess the contribution made by each member of the team using the information from the presentation.
 2. Using the Group Roles listed in the presentation identify which categories each member of your team belong to. Do you have a balanced team?
-
-## Team Collaboration
-You should now have a clear idea about what you will be developing and there is a strong possibility that other teams will have chosen the same project. Sit down with other teams and use your skills audit and other information to decide whether you will collaborate on the development. You can choose to work with other teams or to complete the development using only your own team.
-
-## Getting Support
-During this module you will be expected to work in a team to develop a sophisticated app using the language and platform of your choice, however this is not a technical module and you will not be taught the technical programming skills you need to apply.
