@@ -25,8 +25,8 @@ why is the _n-tier architecture_ poorly suited to agile development approaches?
 
 Analyse the data storage requirements and decide:
 
-    1. What _type_ of database is best suited (relational, document, graph, etc.)
-    2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
+1. What _type_ of database is best suited (relational, document, graph, etc.)
+2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
 
 ## 3 Deciding on the Technology Stack
 
