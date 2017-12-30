@@ -26,12 +26,84 @@ As a team:
             2. the Y axis should show the combined duration.
         3. draws a staight line from the top of the Y axis to the end of the X axis to indicate the optimal burn rate. 
 
+### 1.1 The Kanban Board
+
+For this first sprint, your Kanban board should have 4 columns as shown:
+```
+╔════════════════╦════════════════╦════════════════╦════════════════╗
+║ To Do          ║ Planning       ║ Implementation ║ Done           ║
+╟────────────────╫────────────────╫────────────────╫────────────────╢
+║   ┌────────┐   ║                ║                ║                ║
+║   │        │   ║                ║                ║                ║
+║   └────────┘   ║                ║                ║                ║
+║   ┌────────┐   ║                ║                ║                ║
+║   │        │   ║                ║                ║                ║
+║   └────────┘   ║                ║                ║                ║
+║   ┌────────┐   ║                ║                ║                ║
+║   │        │   ║                ║                ║                ║
+║   └────────┘   ║                ║                ║                ║
+╚════════════════╩════════════════╩════════════════╩════════════════╝
+```
+
+At the start of the sprint, all tasks should be in the first column. By the end of the sprint, all tasks should be in the last column.
+
+### 1.2 The Burndown Chart
+
+Here is an example of a burndown chart showing the line of optimal development. In this example the sprint lasts from Mon to Fri and there are an estimated 40 hours of development. It shows that the optimum burn rate would be 10 hours per day.
+```
+  40 ║*
+     ║   *
+  30 ║      *
+     ║         *
+  20 ║            *
+     ║               *
+  10 ║                  *
+     ║                     *
+  00 ║                        *
+     ╚══════════════════════════
+       M    T     W     T     F
+```
+
 ## 2 Conducting the Sprint
 
 During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
 1. Check the _Kanban board_ is up to date.
 1. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+```
+╔════════════════╦════════════════╦════════════════╦════════════════╗
+║ To Do          ║ Planning       ║ Implementation ║ Done           ║
+╟────────────────╫────────────────╫────────────────╫────────────────╢
+║   ┌────────┐   ║                ║   ┌────────┐   ║   ┌────────┐   ║
+║   │        │   ║                ║   │        │   ║   │        │   ║
+║   └────────┘   ║                ║   └────────┘   ║   └────────┘   ║
+║                ║                ║                ║                ║
+║                ║                ║                ║                ║
+║                ║                ║                ║                ║
+║                ║                ║                ║                ║
+║                ║                ║                ║                ║
+║                ║                ║                ║                ║
+╚════════════════╩════════════════╩════════════════╩════════════════╝
+From this Kanban board you can see that one of the tasks has been 
+completed (and so these hours come off the burndown chart).
+One of the tasks has been started but is not yet complete (this stays 
+on the burndown chart)
+The last task has not been fully planned out, this task should be a 
+priority until the next daily standup.
+```
+```
+  40 ║*
+     ║   *  o
+  30 ║      *     o                 As you can see from this example, by the Wednesday
+     ║         *                    meeting the team are behind schedule. They need to
+  20 ║            *                 identify *why* this has happened:
+     ║               *                * poor estimation?
+  10 ║                  *             * one of the teams has hit a problem?
+     ║                     *          * members of the team off sick?
+  00 ║                        *
+     ╚══════════════════════════    Can they make up the work by the Friday?
+       M    T     W     T     F
+```
 
 During the meeting:
 
