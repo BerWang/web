@@ -85,17 +85,17 @@ There are a number of sensors that can be used for environmental sensors but it 
 
 ## Connecting to the API
 
-Whatever data you collect will need to be passed to the API developed by the rest of your team. This data will be transmitted over the WiFI network using the built-in WiFi on the NodeMCU board. There are two protocols you can use for this:
+Whatever data you collect will need to be passed to the API developed by the rest of your team. This data will be transmitted over the WiFI network using the built-in WiFi on the NodeMCU board and should publish data to a message queue server (which will need to be set up by your team), using the [MQTT protocol](https://www.ibm.com/developerworks/community/blogs/5things/entry/5_things_to_know_about_mqtt_the_protocol_for_internet_of_things?lang=en).
 
-- REST
-- MQTT
-
-You together with your team will need to decide on which protocol to use. To help you with this you should try connecting to some existing IoT APIs which utilise both protocols:
+There are some existing IoT data patforms that use MQTT, you should investigate these:
 
 - [Adafruit](https://io.adafruit.com)
 - [Thinger](https://console.thinger.io)
 
-## Designing a PCB
+
+## Extension Tasks
+
+### Designing a PCB
 
 Now you have a prototype sensor module can you design a custom PCB ready for manufacture?
 
@@ -114,3 +114,10 @@ What is your final BOM for each populated PCB?
 How would you get your PCB etched and assembled? What are the costs involved?
 
 The final step is to design a custom case for this, allowing space for all components to function.
+
+### The Sensor Technology
+
+The core project utilises the ESP8266 module however this is not the only platform you could use. Here are a few alternatives you might consider, given the requirements for the sensor to communicate over a WiFI network:
+
+1. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) - Either a model 3 with built-in wifi (and bluetooth) or an earier version with additional dongles.
+2. [Arduino Uno Wifi](https://store.arduino.cc/arduino-uno-wifi): A standard Arduino board with integrated Wifi.
