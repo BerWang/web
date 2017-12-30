@@ -68,5 +68,4 @@ Use this information gained in the previous section to update your LinkedIn Prof
 4. Download your CV as a PDF.
 5. Use the search bar at the top of the screen to locate your other team members and add them to your profile.
 6. Repeat for other people in the group.
-7. Can you find any of your lecturers? Invite some of them to your network.
-8. Install LinkedIn on your smartphone...
+7. Install LinkedIn on your smartphone...
