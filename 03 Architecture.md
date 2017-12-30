@@ -32,7 +32,7 @@ Analyse the data storage requirements and decide:
 
 During this module you will be working in a team to develop a sophisticated suite of tools using a variety of different languages and platforms. It is assumed that you already have the required programming skills...
 
-You should now choose ap appropriate technology stack, making sure you understand the key technologies such as Web APIs and MQTT? Your development team now know what needs to be developed. Now is the time for a frank discussion:
+You should now choose ap appropriate technology stack, making sure you understand the key technologies such as Web APIs and MQTT. By this stage your team should have a clear idea as to what needs to be developed, time for an honest team discussion:
 
 1. Are there any skills required to complete the project that need working on?
 2. Are there any potential issues with building any parts of the product?
@@ -46,7 +46,7 @@ You should now choose ap appropriate technology stack, making sure you understan
     4. Microsoft [Unit Test Framework](https://msdn.microsoft.com/en-us/library/hh598960.aspx) for .NET
     5. XCUnit for Swift
 
-Any skills shortage should be discussed with the team and added to the **Continuous Professional Development** (CDP) plans for the appropriate team members.
+Any skills shortage should be added to the **Continuous Professional Development** (CDP) plans for the appropriate team members.
 
 ## 4 Team Organisation
 
