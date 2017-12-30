@@ -53,6 +53,8 @@ Working together develop a **Professional Development Plan** for each team membe
     2. learn using specified online resources (list these).
     3. learn from specific chapters of suitable books.
 
+You can find some useful learning resources in the [exercise directory](exercises/01_prof_dev/).
+
 ## 6 Team Psychology
 
 You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
