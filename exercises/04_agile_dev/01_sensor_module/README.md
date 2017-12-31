@@ -38,50 +38,111 @@ You will be provided with an **ESP8266 Development Module**.
 
 ## Sensors
 
-There are a number of sensors that can be used for environmental sensors but it is important that you only pick those that are supported by Arduino libraries. The table below shows some of the most useful ones and includes links to online tutorials. If you identify other useful ones, let the module leader know and they can be added to the list.
+There are a number of sensors that can be used for environmental sensors but it is important that you only pick those that are supported by Arduino libraries. The table below shows some of the most useful ones and includes links to online tutorials. If you identify other useful ones, let the module leader know and they can be added to the list. The ones shown _italicised_ are **not** part of the provided kit. Links are provided to suitable tutorials.
 
-| Environment                              | Sensor       | Tutorial              |
-| ---------------------------------------- | ------------ | --------------------- |
-| Temperature                              | DS18B20      | https://goo.gl/aNBgtK |
-| Temperature and humidity                 | DHT11        | https://goo.gl/xdoFG6 |
-| NH3,NOx, alcohol, Benzene, smoke, CO2    | MQ-135       | https://goo.gl/zxCetD |
-| Hygrometer                               | YL-69        | -                     |
-| UV                                       | GUVA-S12SD   | https://goo.gl/3s6J4o |
-| Light                                    | TSL2561      | https://goo.gl/YUftqv |
-| Dust                                     | GP2Y1010AU0F | https://goo.gl/MTNiyf |
-| Dust                                     | DSM501A      | -                     |
-| Vibration                                | SW-420       | https://goo.gl/4tNLi5 |
-| Sound                                    | KY-038       | https://goo.gl/bCxrXF |
-| Combustible Gas, Smoke                   | MQ-2         | https://goo.gl/2fBk1t |
-| Alcohol gas                              | MQ-3         | -                     |
-| CH4 / Natural gas                        | MQ-4         | -                     |
-| LPG, Natural Gas, Town Gas               | MQ-5 MQ-6    | -                     |
-| CO (carbon monoxide)                     | MQ-7         | -                     |
-| Hydrogen                                 | MQ-8         | -                     |
-| Carbon Monoxide, Coal Gas, Liquefied Gas | MQ-9         | -                     |
+| Environment                                           | Sensor       | Interface  |
+| ----------------------------------------------------- | ------------ | ---------- |
+| [_Temperature_](https://goo.gl/aNBgtK)                | _DS18B20_    | _1-WIRE_   |
+| [_Temperature_](https://goo.gl/Jt4AvX)                | _TC74_       | I2C        |
+| [Temperature and humidity](https://goo.gl/xdoFG6)     | DHT11        | 1-WIRE*    |
+| [NH3,NOx, alcohol, smoke, CO2](https://goo.gl/zxCetD) | MQ-135       | ANALOG/THR |
+| Hygrometer                                            | YL-69        | -          |
+| [_UV_](https://goo.gl/3s6J4o)                         | _GUVA-S12SD_ | _ANALOG_   |
+| [UV](https://goo.gl/1stWus)                           | VEML6070     | I2C        |
+| [Light](https://goo.gl/YUftqv)                        | TSL2561      | I2C        |
+| [Dust](https://goo.gl/MTNiyf)                         | GP2Y1010AU0F | ANALOG     |
+| _Dust_                                                | _DSM501A_    | -          |
+| [Vibration](https://goo.gl/4tNLi5)                    | SW-420       | THR        |
+| [Sound](https://goo.gl/bCxrXF)                        | KY-038       | ANALOG/THR |
+| [_Real time clock_](https://goo.gl/yBnyVe)            | _DS1307_     | _I2C_      |
+| [Real time clock](https://goo.gl/yBnyVe)              | DS3231       | I2C        |
+| [_Combustible Gas, Smoke_](https://goo.gl/2fBk1t)     | _MQ-2_       | -          |
+| _Alcohol gas_                                         | _MQ-3_       | -          |
+| _CH4 / Natural gas_                                   | _MQ-4_       | -          |
+| _LPG, Natural Gas, Town Gas_                          | _MQ-5 MQ-6_  | -          |
+| _CO (carbon monoxide)_                                | _MQ-7_       | -          |
+| _Hydrogen_                                            | _MQ-8_       | -          |
+| _Carbon Monoxide, Coal Gas, Liquefied Gas_            | _MQ-9_       | -          |
+
+## Displays
+
+As part of this project you may want to add a screen to display useful information such as the IP address etc.
+
+| Display                                          | Interface |
+| ------------------------------------------------ | --------- |
+| [SSD1306 I2C OLED Screen](https://goo.gl/idmyaz) | I2C       |
 
 ## Equipment List
 
-**You will be provided with kit** to use in the lab sessions but you may wish to purchase your own, below you can find a full costed kit. Prices and links are for Amazon but you can find these a lot cheaper if you shop around and you may be able to find some of this kit in the electronics lab (ask the supervisor in the lab first).
+**You will be provided with kit** to use during the project however you may wish to purchase your own resources, below you can find a full costed kit. Prices and links are for Amazon but you can find these a lot cheaper if you shop around and you may be able to find some of this kit in the electronics lab (ask the supervisor in the lab first).
+
+### Team Kits
+
+The following items will be in the kit issued to your team. Make sure you check everything is there before signing for it.
 
 | Equipment                                                   | Cost  |
-| ----------------------------------------------------------- | ----- |
+| ----------------------------------------------------------- | ----: |
 | [NodeMCU ESP8266 CP2102 v3](http://amzn.eu/iFhW1f4)         | £6.99 |
-| [USB type-c to Micro-b 15cm cable](http://amzn.eu/0EwGYjA)  | £5.51 |
 | [Micro-USB cable 30cm](http://amzn.eu/eJ6z1Ux)              | £3.99 |
-| [Breadboard with power supply](http://amzn.eu/6R8H6Oi)      | £8.38 |
-| [Jumper wires x130](http://amzn.eu/buVG3Wk)                 | £5.99 |
-| [Rechargable 9v battery](http://amzn.eu/6kKladh)            | £5.78 |
+| [Breadboard](http://amzn.eu/4r8UL9Q)                        | £1.56 |
+| [Jumper wires x65](http://amzn.eu/ejw4p3Q)                  | £3.95 |
 | [Temperature sensor module DS18B20](http://amzn.eu/6h2mzBC) | £1.35 |
 | [Temperature/Humidity module DHT11](http://amzn.eu/glrhIqs) | £1.46 |
 | [Gas sensor MQ-135](http://amzn.eu/h573jLl)                 | £5.60 |
-| [UV sensor KS-204 GUVA-S12SD](http://amzn.eu/5KNJy0x)       | £5.29 |
 | [Light sensor GY-2561 TSL2561](http://amzn.eu/a07k83G)      | £1.62 |
 | [Vibration sensor SW-420](http://amzn.eu/crleUBd)           | £1.76 |
 | [Sound sensor KY-038](http://amzn.eu/3tkqZG2)               | £3.60 |
-| [Dust sensor GP2Y1010AU0F](http://amzn.eu/5xqZT1y)          | £8.76 |
-| [GY-NEO6MV2 NEO-6M GPS Module](http://amzn.eu/j07kOl8)      | £5.99 |
 | [Stanley storage box](http://amzn.eu/hyI4x9J)               | £7.30 |
+
+**NOTE:** One member of the team will have to sign for the kit at the start of the project. Any missing items will be charged at the prices in the table above.
+
+### Basic Electronic Components
+
+As well as the various sensors you will need some basic electronic components.
+
+| Component                        | Qty |
+| -------------------------------- | --: |
+| Variable (trimmer) resistor 10K  |   2 |
+| Variable (trimmer) resistor 100K |   2 |
+| Resistor 27K                     |   5 |
+| Push button (DP)                 |   5 |
+
+### Additional Components
+
+Your trip organisers can provide your team with the following components.
+
+| Equipment                                                      | Cost   | Qty |
+| -------------------------------------------------------------- | -----: | --: |
+| [USB type-c to Micro-b 15cm cable](http://amzn.eu/0EwGYjA)     |  £5.51 |   2 |
+| [USB to USB-C adapter](http://amzn.eu/6FTTtUW)                 |  £5.49 |   2 |
+| [Breadboard power supply](http://amzn.eu/cczLbg7)              |  £2.48 |   5 |
+| [Rechargable 9v battery](http://amzn.eu/6kKladh)               |  £5.78 |   5 |
+| [UV sensor VEML6070](http://amzn.eu/grXhZ2C)                   | £10.42 |   5 |
+| [Dust sensor GP2Y1010AU0F](http://amzn.eu/5xqZT1y)             |  £8.76 |   5 |
+| [GY-NEO6MV2 NEO-6M GPS Module](http://amzn.eu/j07kOl8)         |  £5.99 |   5 |
+| [Real time clock DS3231](http://amzn.eu/0VfAOTr)               |  £4.99 |   2 |
+| [0.96 ssd1306 i2c OLED](http://amzn.eu/g3Be2pk)                |  £6.99 |   5 |
+| [ESP8266 ESP-12E module](http://amzn.eu/b9CUYlZ)               |  £2.03 |   2 |
+| [MicroUSB 3.3v/5v regulator](https://goo.gl/HKv8jr)            |  £2.99 |   2 |
+| [Male header pins 0.1" pitch (40 pin)](http://amzn.eu/cmXmuGU) |  £5.99 |  50 |
+| [Male header pins 2mm pitch (40 pin)](http://amzn.eu/eXAIKxn)  |  £1.27 |  10 |
+| [USB TTL serial cable](http://amzn.eu/3aLUqLr)                 |  £5.99 |   2 |
+
+## Lab Equipment
+
+During your project you may need to troubleshoot your circuits. There are a number of tools that can be requested from the trip organisers. Make sure you have researched their purpose and how they are used, the trip organisers can help.
+
+| Equipment                                              | Cost   | Qty |
+| ------------------------------------------------------ | -----: | --: |
+| [Multimeter](http://amzn.eu/gMtjFrh)                   |  £3.82 |   2 |
+| [USB voltage/current meter](http://amzn.eu/0Hdmuff)    |  £3.99 |   2 |
+| [USB soldering iron](http://amzn.eu/0yH0Mbu)           |  £6.95 |   1 |
+| [Solder (1mm)](http://amzn.eu/d9PRCrz)                 |  £8.02 |   1 |
+| [Bus pirate v4](http://amzn.eu/f8b1qrQ)                | £38.99 |   1 |
+| [Bus pirate probes](http://amzn.eu/cbTu20s)            |  £5.99 |   1 |
+| [Open workbench logic sniffer](http://amzn.eu/8Pl4BUy) | £62.99 |   1 |
+| [Logic sniffer cable x8](http://amzn.eu/e4sUOjy)       |  £9.68 |   2 |
+| [Mini-USB cable 15cm](http://amzn.eu/bdsP2Ql)          |  £2.49 |   2 |
 
 ## Connecting to the API
 
@@ -91,33 +152,3 @@ There are some existing IoT data patforms that use MQTT, you should investigate 
 
 - [Adafruit](https://io.adafruit.com)
 - [Thinger](https://console.thinger.io)
-
-
-## Extension Tasks
-
-### Designing a PCB
-
-Now you have a prototype sensor module can you design a custom PCB ready for manufacture?
-
-1. Start by downloading the [Fritzing](http://fritzing.org/home/) software and reproduce your breadboard layout.
-  1. You will need to install [additional components](https://github.com/squix78/esp8266-fritzing-parts).
-2. Switch to the Schematic tab and refine your circuit schematic.
-3. Finally use the PCB tab to design a compact PCB.
-4. Calculate the Bill Of Materials (BOM) for each board.
-
-Up to this point you have been using the ESP8266 Development Board. By switching to a standard [ESP8266 ESP-12E module](https://www.ebay.co.uk/itm/ESP-12E-ESP8266-IoT-WiFi-Transceiver-Module-Serial-Wireless/312008977197?hash=item48a52f2b2d:m:mAw165vfPXCDHslKmjRLRFg) you should be able to reduce the BOM considerably but you will need to redesign the PCB to accomodate this (especially as it uses a different pin pitch). You will need to find the [pinout](http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf) and download the [Fritzing models](https://github.com/ydonnelly/ESP8266_fritzing).
-
-Can you replace more of these development modules with individual components?
-
-What is your final BOM for each populated PCB?
-
-How would you get your PCB etched and assembled? What are the costs involved?
-
-The final step is to design a custom case for this, allowing space for all components to function.
-
-### The Sensor Technology
-
-The core project utilises the ESP8266 module however this is not the only platform you could use. Here are a few alternatives you might consider, given the requirements for the sensor to communicate over a WiFI network:
-
-1. [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) - Either a model 3 with built-in wifi (and bluetooth) or an earier version with additional dongles.
-2. [Arduino Uno Wifi](https://store.arduino.cc/arduino-uno-wifi): A standard Arduino board with integrated Wifi.

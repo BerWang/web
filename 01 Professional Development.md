@@ -16,29 +16,9 @@ The agile teams have been set up to contain students with the range of skills ne
 Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
 
 ## 4 Skills Audit
-Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project.
+Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project. use this [skills list](exercises/01_prof_dev/README.md) as a starting point.
 
-Below is a list of skills your team will need in order to successfull build the product for your client:
-
-1. Electronics
-2. Programming microcontrollers
-3. Building APIs
-4. Building smartphone apps
-5. Configuring, securing and deploying cloud servers
-
-In addition there are some _crossover_ skills that apply to multiple teams:
-
-1. Version control using Git
-2. Programming ability:
-    1. Python
-    2. NodeJS
-    3. C++
-3. Automated testing
-4. Design and implementation of data persistence:
-    1. Relational (such as mySQL)
-    2. Object (such as MongoDB)
-
-Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include all 12 of the skills listed above plus any others you feel might be useful.
+Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include skills taken from the [skills list](exercises/01_prof_dev/README.md) provided plus any others you feel might be useful.
 
 Refine the matrix using a 5 point scale.
 
@@ -53,7 +33,7 @@ Working together develop a **Professional Development Plan** for each team membe
     2. learn using specified online resources (list these).
     3. learn from specific chapters of suitable books.
 
-You can find some useful learning resources in the [exercise directory](exercises/01_prof_dev/).
+You can find some useful [learning resources](exercises/04_agile_dev/) in this repository.
 
 ## 6 Team Psychology
 
