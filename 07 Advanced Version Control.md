@@ -1,9 +1,13 @@
 
-# Distributed Version Control
+# Advanced Version Control
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1JmtlJWZy5Y5pFhDoggkLzaCSrbSa3plBh105nZtU2qA).
+
+In this worksheet you will be learning about some of the more powerful features of the Git version control system as well as the additional functionality offered by Git remote hosting sites such as **GitHub** and **GitLab**.
+
+----
 
 This will be your team's second sprint and you will need to apply all the skills and knowledge you have been shown so far.
 
