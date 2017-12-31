@@ -148,6 +148,7 @@ it is quite possible to write tests for case (1) but, rather than testing the is
 In the previous two sections you were told to write a _comprehensive suite of tests_, but what is _comprehensive_? Our test suite should check every: function, branch and line of code. To ensure this has been achieved we need to run a code coverage tool that will generate data to indicate how comprehensive our testing suites really are.
 
 1. Using an appropriate _code coverage tool_, generate a coverage report that includes both the unit and integration tests.
+2. You will probably have one or more modules that are _untestable_ because they don't return data to test. You should tell the code coverage tool to **ignore** these (but make sure you don't ignore too many!).
 2. Use the _code coverage report_ to identify where the gaps are in your test suite and write additional tests until you score 100%.
 
 ### 2.4 The TAP Protocol
