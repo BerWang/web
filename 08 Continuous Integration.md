@@ -7,17 +7,6 @@ You should refer to [this week's presentation](https://drive.google.com/open?id=
 
 There is an example repository on [GitLab](https://gitlab.com/covcom/continuous-integration-example)
 
-## Adding a Second Remote
-
-The tools you will be using in this sprint are only available on GitLab and so you will need to add a GitLab remote to each of your local repositories.
-
-1. Start by getting each member of your team to create an account on [GitLab](https://gitlab.com).
-2. The Scrum Master should now create a group to hold the team's repositories.
-3. Once the group has been created, the Scrum master should use the **Members** tab to add each of the other members of the team and assign them the **Developer** role.
-4. Now the Scrum Master needs to create empty repositories to mirror those used on GitHub and make the master branch _protected_ (the protection added needs to be discussed and agreed by the rest of the team).
-5. Next, each of the remotes needs to be added to the relevent local repository and given the alias `gitlab`. The command is `git add remote gitlab xxx` where xxx is the URL of the GitLab repository.
-6. Finally the local commits on the master branch can be pushed to GitLab using `git push gitlab master` and repeated for all other branches. Now the rest of the team can clone this repository to their local computer and start the sprint.
-
 ## Continuous Integration
 
 Your team should already have a suite of **Unit Tests** and **Integration Tests** which can be built into the **Continuous Integration** workflow which will eventually include:
