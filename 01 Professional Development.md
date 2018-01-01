@@ -7,6 +7,17 @@ You are required to maintain your code on the [University GitHub repository](htt
 
 Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
 
+### 1.1 Local Configuration
+
+Before you use GitHub you need to configure your workstation by providing the **name** and **email address** used by your Git Remote. Make sure you run these commands:
+```shell
+$ git config --global user.name "Joe Bloggs"
+$ git config --global user.email "bloggsj@coventry.ac.uk"
+```
+Remember to substitute _your_ details!
+
+Once this has been done any commits you push to GitHub will be tagged with your account.
+
 ## 2 Teams
 
 The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable). Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
