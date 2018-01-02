@@ -2,38 +2,22 @@
 
 Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. You should refer to [this week's presentation](https://drive.google.com/open?id=1maN7cEkJXG__t6YWewKS0CRNGLpGPmmDgYxusmk7LRA).
 
-## 1 GitHub
-You are required to maintain your code on the [University GitHub repository](https://github.coventry.ac.uk) where you will be added to the module organisation. For this to happen you will need to have logged in in order to generate your profile. The first task is to **log in using your University credentials** and notify your lab tutors if you can't do this.
-
-Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
-
-### 1.1 Local Configuration
-
-Before you use GitHub you need to configure your workstation by providing the **name** and **email address** used by your Git Remote. Make sure you run these commands:
-```shell
-$ git config --global user.name "Joe Bloggs"
-$ git config --global user.email "bloggsj@coventry.ac.uk"
-```
-Remember to substitute _your_ details!
-
-Once this has been done any commits you push to GitHub will be tagged with your account.
-
-## 2 Teams
+## 1 Teams
 
 The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable). Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
 
-## 3 Project
+## 2 Project
 
 Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
 
-## 4 Skills Audit
+## 3 Skills Audit
 Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project. use this [skills list](exercises/01_prof_dev/README.md) as a starting point.
 
 Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include skills taken from the [skills list](exercises/01_prof_dev/README.md) provided plus any others you feel might be useful.
 
 Refine the matrix using a 5 point scale.
 
-## 5 Professional Development Plan
+## 4 Professional Development Plan
 
 Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed during the **week 3 lab**. If any member of the team don't complete the tasks in their development plan by week 4 there is a risk _the project will fail!_ The plan should include:
 
@@ -46,11 +30,11 @@ Working together develop a **Professional Development Plan** for each team membe
 
 You can find some useful [learning resources](exercises/04_agile_dev/) in this repository.
 
-## 6 Team Psychology
+## 5 Team Psychology
 
 You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
 
-## 7 LinkedIn
+## 6 LinkedIn
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
 
 1. Add a suitable professional profile picture
