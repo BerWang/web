@@ -70,3 +70,15 @@ Now you need to organise your team in preparation for the first sprint which wil
     4. adding the team to each of these so everyone has access to all project repositories.
 
 Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.  
+
+## 6 GitLab
+
+In previous modules you have been using the GitHub Enterprise repository within the University but there for this one you will be using [GitLab](https://gitlab.com). As part of this week's labs you should configure GitLab for your team so you are ready to start development next week.
+
+1. Everyone needs to create accounts on the [GitLab](https://about.gitlab.com) server.
+2. Each organisation should be set up as a [group](https://gitlab.com/dashboard/groups) which is used to organise your repositories, set one up now for your team.
+    - Create and upload an **avatar** for the group using the **Settings** tab.
+3. Use the **Members** tab to add the team members to your group, assigning appropriate permissions (note that the permissions are _not_ the same as those used in GitHub so make sure you understand these clearly).
+4. Create repositories for each part of the project, using a logical naming convention.
+    - Create and upload an **avatar** for each repository using the **Settings** tab.
+5. Clone the repositories onto your development workstations.
