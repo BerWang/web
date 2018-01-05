@@ -9,3 +9,24 @@ $ swift
   1> :exit
 $
 ```
+
+## Unit Testing CLI
+
+Use `xcodebuild`. The `-help` flag lists the available targets, build configurations and schemes. For this to work you need to specify a development team.
+
+```
+$ xcodebuild -list
+  Information about project "To Do":
+    Targets:
+      To Do
+      To DoTests
+      To DoUITests
+
+    Build Configurations:
+      Debug
+      Release
+
+    Schemes:
+        To Do
+```
+Now we can specify the appropriate scheme
