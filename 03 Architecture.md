@@ -1,4 +1,3 @@
-
 # Architecture
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
@@ -69,7 +68,7 @@ Now you need to organise your team in preparation for the first sprint which wil
     3. creating enough correctly named private repositories.
     4. adding the team to each of these so everyone has access to all project repositories.
 
-Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.  
+Before next week you need to make sure the team have all the required skills and have hacked together some code to prove that everything is solveable.
 
 ## 6 GitLab
 
@@ -77,19 +76,20 @@ In previous modules you have been using the GitHub Enterprise repository within 
 
 1. Everyone needs to create accounts on the [GitLab](https://about.gitlab.com) server.
 2. Upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
-2. Each organisation should be set up as a [group](https://gitlab.com/dashboard/groups) which is used to organise your repositories, set one up now for your team.
+3. Each organisation should be set up as a [group](https://gitlab.com/dashboard/groups) which is used to organise your repositories, set one up now for your team.
     - Create and upload an **avatar** for the group using the **Settings** tab.
-3. Use the **Members** tab to add the team members to your group, assigning appropriate permissions (note that the permissions are _not_ the same as those used in GitHub so make sure you understand these clearly).
-4. Create repositories for each part of the project, using a logical naming convention.
+4. Use the **Members** tab to add the team members to your group, assigning appropriate permissions (note that the permissions are _not_ the same as those used in GitHub so make sure you understand these clearly).
+5. Create repositories for each part of the project, using a logical naming convention.
     - Create and upload an **avatar** for each repository using the **Settings** tab.
-5. Clone the repositories onto your development workstations.
-6. Update the local `git config` in each of you cloned repositories:
+6. Clone the repositories onto your development workstations.
+7. Update the local `git config` in each of you cloned repositories:
     1. Navigate to the cloned repository.
     2. update your name `git config user.name "John Doe"` and email `git config user.email "johndoe@gmail.com"`. These must match those you used when creating your GitLab account.
     3. Update the default commit message editor from `vi` to `nano` using `git config core.editor "nano"`
-    3. check the _local config_ `less .git/config` which should show you that you have updated the local settings.
+    4. check the _local config_ `less .git/config` which should show you that you have updated the local settings.
 
 Here is a typical `.git/config` file:
+
 ```
 [core]
         repositoryformatversion = 0
@@ -106,3 +106,10 @@ Here is a typical `.git/config` file:
         name = John Doe
         email = johndoe@gmail.com
 ```
+
+## 7 Interacting with Git
+
+The main way you should use to work with Git are the _shell commands_ you enter using the _terminal_. Whilst you should be comfortable using these commands you might want to use a more graphical tool for day-to-day Git operations. There are many options however you should investigate:
+
+- Code editor Git integration: most modern code editors such as [Visual Studio Code](https://code.visualstudio.com) either come preconfigured with Git integration or it can be added as a plugin. These tools, whilst ideal for basic git work don't have the capability to run the more powerful commands.
+- Standalone Git tools: whilst there are a lot of these, many (such as the one available from GitHub) are not easy to use and you may cause issues with your repository. One of the ones recommended is [GitKraken](https://www.gitkraken.com) which although has a cost attached is free for academic use.
