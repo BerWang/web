@@ -10,3 +10,15 @@ Rather than provide instructions for different platforms there are already detai
 ## Getting Started
 
 Here is a [really good tutorial](https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html) from IBM showing you how to write your first unit test suite.
+
+## Unit Testing Arduino Code
+
+https://stackoverflow.com/questions/780819/how-can-i-unit-test-arduino-code
+
+https://github.com/mmurdoch/arduinounit/
+
+### Arduino Emulators
+
+https://github.com/maniacbug/ncore
+
+https://github.com/buserror/simavr
