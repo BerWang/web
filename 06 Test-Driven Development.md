@@ -9,7 +9,26 @@ In your first sprint we focussed on the **Scrum Metholology**. In this second sp
 
 For this to work you need a modularised code base for each aspect of your product with all code covered by comprehensive unit and integration tests with 100% coverage. If this is not the case, go back to last week's lab worksheet and complete these exercises.
 
-## 1 Sprint Planning
+## 1 Configuring Pull Requests
+
+In your first sprint you all had full access to the _Master Branch_ meaning anyone in the team could commit to it and merge branches into it. As you quickly discovered this caused a lot of problems. In this sprint your team will be making the master branch into a **protected branch**, restricting who can interact with it and how.
+
+### 1.1 Permissions
+
+The first step is to make sure that everyone in the team has been assigned the correct permission levels.
+
+1. One person in each _sub-team_ (eg, API, iOS, etc.) should be the designated **Code Owner**.
+2. There are four permission levels: Guest, Developer, Reporter, Master. Everyone in the team should have developer permission.
+3. The designated **Code Owner** for each repository should be given **Master** permissions.
+
+### 1.2 Protected Branches
+
+1. In your GitLab repositories go to `Settings > Repository` and expand the **Protected Branches** section.
+2. In the **Branch** dropdown list choose `master`.
+3. In the **Allowed to merge** dropdown list choose 'Masters', this will prevent except _code owners) from merging any code into this branch.
+4. In the **Allowed to push** dropdown list make sure that you choose `No one`, we don't want any code to be pushed directly into this branch.
+
+## 2 Sprint Planning
 
 As a team:
 
@@ -49,19 +68,42 @@ started but was not completed. It has remained in the implementation stage.
 The new tasks for the current sprint have been added into the first column.
 ```
 
-## 2 Conducting the Sprint
+## 3 Conducting the Sprint
 
 In this second sprint you will be adopting some additional agile concepts:
 
 1. Feature branches (each task on the Kanban board should be developed in its own branch).
 2. Test-driven development (each task should be defined as a set of tests that should be written **before** implementing the feature).
 3. Pair programming (during the sprint, each member of the team should spend at least 2 days working with another member of the team using the _pair programming_ technique).
+4. When a task has been completed (and the entire test suite passes) the developer should create a **pull request** (see below).
+5. The _pull request_ will need to be reviewed by the **Code Owner** who will need to merge the code into the **Master Branch**.
 
 These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing.
 
-## 3 Conducting the Sprint
+### 3.1 Creating a Pull/Merge Requests
 
-The overall development this week will still be using the Scrum methodology however by implementing feature branches, TDD and pair programming there are some additional steps.
+This should be carried out only if the feature is complete and all the automated tests (functional and non-functional) pass.
+
+1. Click on the **Merge Requests** tab.
+2. Click on the **New merge request** button.
+3. The _source branch_ is the feature branch and the _target branch_ should be the master branch.
+4. Click on the **Compare branches and continue** button.
+5. Review the changes at the bottom of the next screen.
+6. Add a title and description to the merge request, this should explain the work that has been done.
+7. Click on **Submit merge request**
+
+### 3.2 Approving a Pull/Merge Request
+
+All requests will need to be reviewed by the **Code Owner**.
+
+1. The number of merge requests needing approval are shown on the **Merge Requests** tab.
+2. Review the changes:
+    1. Pull the branch.
+    2. Review the changes (and run tests).
+3. Check the **Remove source branch** box.
+4. Click on the **Merge** button.
+
+If the code is not ready for merging you should add a comment and send it back to the development team. If the code is far from ready you can **close** the merge request.
 
 ### 3.1 Daily Standup Meeting
 
