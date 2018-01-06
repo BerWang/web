@@ -11,6 +11,7 @@ The agile teams have been set up to contain students with the range of skills ne
 Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
 
 ## 3 Skills Audit
+
 Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project. use this [skills list](exercises/01_prof_dev/README.md) as a starting point.
 
 Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include skills taken from the [skills list](exercises/01_prof_dev/README.md) provided plus any others you feel might be useful.
@@ -35,6 +36,7 @@ You can find some useful [learning resources](exercises/04_agile_dev/) in this r
 You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
 
 ## 6 LinkedIn
+
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
 
 1. Add a suitable professional profile picture

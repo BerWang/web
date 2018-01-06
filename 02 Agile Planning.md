@@ -1,4 +1,3 @@
-
 # Agile Planning
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. You should refer to [this week's presentation](https://drive.google.com/open?id=1_eH_1Nhz9HkGZSWFygRDtE2b7fyx7BxglKxuF4jqWeQ).
@@ -38,19 +37,19 @@ The team should support the client to record these requirements as user stories 
 
 Here are some user stories to get you started but you may be able to identify others:
 
--  As an _environmental officer_ I want to be able to _see the current temperature_ so that I _know when to send out gritting lorries_.
--  As an _environmental officer_ I want to be able to _see and track the current level of CO2_ so that I _can identify the air pollution level_.
--  As a _planning officer_ I want to be able to _track dust and noise levels on building sites_ so that I _can warn builders if this is too high_.
--  As an _environmental officer_ I want to be able to _measure the vibrations caused by heavy traffic_ so that I _can identify where this is excessive_.
+- As an _environmental officer_ I want to be able to _see the current temperature_ so that I _know when to send out gritting lorries_.
+- As an _environmental officer_ I want to be able to _see and track the current level of CO2_ so that I _can identify the air pollution level_.
+- As a _planning officer_ I want to be able to _track dust and noise levels on building sites_ so that I _can warn builders if this is too high_.
+- As an _environmental officer_ I want to be able to _measure the vibrations caused by heavy traffic_ so that I _can identify where this is excessive_.
 - As a _system admin_ I want to be able to _calibrate my sensors remotely_ to _avoid having to physically visit them to implement changes_.
--  As an _environmental officer_ I want to be able to _measure lighing levels_ so that I _can decide whether to switch on street lighting or install additional lights_.
--  As a _resident_ I want to be able to _receive alerts if air pollution exceeds national safe levels_ so that I _can decide whether to go outdoors_.
--  As a _resident_ I want to be able to _receive alerts if the level of UV exceeds safe levels_ so that I _am reminded to apply suncream_.
+- As an _environmental officer_ I want to be able to _measure lighing levels_ so that I _can decide whether to switch on street lighting or install additional lights_.
+- As a _resident_ I want to be able to _receive alerts if air pollution exceeds national safe levels_ so that I _can decide whether to go outdoors_.
+- As a _resident_ I want to be able to _receive alerts if the level of UV exceeds safe levels_ so that I _am reminded to apply suncream_.
 - As a _system admin_ I want to be _alerted when the sensor battery needs replacing_ so that I _can replace the batteries before they run out completely_.
--  As a _resident_ I want to be able to _receive a summary of pollution in my immediate location_ so that I _can take appropriate action_.
--  As an _environmental officer_ I want to be able to _identify areas suffering from regular high levels of air pollution_ so that I _can install detailed air monitoring tools and take action to reduce the level of pollution_.
--  As an _local politician_ I want to be able to _see a map of the average pollution across the city_ so that I _can target air-quality planning more effectively_.
--  As an _house buyer_ I want to be able to _see noise and air pollution for a given postcode_ so that I _can decide whether to make a house purchase_.
+- As a _resident_ I want to be able to _receive a summary of pollution in my immediate location_ so that I _can take appropriate action_.
+- As an _environmental officer_ I want to be able to _identify areas suffering from regular high levels of air pollution_ so that I _can install detailed air monitoring tools and take action to reduce the level of pollution_.
+- As an _local politician_ I want to be able to _see a map of the average pollution across the city_ so that I _can target air-quality planning more effectively_.
+- As an _house buyer_ I want to be able to _see noise and air pollution for a given postcode_ so that I _can decide whether to make a house purchase_.
 - As a _police officer_ I want to be able to _track noise levels in residential areas_ so that I _can identify nuisance residents and enforce noise restrictions_.
 
 Now work with your client to apply **MoSCoW** rules so that these requirements are prioritised correctly.
