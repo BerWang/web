@@ -25,6 +25,12 @@ You will need to create a `.gitlab-ci.yml` file in the root directory of your pr
 
 You will also need to configure GitLab to only allow merging if all tests have passed. In this way you can bypass the requirement for the code to be reviewed by the Scrum Master which should speed up the process of integrating code into the Master branch.
 
+### 1.1 Continuous Integration and Arduino Code
+
+The challenge for carrying out unit and integration tests for Arduino code is that it has to run on a server rather than on a physical microcontroller. There are links to useful web resources in the `exercises/08_ci/arduino/` directory.
+
+A good starting point is to base your build on the dedicated [Docker Arduino Environment](https://hub.docker.com/r/strm/dev-arduino/).
+
 ## 2 Planning the Third Sprint
 
 As a team:
