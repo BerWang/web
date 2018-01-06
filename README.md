@@ -22,7 +22,7 @@ The teaching materials are broken into 10 labs with each labsheet containing a l
 
 The assignment brief can be found [here](https://docs.google.com/document/d/1nVFiPvzr2JUlvnpQTUqGl7gcrk3CzTI_euat3zIUFDk/edit?usp=sharing).
 
-The grading rubric is available [here](https://docs.google.com/document/d/1AO4dH6ZYQdrIcbOK5APYjq0SOeiysu1diDILMEcU__c/edit?usp=sharing).
+The grading rubric is available [here](https://drive.google.com/open?id=1kO1JHfO-EHC-AUrBfnUSS9441rLkrsEagjUUayp7waQ).
 
 ## Module Overview
 
