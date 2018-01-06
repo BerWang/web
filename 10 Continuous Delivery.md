@@ -5,48 +5,34 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1SY1VGNr4X9-gLq0OLeOPmVmH1E4CeaBxFKJUygLSd_c).
 
-Need to include deployment information as well.
+Welcome to the final sprint where you will be applying all the skills and knowledge you have acquired over the previous sprints but also build a continuous delivery pipeline to completely automate the delivery process.
 
-## Behaviour-Driven Development
+## 1 Configure Systems
 
-Before starting your next sprint, revisit each of the completed _user stories_ and define each of them using a _business-readable DSL_ such as Gherkin. There is an example in the `exercises`
+For a complete continuous delivery pipeline you will need to configure two platforms. The first will be a test environment where you will run your _acceptance tests_ and demonstrate functionality to the client whilst the second will be your live system. The systems you develop will depend on the component you are developing:
 
-1. Create a `features/` directory.
-2. Create a file with a `.feature` extension for each user story.
-3. At the top of each of the files create a **feature** and add the user story.
-4. Now define a number of **scenarios** to clearly and unambiguously define all the tests you need to carry out.
-5. Under each scenario, list the steps required.
-6. Finally you need to create a short _Javascript_ script called `testRunner.js` which will run the `gherkindoc` tool to generate your **documentation site**. This should be generated in the `docs/features/` directory which will allow you to view the website after pushing to **GitHub**.
+1. For the embedded system, the test environment could be a microcontroller where you can programmatically control the inputs and monitor the outputs. The live environment will be the sensor module package that will be deployed 'in the wild'.
+2. For the API you will need two cloud-based servers. There are plenty of platforms such as [Google Cloud](https://cloud.google.com) and [AWS](https://aws.amazon.com) however you should also consider using [Heroku](https://heroku.com) who provide up to 5 free microservers (plus there are tutorials in the `exercises/03_architecture/deployment` directory and it is used in the sample project.
+3. For the smartphone apps, the test environment can be an emulator but you should also consider a pipeline that pushes the app to test devices. Examples of this is the [TestFlight](https://developer.apple.com/testflight/) tool for iOS but there are plenty of cross-platform [alternatives](https://rollout.io/blog/testflight-alternatives-ios-beta-testing/) you can try.
 
-## Executable Specifications
+## 2 Configure the Pipeline
 
-By now you should have a complete set of feature files that cover all the user stories you have developed so far. The next step is to convert these into _executable specifications_ using the **Cucumber** tool. This takes each _feature file_ and tries to run these against the software you are developing.
+Now you have the different environments configured we need implement a full Continuous Delivery pipeline that includes:
 
-To achieve this you need to set up a series of step definitions that _translate_ lines in your _scenarios_ into automated steps that are carried out on your software. There are two decisions to be made:
+1. Unit and integration tests.
+2. Non-functional tests.
+3. Deployment to a test environment to:
+    1. Run acceptance tests.
+    2. Demonstrate to the client.
+4. Deployment to a live enviroment.
 
-1. What language will you use to write the step definitions? Although Cucumber was originally written in **Ruby** it has been ported to many other languages including Python, Java and Nodejs (JavaScript).
-2. What driver will you use to allow the step definitions to interacti with your product. This will largely depend on the platform you are developing on:
-    1. If you are developing a _web_ frontend you should probably stick to the **Selenium Web Driver**.
-    2. If you are developing an _Android_ frontend you should try using the [Green Coffee](https://github.com/mauriciotogneri/green-coffee) library.
-    3. If you are developing an _iOS_ frontend you should try [XCTest-Gherkin](https://cocoapods.org/pods/XCTest-Gherkin).
-    
-You can find some examples in the `exercises/05_acceptance/` directory.
+1. In your team, agree on the stages you need in your pipeline and what jobs should go in each stage. You should draw a diagram to ensure the logic works.
+2. Modify your GitLab CI pipeline by editing the `.gitlab-ci.yml` file. use the examples in this repository as well as the online examples.
 
-## Acceptance Testing
+## 3 Final Sprint
 
-At this stage you should have a full _suite_ of:
+This is your fourth and final sprint in this module. In it you need to incorporate all the skills and knowledge from the previous sprints but you should also:
 
-1. Gherkin feature files
-2. A testrunner that converts these into executable specifications and runs them against your frontend.
-
-Make sure that these are completed before continuing.
-
-The final step is to write the _feature files_ for the user stories you will be completing _in the next sprint_.
-
-1. Take each of the user stories and add a new `.feature` file for each.
-2. Add the user story as a _feature_ to the files.
-3. Define the success criteria by writing enough _scenarios_ to cover all eventualities.
-4. You may need to tweak the _step definitions_.
-5. Run the full test suite, the new scenarios should fail.
-
-You are now ready to start the next sprint which will run all of next week.
+1. Make use of Continuous Delivery.
+2. Make use of an alternative Git workflow.
+3. Try using alternative agile methodologies.
