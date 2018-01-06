@@ -122,6 +122,13 @@ You should now create a separate test suite for each of these code modules. The 
 
 There are examples of unit tests for multiple languages in the `/exercises/07_unit/` directory on GitHub.
 
+##### 2.1.2.1 Unit Testing Microcontroller Code
+
+One special case is writing and executing unit test on code that will eventually run on a microcontroller. There are two approaches that you should investigate and reflect on in your report:
+
+1. Arduino _libraries_ are written in standard C++ so, if there are no dependencies on Arduino-specific libraries you can write your unit tests using a standard testing framework. There is more information in the `exercises/05_code_quality/05_unit/cpp/` directory.
+2. If you are using _Arduino-specific libaries_ you may need to test your code using an **Atmel emulator**. Again, there is more information in the same directory.
+
 ### 2.2 Integration Testing
 
 Although you now have a suite of unit tests for the isolated mode modules/classes, there are some code modules/units/files that are not currently being tested. This could be for one of two reasons:
