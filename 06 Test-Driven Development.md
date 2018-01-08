@@ -73,10 +73,15 @@ The new tasks for the current sprint have been added into the first column.
 In this second sprint you will be adopting some additional agile concepts:
 
 1. Feature branches (each task on the Kanban board should be developed in its own branch).
-2. Test-driven development (each task should be defined as a set of tests that should be written **before** implementing the feature).
+2. Implement **Test-Driven Development**:
+    1. Write a _test list_ to define the functionality.
+    2. Convert these into unit tests.
+    3. Write code to pass the tests.
+    4. Refactor the code, ensuring all tests still pass.
 3. Pair programming (during the sprint, each member of the team should spend at least 2 days working with another member of the team using the _pair programming_ technique).
-4. When a task has been completed (and the entire test suite passes) the developer should create a **pull request** (see below).
-5. The _pull request_ will need to be reviewed by the **Code Owner** who will need to merge the code into the **Master Branch**.
+4. Implement pull requests to merge the feature into the master branch:
+    1. When a task has been completed (and the entire test suite passes) the developer should create a **pull request** (see below).
+    2. The _pull request_ will need to be reviewed by the **Code Owner** who will need to merge the code into the **Master Branch**.
 
 These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing.
 
