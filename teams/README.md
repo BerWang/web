@@ -69,6 +69,7 @@ Tuesday 16:00-18:00 and Wednesday 09:00-11:00
 6. Harvey VIRK
 7. Vishal WADHIA
 8. Hao Wang
+9. Joel Bradley
 
 ## 🐴 Team Horse
 
