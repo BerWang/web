@@ -43,6 +43,7 @@ Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 6. Safiyah Ali Khan
 7. Ralfs Lagzda
 8. Rayann Tedds
+9. Gerald Burns
 			
 ## 🐮 Team Cow
 
