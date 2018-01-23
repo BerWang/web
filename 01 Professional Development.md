@@ -4,7 +4,10 @@ Each week you will be expected to complete a series of lab activities in your tw
 
 ## 1 Teams
 
-The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable). Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
+The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable).
+
+1. Each team needs a catch phrase! Discuss and agree one for your team.
+2. Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
 
 ## 2 Project
 
