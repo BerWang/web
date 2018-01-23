@@ -8,7 +8,7 @@ The agile teams have been set up to contain students with the range of skills ne
 
 ## 2 Project
 
-Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
+Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%). The winning team will be entered in the West Midlands [Urban Challenge](https://urbanchallenge.io) competition in the Well Being category so make sure you are aware of the entry requirements.
 
 ## 3 Skills Audit
 
