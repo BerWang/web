@@ -1,31 +1,40 @@
 # Professional Development
 
-Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. The supporting presentation can be found at https://goo.gl/QZCu58
+Each week you will be expected to complete a series of lab activities in your two lab sessions. You will be required to reflect on these in your assignment so make sure you keep records of what you have done. You should refer to [this week's presentation](https://drive.google.com/open?id=1maN7cEkJXG__t6YWewKS0CRNGLpGPmmDgYxusmk7LRA).
 
-## GitHub
-You are required to maintain your code on the University GitHub repository at `https://github.coventry.ac.uk` where you will be added to the module organisation. For this to happen you will need to have logged in in order to generate your profile. The first task is to **log in using your University credentials** and notify your lab tutors if you can't do this.
+## 1 Teams
 
-Once you are logged in you must upload a head and shoulders photo of yourself into your GitHub profile so that everyone knows who you are.
+The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable).
 
-## Teams
-You will have already been assigned to a team by the module leader. You can see a list of your team members by clicking on the relevent file in this repository. Since all the worksheet tasks need to be completed as a team you will need to email everyone to ensure you all meet up together for _every_ lab session.
+1. Each team needs a catch phrase! Discuss and agree one for your team.
+2. Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
 
-## Project
-Read through the assignment brief and decide which project you will be working on, this choice will impact the work you carry out during this and subsequent weeks. Make sure you choose a **real client**, for some of the projects this is a named person but for the other projects you will need to choose someone (not one of the module staff though).
+## 2 Project
 
-## Skills Audit
-Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project.
+Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%). The winning team will be entered in the West Midlands [Urban Challenge](https://urbanchallenge.io) competition in the Well Being category so make sure you are aware of the entry requirements.
 
-1. Identify any existing skills that will help you complete the project.
-2. From this, identify any skills which your team is missing.
-3. Rate each member of your team against each of these skills using a 5 point scale.
-4. Repeat the exercise using the Four Stages of Competence.
-5. Finally map these skills using the SfiA framework.
-  1. You can download a range of guides from their website at http://www.sfia-online.org/en/get-sfia (you will need to register for a free account and log in).
-  2. Use the Summary Chart to identify the skills you are competent in and use the full documentation to identify your level.
-  3. Use the SFIA Reference Guide to understand what is required to achieve each level of each skill
+## 3 Skills Audit
 
-## Team Psychology
+Perform a detailed analysis of the problem you are going to solve and perform a Skills Audit on your team. There are a list of generic skills listed in the presentation which you will need to supplement with skills related to your choice of project. use this [skills list](exercises/01_prof_dev/README.md) as a starting point.
+
+Create a **Team Competency Matrix** using a simple **Red-Amber-Green** (RAG) scale as shown in the lecture. This should include skills taken from the [skills list](exercises/01_prof_dev/README.md) provided plus any others you feel might be useful.
+
+Refine the matrix using a 5 point scale.
+
+## 4 Professional Development Plan
+
+Working together develop a **Professional Development Plan** for each team member, identifying what they need to learn before the start of the development process in week 4. This will be reviewed during the **week 3 lab**. If any member of the team don't complete the tasks in their development plan by week 4 there is a risk _the project will fail!_ The plan should include:
+
+1. What they need to learn.
+2. Why they need to learn it
+3. How they will learn:
+    1. taught by another member of the team.
+    2. learn using specified online resources (list these).
+    3. learn from specific chapters of suitable books.
+
+You can find some useful [learning resources](exercises/04_agile_dev/) in this repository.
+
+## 5 Team Psychology
 
 You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group:
 
@@ -35,7 +44,8 @@ You have been introduced to a number of important (and potentially interesting?)
 4. What can be done to _prevent_ this from ocurring?
 5. What can be done to recover it it occurs?
 
-## LinkedIn
+## 6 LinkedIn
+
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
 
 1. Add a suitable professional profile picture
@@ -44,22 +54,4 @@ Use this information gained in the previous section to update your LinkedIn Prof
 4. Download your CV as a PDF.
 5. Use the search bar at the top of the screen to locate your other team members and add them to your profile.
 6. Repeat for other people in the group.
-7. Can you find any of your lecturers? Invite some of them to your network.
-8. Install LinkedIn on your smartphone...
-
-## Team Building
-By this stage you will have had an opportunity to observe your group dynamics.
-
-1. Assess the contribution made by each member of the team using the information from the presentation.
-2. Using the Group Roles listed in the presentation identify which categories each member of your team belong to. Do you have a balanced team?
-
-## Team Collaboration
-You should now have a clear idea about what you will be developing and there is a strong possibility that other teams will have chosen the same project. Sit down with other teams and use your skills audit and other information to decide whether you will collaborate on the development. You can choose to work with other teams or to complete the development using only your own team.
-
-## Getting Support
-During this module you will be expected to work in a team to develop a sophisticated app using the language and platform of your choice, however this is not a technical module and you will not be taught the technical programming skills you need to apply.
-If you are worried about your technical competence then it is recommended that you build a dynamic website. This can be achieved using the Python Flask framework. 
-
-1. You will have been taught Python during your previous modules and the Flask framework is simple enough to pick up after a couple of hours. There are plenty of online tutorials that teach this topic.
-2. The module covers a number of technical topics but there will always be sample code that can be applied to this language and framework.
-3. Take advantage of the programming support sessions which run daily in the EC building. All staff running this can help you with Python code.
+7. Install LinkedIn on your smartphone...

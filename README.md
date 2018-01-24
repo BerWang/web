@@ -2,68 +2,74 @@
 
 Welcome to the final year **Agile Development** module. This will teach you the skills you need to work in a modern software development team. Along the way you will gain lots of experience in developing a software solution.
 
-This repository contains all the worksheets and teaching materials.
+## Learning Outcomes
 
-The assignment brief can be found here:
+On completion of this module the student should be able to:
 
-https://goo.gl/ikXX5r
+1. Demonstrate a sound understanding of how Agile Methodologies can be used to define users’ requirements, analysis and design of information systems.
+2. Compare and contrast a range of current and emerging agile methodologies
+3. Evaluate the methods, techniques and tools for rapid development of various types of information systems, and the reasons for their selection and use.
+4. Use a range of appropriate tools to contribute to the development of a solution to a real-world problem.
 
-The grading rubric is available here:
+## Teaching Materials
 
-https://goo.gl/tDTfUo
+The teaching materials are broken into 10 labs with each labsheet containing a link to the appropriate presentation. The labs follow a 2-week cycle:
 
-### Features of revision control
+1. the first week requires you to do preparations and think about your work.
+2. in the second week you will be required to work as a professional development team.
 
-Each change is usually identified by a revision number
-Each revision has a timestamp and the person responsible
-Revisions can be compared, restored, and merged
+## Assessment
 
-### Principles of agile supporting change
+The assignment brief can be found [here](https://docs.google.com/document/d/1nVFiPvzr2JUlvnpQTUqGl7gcrk3CzTI_euat3zIUFDk/edit?usp=sharing).
 
-The highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+The grading rubric is available [here](https://docs.google.com/document/d/1FgUzwn0VXYXUyjlFuhqPkvPsS8oi4R6kwyrRANDh0Mg/edit?usp=sharing).
 
-Changing requirements are welcome, even late in development. Agile processes harness change for the customer’s competitive advantage.
+## Module Overview
 
-Working software is delivered frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+During this module you will be working in medium-sized multi-skilled development teams on a real problem. The content of the module is as follows:
 
-Business people and developers must work together daily throughout the project.
+1. Professional development
+2. Agile planning (planning your agile project)
+3. Architecture
+4. Agile development (and your first sprint)
+5. Automated code testing
+6. Test-driven development (and the second sprint)
+7. Advanced version control
+8. Continuous integration (and the third sprint)
+9. Acceptance testing
+10. Continuous delivery (and the final sprint)
+11. Exam revision
 
-### Principles of Lean Startups
+## The Team
 
-1. Innovation Accounting
-2. Entrepreneurs are Everywhere
-3. Entrepreneurship is Management
-4. Validated Learning
-5. Build Learn Measure
+You should already have access to the [Moodle Site](https://cumoodle.coventry.ac.uk/course/view.php?id=48328) for this module. On it you will see that you have been assigned to [a team of between 8 and 9 students](https://github.coventry.ac.uk/302CEM-1718JANMAY/TEACHING-MATERIALS/blob/master/teams/README.md). The teams contain a balance of skills that will enable you to complete the project. You should take a moment to identify the other members of your team and get in contact with them.
 
+## The Scenario
 
-### Innovation Accounting
+Local authorities such as Coventry are required to monitor the environment and report their findings to DEFrA. There are a number of targets imposed by the government. At the moment the equipment to do this is expensive. There are [guidelines](https://uk-air.defra.gov.uk/assets/documents/reports/cat06/0608141644-386_Purchasing_Guide_for_AQ_Monitoring_Equipment_Version2.pdf) issued by DEFRA that explain what should be monitored and the acceptable levels as well as guidance on purchasing the equipment to carry this out.
 
-Innovation accounting refers to the rigorous process of defining, empirically measuring and communicating the true progress of innovation 
+There are two levels of monitoring:
 
-### Lean Startup Methodology
+1. General monitoring through the use of large numbers of sensors to help identify the blackspots.
+2. Specialist units that can be placed in the worst blackspots that are capable of capturing a wider range of data at a higher accuracy. There is an example of this on Ball Hill. The systems are heavy, expensive and difficult to operate and are therefore only installed whre there is an existing pollution problem.
 
-1. Lean Startup helps manage uncertainty using the Lean startup methodology. The methodology will help determine whether her product is viable hence helping her work smarter.
-2. Pivot means to change directions to test a new fundamental hypothesis about product but stay grounded in what we have learned.
-3. Should start pivoting once they believes that their current approaching is not working. This can be validated by measuring their progress and whether it is moving the drivers of her business model. If it is not, it is time to pivot.
+There are already companies providing solutions to point 2 but little on the market to give an overall picture.
 
-### Dynamic System Development Method
+You have been approached by an environmental monitoring company to develop the prototype of a new range of low-cost smart sensor boxe which they plan to sell to local authorities. These should capture data and send it over a wifi network to a central server. They also want a smartphone app that residents can use to find out about the pollution levels where they are, track over time and warn them if they exceed specified limits.
 
-1. Active user involvement is imperative.
-2. Teams must be empowered to make decisions. The four key variables of empowerment are: authority, resources, information and accountability.
-3. Frequent delivery of products is essential.
-4. Fitness for business purpose is the essential criterion for acceptance of deliverables.
-5. Iterative and incremental development is necessary to converge on an accurate business solution.
-6. All changes during development are reversible, i.e. you do not proceed further down a particular path if problems are encountered, you backtrack to the last safe or agreed point, and then start down a new path.
-7. Requirements are baselined at a high level, i.e. the high-level business requirements, once agreed, are frozen. This is essentially the scope of the project.
-8. Testing is integrated throughout the life cycle, i.e. ‘test as you go’ rather than testing just at the end where it frequently gets squeezed.
+They would like to be able to monitor:
 
-### Soft vs Hard Thinking
+- Temperature
+- Humidity
+- Light levels
+- Levels of UV
+- CO2
+- Airbourne dust particles
+- Ambient background noise
+- low frequency vibration caused by lorries, buses and aircraft
 
-| Soft Systems Thinking | Hard Systems Thinking |
-| --- | --- |
-| organisational problems are ‘messy’ (Ackoff, 1974), poorly defined | objective reality of systems in the world |
-| stakeholders interpret problems differently (no objective reality) | well-defined problem to be solved |
-| human factors important | technical factors foremost |
-| creative, intuitive approach to problem-solving | scientific approach to problem-solving |
-| outcomes are learning, better understanding, rather than a ‘solution’ | one correct solution|
+They would like to have a smartphone app to use the data in the following ways:
+
+- Map of the area with overlays showing pollution levels.
+- Summary of the pollution in the user's current location mapped against acceptable norms
+- alerts if pollution exceeds the agreed levels.
