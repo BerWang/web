@@ -55,3 +55,23 @@ Use this information gained in the previous section to update your LinkedIn Prof
 5. Use the search bar at the top of the screen to locate your other team members and add them to your profile.
 6. Repeat for other people in the group.
 7. Install LinkedIn on your smartphone...
+
+## 7 Preparation
+
+You will need to ensure your skills are up to date before we begin preparation in week 3.
+
+### 7.1 Sensors and microcontrollers
+
+1. plug in the ESP8266 and get the LED to flash
+2. Try to connect the ESP8266 to the `ECL-LEGO-ROBOTS` wifi network.
+3. Create an onboard counter on the ESP8266
+4. Publish the counter to [Adafruit](adafruit.io)
+
+### 7.2 API Team
+
+1. Subscribe to an MQTT data feed on [Adafruit](adafruit.io) using NodeJS and print data to terminal
+2. Build an MQTT server
+
+### 7.3 Front End
+
+1. Get familiar with the mapping APIs! (Google Maps / Apple Maps)
