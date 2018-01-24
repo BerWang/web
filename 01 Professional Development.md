@@ -70,7 +70,7 @@ You will need to ensure your skills are up to date before we begin preparation i
 ### 7.2 API Team
 
 1. Subscribe to an MQTT data feed on [Adafruit](https://io.adafruit.com/) using NodeJS and print data to terminal. There is a good [online tutorial](https://learn.adafruit.com/adafruit-io/mqtt-api) to get you started.
-2. Build an MQTT server
+2. Build an MQTT server. Heroku offer a [free hosting option](https://devcenter.heroku.com/articles/cloudmqtt)
 
 ### 7.3 Front End
 
