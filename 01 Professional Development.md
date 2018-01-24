@@ -27,7 +27,13 @@ Perform a detailed analysis of the problem you are going to solve and perform a 
 
 ## Team Psychology
 
-You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
+You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group:
+
+1. Discuss the 'symptoms' of each (what should you be looking out for)?
+2. What is the short-term impact on the team?
+3. If not addressed what might be the longer-term impact? Is it recoverable at this stage?
+4. What can be done to _prevent_ this from ocurring?
+5. What can be done to recover it it occurs?
 
 ## LinkedIn
 Use this information gained in the previous section to update your LinkedIn Profile. Having one of these will improve your chances of getting a good graduate job.
