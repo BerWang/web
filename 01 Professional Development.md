@@ -65,11 +65,11 @@ You will need to ensure your skills are up to date before we begin preparation i
 1. plug in the ESP8266 and get the LED to flash
 2. Try to connect the ESP8266 to the `ECL-LEGO-ROBOTS` wifi network.
 3. Create an onboard counter on the ESP8266
-4. Publish the counter to [Adafruit](adafruit.io)
+4. Publish the counter to [Adafruit](https://io.adafruit.com/)
 
 ### 7.2 API Team
 
-1. Subscribe to an MQTT data feed on [Adafruit](adafruit.io) using NodeJS and print data to terminal
+1. Subscribe to an MQTT data feed on [Adafruit](https://io.adafruit.com/) using NodeJS and print data to terminal
 2. Build an MQTT server
 
 ### 7.3 Front End
