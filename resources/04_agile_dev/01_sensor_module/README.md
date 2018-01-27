@@ -1,5 +1,5 @@
 
-# The Sensor Module
+# Electronic Equipment
 
 Congratulations, you have been assigned to develop the sensor module for this project. You will need to apply the skills you have learned on the CHSE programme, on the 307CR module or through your personal learning.
 
@@ -38,7 +38,7 @@ You will be provided with an **ESP8266 Development Module**.
 
 ## Sensors
 
-There are a number of sensors that can be used for environmental sensors but it is important that you only pick those that are supported by Arduino libraries. The table below shows some of the most useful ones and includes links to online tutorials. If you identify other useful ones, let the module leader know and they can be added to the list. The ones shown _italicised_ are **not** part of the provided kit. Links are provided to suitable tutorials.
+There are a number of sensors that can be used for environmental sensors but it is important that you only pick those that are supported by Arduino libraries. The table below shows some of the most useful ones and includes links to online tutorials. If you identify other useful ones, let the module leader know and they can be added to the list.
 
 | Environment                                           | Sensor       | Interface  |
 | ----------------------------------------------------- | ------------ | ---------- |
@@ -81,24 +81,32 @@ As part of this project you may want to add a screen to display useful informati
 The following items will be in the kit issued to your team. Make sure you check everything is there before signing for it.
 
 | Equipment                                                   | Cost  |
-| ----------------------------------------------------------- | ----: |
-| [NodeMCU ESP8266 CP2102 v3](http://amzn.eu/iFhW1f4)         | £6.99 |
-| [Micro-USB cable 30cm](http://amzn.eu/eJ6z1Ux)              | £3.99 |
-| [Breadboard](http://amzn.eu/4r8UL9Q)                        | £1.56 |
-| [Jumper wires x65](http://amzn.eu/ejw4p3Q)                  | £3.95 |
-| [Temperature sensor module DS18B20](http://amzn.eu/6h2mzBC) | £1.35 |
-| [Temperature/Humidity module DHT11](http://amzn.eu/glrhIqs) | £1.46 |
-| [Gas sensor MQ-135](http://amzn.eu/h573jLl)                 | £5.60 |
-| [Light sensor GY-2561 TSL2561](http://amzn.eu/a07k83G)      | £1.62 |
-| [Vibration sensor SW-420](http://amzn.eu/crleUBd)           | £1.76 |
-| [Sound sensor KY-038](http://amzn.eu/3tkqZG2)               | £3.60 |
-| [Stanley storage box](http://amzn.eu/hyI4x9J)               | £7.30 |
+| Equipment                                                   | Qty | Cost  |
+| ----------------------------------------------------------- | --: | ----: |
+| [Storage box](http://amzn.eu/hyI4x9J)                       | 1   | £7.30 |
+| [NodeMCU ESP8266 CP2102 v3](http://amzn.eu/iFhW1f4)         | 1   | £6.99 |
+| [Micro-USB cable 30cm](http://amzn.eu/eJ6z1Ux)              | 1   | £3.99 |
+| [Breadboard](http://amzn.eu/4r8UL9Q)                        | 2   | £1.56 |
+| [Breadboard power supply](http://amzn.eu/3YVPeDC)           | 1   | £2.48 |
+| [AA Battery Holder to 9v](http://amzn.eu/616kZXO)           | 1   | £1.99 |
+| [Power Jack to 9v clip](http://amzn.eu/9HzCdCB)             | 1   | £1.00 |
+| [Jumper wires](http://amzn.eu/ejw4p3Q)                      | 65  | £3.95 |
+| [Mixed resistors](http://amzn.eu/76cxzbo)                   | -   | £1.00 |
+| [Mult-coloured LED](http://amzn.eu/88DIvzz)                 | 6   | £1.00 |
+| [RGB LED](http://amzn.eu/in4Ovho)                           | 4   | £1.00 |
+| [Temperature sensor module DS18B20](http://amzn.eu/6h2mzBC) | 1   | £1.35 |
+| [Temperature/Humidity module DHT11](http://amzn.eu/glrhIqs) | 1   | £1.46 |
+| [Gas sensor MQ-135](http://amzn.eu/h573jLl)                 | 1   | £5.60 |
+| [Light sensor GY-2561 TSL2561](http://amzn.eu/a07k83G)      | 1   | £1.62 |
+| [Vibration sensor SW-420](http://amzn.eu/crleUBd)           | 1   | £1.76 |
+| [Sound sensor KY-038](http://amzn.eu/3tkqZG2)               | 1   | £3.60 |
+| [Ultrasonic sensor HC-SR04](http://amzn.eu/cEqKyuC)         | 1   | £1.00 |
 
 **NOTE:** One member of the team will have to sign for the kit at the start of the project. Any missing items will be charged at the prices in the table above.
 
 ### Basic Electronic Components
 
-As well as the various sensors you will need some basic electronic components.
+As well as the various sensors you will need some basic electronic components. These can be obtained from the electronics lab on the second floor of the EEC building.
 
 | Component                        | Qty |
 | -------------------------------- | --: |
@@ -107,37 +115,27 @@ As well as the various sensors you will need some basic electronic components.
 | Resistor 27K                     |   5 |
 | Push button (DP)                 |   5 |
 
-### Additional Components
+### Additional Sensors
 
-Your trip organisers can provide your team with the following components.
+Your lab supervisor will be able to provide limited quantities of the following additional sensors.
 
 | Equipment                                                      | Cost   | Qty |
 | -------------------------------------------------------------- | -----: | --: |
-| [USB type-c to Micro-b 15cm cable](http://amzn.eu/0EwGYjA)     |  £5.51 |   2 |
-| [USB to USB-C adapter](http://amzn.eu/6FTTtUW)                 |  £5.49 |   2 |
-| [Breadboard power supply](http://amzn.eu/cczLbg7)              |  £2.48 |   5 |
-| [Rechargable 9v battery](http://amzn.eu/6kKladh)               |  £5.78 |   5 |
 | [UV sensor VEML6070](http://amzn.eu/grXhZ2C)                   | £10.42 |   5 |
 | [Dust sensor GP2Y1010AU0F](http://amzn.eu/5xqZT1y)             |  £8.76 |   5 |
 | [GY-NEO6MV2 NEO-6M GPS Module](http://amzn.eu/j07kOl8)         |  £5.99 |   5 |
 | [Real time clock DS3231](http://amzn.eu/0VfAOTr)               |  £4.99 |   2 |
 | [0.96 ssd1306 i2c OLED](http://amzn.eu/g3Be2pk)                |  £6.99 |   5 |
-| [ESP8266 ESP-12E module](http://amzn.eu/b9CUYlZ)               |  £2.03 |   2 |
-| [MicroUSB 3.3v/5v regulator](https://goo.gl/HKv8jr)            |  £2.99 |   2 |
-| [Male header pins 0.1" pitch (40 pin)](http://amzn.eu/cmXmuGU) |  £5.99 |  50 |
-| [Male header pins 2mm pitch (40 pin)](http://amzn.eu/eXAIKxn)  |  £1.27 |  10 |
-| [USB TTL serial cable](http://amzn.eu/3aLUqLr)                 |  £5.99 |   2 |
 
 ## Lab Equipment
 
-During your project you may need to troubleshoot your circuits. There are a number of tools that can be requested from the trip organisers. Make sure you have researched their purpose and how they are used, the trip organisers can help.
+During your project you may need to troubleshoot your circuits. There are a number of tools that can be accessed in the Electronics lab on the second floor of the ECB. Make sure you have researched their purpose and how they are used.
 
 | Equipment                                              | Cost   | Qty |
 | ------------------------------------------------------ | -----: | --: |
 | [Multimeter](http://amzn.eu/gMtjFrh)                   |  £3.82 |   2 |
 | [USB voltage/current meter](http://amzn.eu/0Hdmuff)    |  £3.99 |   2 |
-| [USB soldering iron](http://amzn.eu/0yH0Mbu)           |  £6.95 |   1 |
-| [Solder (1mm)](http://amzn.eu/d9PRCrz)                 |  £8.02 |   1 |
+| [Soldering iron](http://amzn.eu/0yH0Mbu)               |  £6.95 |   1 |
 | [Bus pirate v4](http://amzn.eu/f8b1qrQ)                | £38.99 |   1 |
 | [Bus pirate probes](http://amzn.eu/cbTu20s)            |  £5.99 |   1 |
 | [Open workbench logic sniffer](http://amzn.eu/8Pl4BUy) | £62.99 |   1 |
