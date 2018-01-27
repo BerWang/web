@@ -17,6 +17,18 @@ Tools > Boards > Board manager.
 
 find `esp8266 by esp8266 community` and install.
 
+## Board setup for programming
+
+After installing the drivers, you can choose the correct board in your IDE.
+
+In Arduino IDE --> Tools --> Board --> Generic ESP8266 Module
+
+Next you need to set the COM port and baud rate.
+
+To find out which COM port you have connected your NodeMCU development board to, you can use Device Manager or a Serial Watcher [Apps Anywhere](https://appsanywhere.coventry.ac.uk/) program.
+
+For programming you will need to select the COM port and Baud Rate 115200 Upload Speed.
+
 ## Connecting to WiFi
 
 One of the most important jobs is to make sure the NodeMCU can connect to a WiFI network, otherwise you won't be able to send any data to the API. There is a useful library called `ESP8266WiFi` which was installed if you followed the steps above. Below is a simple sketch to test the connection to the WiFi network.

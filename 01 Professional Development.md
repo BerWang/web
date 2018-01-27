@@ -4,11 +4,14 @@ Each week you will be expected to complete a series of lab activities in your tw
 
 ## 1 Teams
 
-The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable). Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
+The agile teams have been set up to contain students with the range of skills needed to complete the module. Each team is named after an animal. Check the [team list](teams/README.md) to find out which team you have been assigned to and which lab slots you will need to attend (these should also be shown on your University timetable).
+
+1. Each team needs a catch phrase! Discuss and agree one for your team.
+2. Early on in the _first lab session_ email any members of your team who have not turned up to remind them to attend. It it very important that you meet up _every scheduled lab_ to avoid falling behind!
 
 ## 2 Project
 
-Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%).
+Read the [assignment brief](README.md) carefully to understand the scope of the group project. Ask your _lab supervisors_ if you have any questions. The product is only worth **10%** of your final grade however the skills and knowledge you acquire by completing the weekly lab worksheets will be needed to complete the reflective report (50%) and revise for the exam (40%). The winning team will be entered in the West Midlands [Urban Challenge](https://urbanchallenge.io) competition in the Well Being category so make sure you are aware of the entry requirements.
 
 ## 3 Skills Audit
 
@@ -33,7 +36,13 @@ You can find some useful [learning resources](exercises/04_agile_dev/) in this r
 
 ## 5 Team Psychology
 
-You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group study each of these by finding additional information online and discuss how each may impact the cohesion of the team and its effectiveness at completing the product.
+You have been introduced to a number of important (and potentially interesting?) areas of psychology that relate to group behaviour. As a group:
+
+1. Discuss the 'symptoms' of each (what should you be looking out for)?
+2. What is the short-term impact on the team?
+3. If not addressed what might be the longer-term impact? Is it recoverable at this stage?
+4. What can be done to _prevent_ this from ocurring?
+5. What can be done to recover it it occurs?
 
 ## 6 LinkedIn
 
@@ -46,3 +55,23 @@ Use this information gained in the previous section to update your LinkedIn Prof
 5. Use the search bar at the top of the screen to locate your other team members and add them to your profile.
 6. Repeat for other people in the group.
 7. Install LinkedIn on your smartphone...
+
+## 7 Preparation
+
+You will need to ensure your skills are up to date before we begin preparation in week 3.
+
+### 7.1 Sensors and microcontrollers
+
+1. plug in the ESP8266 and get the LED to flash
+2. Try to connect the ESP8266 to the `ECL-LEGO-ROBOTS` wifi network.
+3. Create an onboard counter on the ESP8266
+4. Publish the counter to [Adafruit](https://io.adafruit.com/)
+
+### 7.2 API Team
+
+1. Subscribe to an MQTT data feed on [Adafruit](https://io.adafruit.com/) using NodeJS and print data to terminal. There is a good [online tutorial](https://learn.adafruit.com/adafruit-io/mqtt-api) to get you started.
+2. Build an MQTT server. Heroku offer a [free hosting option](https://devcenter.heroku.com/articles/cloudmqtt)
+
+### 7.3 Front End
+
+1. Get familiar with the mapping APIs! (Google Maps / Apple Maps)
