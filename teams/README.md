@@ -56,7 +56,8 @@ Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 5. James Mensah
 6. Ross Patrick Aneurin Miller
 7. Kate Sturmey
-8. Gongzhi Wang 			
+8. Gongzhi Wang
+9. Mfoniso Jackson
 
 ## 🦊 Team Fox
 
