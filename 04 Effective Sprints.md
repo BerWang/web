@@ -3,6 +3,10 @@
 
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
 
+This week is very important. You will be conducting your first sprint. To do this you will be expected to meet every morning to conduct your daily standup meeting (see below on how to do this) and will be expected to spend the rest of the day in your teams completing the work agreed.
+
+You have already decided on who will be the **Scrum master** and the **product owner** and will already have prepared the **Kanban board** and **Burndown chart** which means you can dive straight into the coding.
+
 You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs).
 
 ## 1 Conducting the Sprint
