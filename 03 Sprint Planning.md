@@ -132,3 +132,14 @@ The main way you should use to work with Git are the _shell commands_ you enter 
 
 - Code editor Git integration: most modern code editors such as [Visual Studio Code](https://code.visualstudio.com) either come preconfigured with Git integration or it can be added as a plugin. These tools, whilst ideal for basic git work don't have the capability to run the more powerful commands.
 - Standalone Git tools: whilst there are a lot of these, many (such as the one available from GitHub) are not easy to use and you may cause issues with your repository. One of the ones recommended is [GitKraken](https://www.gitkraken.com) which although has a cost attached is free for academic use.
+
+## 7 Next Steps
+
+You are now ready to conduct your first sprint which will start first thing on Monday morning. Make sure you clear your schedules as much as possible and as a group decide where you will meet up for your first daily standup early on Monday morning. The instructions for conducting this meeting are detailed in the next worksheet.
+
+### 7.1 Places to Meet
+
+For an effective sprint you need to be meeting and working together all next week. Suggestions for suitable places to meet could be:
+
+1. The cafe in the EEC building or in town.
+2. The seating in the Student Hub (beanbags or cubicles). or in the coffee shop or eating areas.
