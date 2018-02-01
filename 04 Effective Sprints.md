@@ -5,12 +5,13 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs).
 
-## 2 Conducting the Sprint
+## 1 Conducting the Sprint
 
 During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
 1. Check the _Kanban board_ is up to date.
-1. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+2. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+
 ```
 ╔════════════════╦════════════════╦════════════════╦════════════════╗
 ║ To Do          ║ Planning       ║ Implementation ║ Done           ║
@@ -25,13 +26,14 @@ During this first sprint, your development team will need to carry out a **Daily
 ║                ║                ║                ║                ║
 ║                ║                ║                ║                ║
 ╚════════════════╩════════════════╩════════════════╩════════════════╝
-From this Kanban board you can see that one of the tasks has been 
+From this Kanban board you can see that one of the tasks has been
 completed (and so these hours come off the burndown chart).
-One of the tasks has been started but is not yet complete (this stays 
+One of the tasks has been started but is not yet complete (this stays
 on the burndown chart)
-The last task has not been fully planned out, this task should be a 
+The last task has not been fully planned out, this task should be a
 priority until the next daily standup.
 ```
+
 ```
   40 ║*
      ║   *  o
@@ -57,21 +59,3 @@ During the meeting:
 If any problems were identified during the standup these will need to be resolved by the appropriate team immediately **after** the daily standup. Make sure the resolution is explained to the _Scrum Master_ before continuing work.
 
 Now each team have tasks assigned and will need to implement these before the next daily standup.
-
-## 3 Review Meeting
-
-You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
-
-1. The **Product Owner** reads the user story/storys completed during the sprint.
-2. The **Scrum Master** demonstrates the new features to the client.
-3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
-
-The team then move on to the next _sprint planning meeting_ whilst the client is present.
-
-## 4 Retrospective
-
-Each week the development team should meet up (without the client) and ask each member of the team to identify:
-
-1. What they should continue to do (existing good practice)
-2. What they should **start** doing (new good practice)
-2. What they should **stop** doing (eliminiate bad practices)

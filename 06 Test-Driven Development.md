@@ -48,6 +48,7 @@ As a team:
     4. Move any tasks you didn't complete in the first sprint onto this new board.
     5. Add the new tasks for this sprint to the left column of your new Kanban board.
     6. Draw up a fresh burndown chart for the current sprint.
+
 ```
 ╔════════════════╦════════════════╦════════════════╦════════════════╦════════════════╗
 ║ To Do          ║ Write Tests    ║ Implementation ║ Refactoring    ║ Done           ║
@@ -62,7 +63,7 @@ As a team:
 ║   │        │   ║                ║                ║                ║                ║
 ║   └────────┘   ║                ║                ║                ║                ║
 ╚════════════════╩════════════════╩════════════════╩════════════════╩════════════════╝
-In the example above note that one of the tasks from the previous sprint had been 
+In the example above note that one of the tasks from the previous sprint had been
 started but was not completed. It has remained in the implementation stage.
 
 The new tasks for the current sprint have been added into the first column.
@@ -115,7 +116,7 @@ If the code is not ready for merging you should add a comment and send it back t
 Your development team will still need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
 1. Check the _Kanban board_ is up to date.
-1. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+2. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
 
 The Scrum Master needs to make sure everyone is engaged in the process. Adopt the following policy:
 
@@ -167,4 +168,4 @@ Each week the development team should meet up (without the client) and ask each 
 
 1. What they should continue to do (existing good practice)
 2. What they should **start** doing (new good practice)
-2. What they should **stop** doing (eliminiate bad practices)
+3. What they should **stop** doing (eliminiate bad practices)
