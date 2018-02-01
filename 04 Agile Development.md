@@ -5,65 +5,6 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs).
 
-## 1 Sprint Planning
-
-As a team:
-
-1. Identify who will be the **Scrum Master** and who will be the **Product Owner**.
-2. Ideally with the client present, take the first user story from the top row of your user story map:
-    1. The product owner describes it from the user's perspective
-    2. Discusses how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
-    3. Explain the success criteria (how will the team know they have completed the story implementation.
-3. Once the client has left:
-    1. Break the story into the component tasks and write these on sticky notes.
-    2. Use planning poker to estimate how many hours each task will take.
-        -  If the estimated time for a task is longer than 4 hours, consider splitting the task down.
-    3. Add them to the left column of your Kanban board.
-    4. Finally the _Scrum Master_:
-        1. adds up the estimated durations for the tasks on the Kanban board and
-        2. draws out a burndown chart:
-            1. The X axis should show the days in the sprint.
-            2. the Y axis should show the combined duration.
-        3. draws a staight line from the top of the Y axis to the end of the X axis to indicate the optimal burn rate. 
-
-### 1.1 The Kanban Board
-
-For this first sprint, your Kanban board should have 4 columns as shown:
-```
-╔════════════════╦════════════════╦════════════════╦════════════════╗
-║ To Do          ║ Planning       ║ Implementation ║ Done           ║
-╟────────────────╫────────────────╫────────────────╫────────────────╢
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-╚════════════════╩════════════════╩════════════════╩════════════════╝
-```
-
-At the start of the sprint, all tasks should be in the first column. By the end of the sprint, all tasks should be in the last column.
-
-### 1.2 The Burndown Chart
-
-Here is an example of a burndown chart showing the line of optimal development. In this example the sprint lasts from Mon to Fri and there are an estimated 40 hours of development. It shows that the optimum burn rate would be 10 hours per day.
-```
-  40 ║*
-     ║   *
-  30 ║      *
-     ║         *
-  20 ║            *
-     ║               *
-  10 ║                  *
-     ║                     *
-  00 ║                        *
-     ╚══════════════════════════
-       M    T     W     T     F
-```
-
 ## 2 Conducting the Sprint
 
 During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:

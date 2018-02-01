@@ -56,6 +56,8 @@ Now work with your client to apply **MoSCoW** rules so that these requirements a
 
 Can you identify the _functional_ and _non-functional_ requirements in these user stories?
 
+----
+
 ## Agile Roadmap
 
 This activity should be carried out with the client. At the end of each step take a photograph of your roadmap, this will be useful when writing up your reflective report.
