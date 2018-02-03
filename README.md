@@ -30,8 +30,8 @@ During this module you will be working in medium-sized multi-skilled development
 
 1. Professional development
 2. Agile planning (planning your agile project)
-3. Architecture
-4. Agile development (and your first sprint)
+3. Sprint planning
+4. Effective sprints (and your first sprint)
 5. Automated code testing
 6. Test-driven development (and the second sprint)
 7. Advanced version control
