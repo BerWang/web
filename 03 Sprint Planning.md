@@ -34,25 +34,29 @@ As a team:
 
 ### 2.1 The Kanban Board
 
-For this first sprint, your Kanban board should have 4 columns as shown:
+For this first sprint, your Kanban board should have a row for each of the user stories you have chosen to deliver and 4 columns as shown:
 
 ```
-╔════════════════╦════════════════╦════════════════╦════════════════╗
-║ To Do          ║ Planning       ║ Implementation ║ Done           ║
-╟────────────────╫────────────────╫────────────────╫────────────────╢
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║
-╚════════════════╩════════════════╩════════════════╩════════════════╝
+╔═════════╦════════════════╦════════════════╦════════════════╦════════════════╗
+║ Story   ║ To Do          ║ Planning       ║ Implementation ║ Done           ║
+╟─────────╫────────────────╫────────────────╫────────────────╫────────────────╢
+║         ║   ┌────────┐   ║                ║                ║                ║
+║         ║   │        │   ║                ║                ║                ║
+║         ║   └────────┘   ║                ║                ║                ║
+║         ║   ┌────────┐   ║                ║                ║                ║
+║         ║   │        │   ║                ║                ║                ║
+║         ║   └────────┘   ║                ║                ║                ║
+╟─────────╫────────────────╫────────────────╫────────────────╫────────────────╢
+║         ║   ┌────────┐   ║                ║                ║                ║
+║         ║   │        │   ║                ║                ║                ║
+║         ║   └────────┘   ║                ║                ║                ║
+║         ║   ┌────────┐   ║                ║                ║                ║
+║         ║   │        │   ║                ║                ║                ║
+║         ║   └────────┘   ║                ║                ║                ║
+╚═════════╩════════════════╩════════════════╩════════════════╩════════════════╝
 ```
 
-At the start of the sprint, all tasks should be in the first column. By the end of the sprint, all tasks should be in the last column.
+At the start of the sprint, all tasks should be in the **To Do**. By the end of the sprint, all tasks should be in the **Done** column.
 
 ### 2.2 The Burndown Chart
 
@@ -98,8 +102,10 @@ In previous modules you have been using the GitHub Enterprise repository within 
 3. Each organisation should be set up as a [group](https://gitlab.com/dashboard/groups) which is used to organise your repositories, set one up now for your team.
     - Create and upload an **avatar** for the group using the **Settings** tab.
 4. Use the **Members** tab to add the team members to your group, assigning appropriate permissions (note that the permissions are _not_ the same as those used in GitHub so make sure you understand these clearly).
-5. Create repositories for each part of the project, using a logical naming convention.
-    - Create and upload an **avatar** for each repository using the **Settings** tab.
+5. Create repositories for each part of the project, using a logical naming convention and upload an **avatar** for each repository using the **Settings** tab:
+    1. A repository for the microcontroller code.
+    2. A repository for yor API code.
+    3. A repository for each of your clients (web, iOS, android) depending on the choices made by your team.
 6. Clone the repositories onto your development workstations.
 7. Update the local `git config` in each of you cloned repositories:
     1. Navigate to the cloned repository.
