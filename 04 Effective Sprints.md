@@ -7,7 +7,7 @@ This week is very important. You will be conducting your first sprint. To do thi
 
 You have already decided on who will be the **Scrum master** and the **product owner** and will already have prepared the **Kanban board** and **Burndown chart** which means you can dive straight into the coding.
 
-You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs).
+You should refer to [this week's presentation](https://drive.google.com/open?id=1nAEwEr7C6VTcRLSTnGqzhDvFzvek8fcKZuNHcjikBBs) as well as [this short video from IBM](https://youtu.be/oHcmLKroPqw).
 
 ## 1 Conducting the Sprint
 
@@ -63,3 +63,7 @@ During the meeting:
 If any problems were identified during the standup these will need to be resolved by the appropriate team immediately **after** the daily standup. Make sure the resolution is explained to the _Scrum Master_ before continuing work.
 
 Now each team have tasks assigned and will need to implement these before the next daily standup.
+
+## 2 Getting Feedback
+
+As part of the learning process you will need to conduct one of your sprints in a lab session so that your lab supervisors can watch and provide you with feedback that you can use to improve. You should attend the lab session that **starts at 09:00**.
