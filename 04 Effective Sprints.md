@@ -14,28 +14,34 @@ You should refer to [this week's presentation](https://drive.google.com/open?id=
 During this first sprint, your development team will need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
 1. Check the _Kanban board_ is up to date.
-2. add up the hours for all the tasks remaining incomplete on the Kanban board and using this to update the _Burndown Chart_.
+2. Add up the calculated hours for all the tasks in the **Done** column on the Kanban board and use this to update the _Burndown Chart_.
 
 ```
-╔════════════════╦════════════════╦════════════════╦════════════════╗
-║ To Do          ║ Planning       ║ Implementation ║ Done           ║
-╟────────────────╫────────────────╫────────────────╫────────────────╢
-║   ┌────────┐   ║                ║   ┌────────┐   ║   ┌────────┐   ║
-║   │        │   ║                ║   │        │   ║   │        │   ║
-║   └────────┘   ║                ║   └────────┘   ║   └────────┘   ║
-║                ║                ║                ║                ║
-║                ║                ║                ║                ║
-║                ║                ║                ║                ║
-║                ║                ║                ║                ║
-║                ║                ║                ║                ║
-║                ║                ║                ║                ║
-╚════════════════╩════════════════╩════════════════╩════════════════╝
-From this Kanban board you can see that one of the tasks has been
-completed (and so these hours come off the burndown chart).
-One of the tasks has been started but is not yet complete (this stays
-on the burndown chart)
-The last task has not been fully planned out, this task should be a
-priority until the next daily standup.
+╔═════════╦════════════════╦════════════════╦════════════════╦════════════════╗
+║ Story   ║ To Do          ║ Planning       ║ Implementation ║ Done           ║
+╟─────────╫────────────────╫────────────────╫────────────────╫────────────────╢
+║         ║   ┌────────┐   ║                ║   ┌────────┐   ║   ┌────────┐   ║
+║         ║   │        │   ║                ║   │        │   ║   │        │   ║
+║         ║   └────────┘   ║                ║   └────────┘   ║   └────────┘   ║
+║         ║   ┌────────┐   ║                ║                ║                ║
+║         ║   │        │   ║                ║                ║                ║
+║         ║   └────────┘   ║                ║                ║                ║
+╟─────────╫────────────────╫────────────────╫────────────────╫────────────────╢
+║         ║   ┌────────┐   ║   ┌────────┐   ║   ┌────────┐   ║   ┌────────┐   ║
+║         ║   │        │   ║   │        │   ║   │        │   ║   │        │   ║
+║         ║   └────────┘   ║   └────────┘   ║   └────────┘   ║   └────────┘   ║
+║         ║                ║                ║   ┌────────┐   ║   ┌────────┐   ║
+║         ║                ║                ║   │        │   ║   │        │   ║
+║         ║                ║                ║   └────────┘   ║   └────────┘   ║
+║         ║                ║                ║                ║                ║
+╚═════════╩════════════════╩════════════════╩════════════════╩════════════════╝
+From this Kanban board you can see that there are 2 user stories being delivered.
+Three of the tasks have been completed (and so these hours come off the burndown chart).
+Four of the tasks have been started but are not yet complete (this stays
+on the burndown chart).
+The priority should be on the tasks in the implementation column to move them
+to the Done column to remove then from the outstanding work and improve the
+burndown rate.
 ```
 
 ```
