@@ -76,24 +76,7 @@ Here is an example of a burndown chart showing the line of optimal development. 
        M    T     W     T     F
 ```
 
-## 3 High-Level Architecture
-
-There is a lot of planning to be carried out before you can start development. Using both your _Domain Model_ and _User Story Map_, start to plan the architecture of the product you will be developing. This architecture needs to be [evolutionary](https://www.thoughtworks.com/books/building-evolutionary-architectures) to allow for changes and support the agile development process you will be using. You should evaluate a number of architectural design patterns including:
-
-1. publish-subscribe
-2. model-view-controller
-3. web apis
-
-why is the _n-tier architecture_ poorly suited to agile development approaches?
-
-## 4 Data Storage
-
-Analyse the data storage requirements and decide:
-
-1. What _type_ of database is best suited (relational, document, graph, etc.)
-2. What database technology will be used (MySQL, Redis, Mongo, Neo4J, etc.)
-
-## 5 GitLab
+## 3 GitLab
 
 In previous modules you have been using the GitHub Enterprise repository within the University but there for this one you will be using [GitLab](https://gitlab.com). As part of this week's labs you should configure GitLab for your team so you are ready to start development next week.
 
@@ -134,14 +117,14 @@ Here is a typical `.git/config` file:
 
 The `less` command allows you to view and navigate the contents of a file. You should check the [documentation](https://en.wikipedia.org/wiki/Less_(Unix)) to learn how to navigate up and down the file and (most importantly) how to quit!
 
-### 5.1 Interacting with Git
+### 3.1 Interacting with Git
 
 The main way you should use to work with Git are the _shell commands_ you enter using the _terminal_. Whilst you should be comfortable using these commands you might want to use a more graphical tool for day-to-day Git operations. There are many options however you should investigate:
 
 - Code editor Git integration: most modern code editors such as [Visual Studio Code](https://code.visualstudio.com) either come preconfigured with Git integration or it can be added as a plugin. These tools, whilst ideal for basic git work don't have the capability to run the more powerful commands.
 - Standalone Git tools: whilst there are a lot of these, many (such as the one available from GitHub) are not easy to use and you may cause issues with your repository. One of the ones recommended is [GitKraken](https://www.gitkraken.com) which although has a cost attached is free for academic use.
 
-### 5.1 Ignoring Files
+### 3.1 Ignoring Files
 
 As you develop your code you will be adding and generating files that have no place in the repository. These might include:
 
@@ -160,11 +143,11 @@ libraries/
 
 In this example we want git to ignore any directories called `node_modules/` or `libraries/` as well as any files with an `.exe` or `.hex` file extension. It also ignores the hidden files that MacOS uses to organise the directories.
 
-## 6 Next Steps
+## 4 Next Steps
 
 You are now ready to conduct your first sprint which will start first thing on Monday morning. Make sure you clear your schedules as much as possible and as a group decide where you will meet up for your first daily standup early on Monday morning. The instructions for conducting this meeting are detailed in the next worksheet.
 
-### 6.1 Places to Meet
+### 4.1 Places to Meet
 
 For an effective sprint you need to be meeting and working together all next week. Suggestions for suitable places to meet could be:
 
