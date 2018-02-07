@@ -72,4 +72,4 @@ Now each team have tasks assigned and will need to implement these before the ne
 
 ## 2 Getting Feedback
 
-As part of the learning process you will need to conduct one of your sprints in a lab session so that your lab supervisors can watch and provide you with feedback that you can use to improve. You should attend the lab session that **starts at 09:00**.
+As part of the learning process you will need to conduct one of your sprints in a lab session so that your lab supervisors can watch and provide you with feedback that you can use to improve. Discuss this with your lab supervisors and agree on the session you will attend.
