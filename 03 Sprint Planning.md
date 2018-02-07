@@ -152,10 +152,13 @@ Create a file in the repository directory, this file should be called `.gitignor
 
 ```
 node_modules/
+libraries/
 *.exe
+*.hex
+.DS_Store
 ```
 
-In this example we want git to ignore any directories called `node_modules/` as well as any files with an `.exe` file extension.
+In this example we want git to ignore any directories called `node_modules/` or `libraries/` as well as any files with an `.exe` or `.hex` file extension. It also ignores the hidden files that MacOS uses to organise the directories.
 
 ## 6 Next Steps
 
