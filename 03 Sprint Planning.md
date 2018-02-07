@@ -132,6 +132,8 @@ Here is a typical `.git/config` file:
         email = johndoe@gmail.com
 ```
 
+The `less` command allows you to view and navigate the contents of a file. You should check the [documentation](https://en.wikipedia.org/wiki/Less_(Unix)) to learn how to navigate up and down the file and (most importantly) how to quit!
+
 ## 6 Interacting with Git
 
 The main way you should use to work with Git are the _shell commands_ you enter using the _terminal_. Whilst you should be comfortable using these commands you might want to use a more graphical tool for day-to-day Git operations. There are many options however you should investigate:
