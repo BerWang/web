@@ -25,6 +25,10 @@ In Arduino IDE --> Tools --> Board --> Generic ESP8266 Module
 
 Next you need to set the COM port and baud rate.
 
+To find out the COM port that the arduino is plugged into, you can unplug the arduino, check the port which are active via Tools --> Port in Arduino IDE.  Then plug the board in again and you should see an additional COM port listed and select it.
+
+You may need to modify the reset method in Arduino IDE to "nodemcu".  You can do this by selecting Tools --> Reset Method --> nodemcu.
+
 To find out which COM port you have connected your NodeMCU development board to, you can use Device Manager or a Serial Watcher [Apps Anywhere](https://appsanywhere.coventry.ac.uk/) program.
 
 For programming you will need to select the COM port and Baud Rate 115200 Upload Speed.
