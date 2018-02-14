@@ -5,7 +5,9 @@ You will need to install drivers on your computer. Look on the base of the NodeC
 
 Install the Arduino IDE
 
-Install the [NodeMCU Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) for your chosen platform.
+Install the [CH340 Drivers](https://sparks.gogo.co.nz/ch340.html) for your chosen platform.
+
+You may need to install the [NodeMCU Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) for your chosen platform.
 
 Arduino > Preferences
 
@@ -28,6 +30,8 @@ In Arduino IDE --> Tools --> Board --> Generic ESP8266 Module
 Next you need to set the COM port and baud rate.
 
 To find out the COM port that the arduino is plugged into, you can unplug the arduino, check the port which are active via Tools --> Port in Arduino IDE.  Then plug the board in again and you should see an additional COM port listed and select it.
+
+On a Mac the port looks like `/dev/cu-wchusbserial1460`.
 
 You may need to modify the reset method in Arduino IDE to "nodemcu".  You can do this by selecting Tools --> Reset Method --> nodemcu.
 
