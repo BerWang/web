@@ -5,6 +5,8 @@ You will need to install drivers on your computer. Look on the base of the NodeC
 
 Install the Arduino IDE
 
+Install the [NodeMCU Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) for your chosen platform.
+
 Arduino > Preferences
 
 Paste the following into the **Additional Boards Manager** box.
