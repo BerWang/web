@@ -27,6 +27,10 @@ After installing the drivers, you can choose the correct board in your IDE.
 
 In Arduino IDE --> Tools --> Board --> Generic ESP8266 Module
 
+If the sketch doesn't upload correctly you may need to change the board type to `NodeMCU 1.0 (ESP 12E Module)`.
+
+NOTE
+
 Next you need to set the COM port and baud rate.
 
 To find out the COM port that the arduino is plugged into, you can unplug the arduino, check the port which are active via Tools --> Port in Arduino IDE.  Then plug the board in again and you should see an additional COM port listed and select it.
