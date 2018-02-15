@@ -53,7 +53,7 @@ void setup() {
     delay(10);
 
     // We start by connecting to a WiFi network
-    WiFiMulti.addAP("ssid", "password");
+    WiFiMulti.addAP("ECL-LEGO-ROBOTS", "9cjjp64270");
 
     Serial.println();
     Serial.println();
