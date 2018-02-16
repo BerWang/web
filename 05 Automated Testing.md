@@ -29,11 +29,52 @@ In this worksheet you will be critically reviewing the code your team have writt
 
 To help you complete the labs, there are working examples for different languages in the `exercises/05_code_quality/` directory.
 
-## 3 Unit Testing
+## 3 Sprint Planning
+
+As a team:
+
+1. Choose a person in your team to act as the **Scrum Master** and as the **Product Owner**.
+2. With the client present, discuss the remaining stories on the user story map:
+    1. Remove any stories that are no longer relevent.
+    2. Add user stories to reflect any additional functionality identified by the client.
+3. re-prioritise the user stories by moving them up or down the user story map.
+4. Identify what can be achieved in the next sprint and draw a horizontal line across the user story map to clearly identify this.
+5. Take each of these user stories and, with the client present:
+    1. The product owner describes it from the user's perspective
+    2. The team and client discuss how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
+6. Once the client has left:
+    1. Break the story into the component tasks and write these on sticky notes.
+    2. Use planning poker to estimate how many hours each task will take (split any tasks that you estimate will take more than 4 hours).
+    3. Create a new Kanban board with 5 columns: to do, write tests, implementation, refactoring, done.
+    4. Move any tasks you didn't complete in the first sprint onto this new board.
+    5. Add the new tasks for this sprint to the left column of your new Kanban board.
+    6. Draw up a fresh burndown chart for the current sprint.
+
+```
+╔════════════════╦════════════════╦════════════════╦════════════════╦════════════════╗
+║ To Do          ║ Write Tests    ║ Implementation ║ Refactoring    ║ Done           ║
+╟────────────────╫────────────────╫────────────────╫────────────────╫────────────────╢
+║   ┌────────┐   ║                ║   ┌────────┐   ║                ║                ║
+║   │        │   ║                ║   │        │   ║                ║                ║
+║   └────────┘   ║                ║   └────────┘   ║                ║                ║
+║   ┌────────┐   ║                ║                ║                ║                ║
+║   │        │   ║                ║                ║                ║                ║
+║   └────────┘   ║                ║                ║                ║                ║
+║   ┌────────┐   ║                ║                ║                ║                ║
+║   │        │   ║                ║                ║                ║                ║
+║   └────────┘   ║                ║                ║                ║                ║
+╚════════════════╩════════════════╩════════════════╩════════════════╩════════════════╝
+In the example above note that one of the tasks from the previous sprint had been
+started but was not completed. It has remained in the implementation stage.
+
+The new tasks for the current sprint have been added into the first column.
+```
+
+## 4 Unit Testing
 
 If you have never done unit testing you should take time to complete the [Testing Your Code](https://www.codecademy.com/courses/testing-your-code) exercises on [Codeacademy](https://www.codecademy.com).
 
-### 3.1 Modularising Your Code
+### 4.1 Modularising Your Code
 
 It is vital that you provide a comprehensive suite of tests for your existing code. but before you can write effective unit tests you need to ensure that your code is split into a number of independent units. Each module:
 
@@ -53,7 +94,7 @@ It is vital that you provide a comprehensive suite of tests for your existing co
 
 Take time to tidy up your code ready for the next step. How much of the code can you isolate in code modules and unit test? Ideally all your code (embedded, API and client(s)) needs to be modularised.
 
-### 3.2 Writing Unit Tests
+### 4.2 Writing Unit Tests
 
 You should now create a separate test suite for each of these code modules. The test suites are written in the same language as the code you are testing. There are unit testing suites available for all mainstream languages, use the examples in the `exercises/05_code_quality/05_unit/` directory to get you started. Whatever language you are testing:
 
@@ -67,14 +108,14 @@ You should now create a separate test suite for each of these code modules. The 
 
 There are examples of unit tests for multiple languages in the `/exercises/07_unit/` directory on GitHub.
 
-#### 3.2.1 Unit Testing Microcontroller Code
+#### 4.2.1 Unit Testing Microcontroller Code
 
 One special case is writing and executing unit test on code that will eventually run on a microcontroller. There are two approaches that you should investigate and reflect on in your report:
 
 1. Arduino _libraries_ are written in standard C++ so, if there are no dependencies on Arduino-specific libraries you can write your unit tests using a standard testing framework. There is more information in the `exercises/05_code_quality/05_unit/cpp/` directory.
 2. If you are using _Arduino-specific libaries_ you may need to test your code using an **Atmel emulator**. Again, there is more information in the same directory.
 
-## 4 Integration Testing
+## 5 Integration Testing
 
 Although you now have a suite of unit tests for the isolated mode modules/classes, there are some code modules/units/files that are not currently being tested. This could be for one of two reasons:
 
@@ -97,7 +138,7 @@ it is quite possible to write tests for case (1) but, rather than testing the is
 1. Create a testing suite for your integration module(s). These need to be saved in the same directory as your unit tests but add a different prefix, eg: `integration-xxxx.xx`.
 2. Write a comprehensive suite of tests to make sure the functions from the other modules are working correctly together.
 
-## 5 Code Coverage
+## 6 Code Coverage
 
 In the previous two sections you were told to write a _comprehensive suite of tests_, but what is _comprehensive_? Our test suite should check every: function, branch and line of code. To ensure this has been achieved we need to run a code coverage tool that will generate data to indicate how comprehensive our testing suites really are.
 
@@ -105,6 +146,6 @@ In the previous two sections you were told to write a _comprehensive suite of te
 2. You will probably have one or more modules that are _untestable_ because they don't return data to test. You should tell the code coverage tool to **ignore** these (but make sure you don't ignore too many!).
 3. Use the _code coverage report_ to identify where the gaps are in your test suite and write additional tests until you score 100%.
 
-## 6 The TAP Protocol
+## 7 The TAP Protocol
 
 Now modify the output of your tests to generate data that follows the _TAP Protocol_. Once you have achieved this, pipe this data into a number of different **reporters** to generate the tests report as a web page and json file. Are there any other reporters that could be useful?

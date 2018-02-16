@@ -3,7 +3,25 @@
 
 Lets start by adding a suite of tests to improve the general code quality. These won't test how well the code solves the user stories.
 
-## 1 Linting
+## 1 Review Meeting
+
+You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
+
+1. The **Product Owner** reads the user story/storys completed during the sprint.
+2. The **Scrum Master** demonstrates the new features to the client.
+3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
+
+The team then move on to the next _sprint planning meeting_ whilst the client is present.
+
+## 2 Retrospective
+
+Each week the development team should meet up (without the client) and ask each member of the team to identify:
+
+1. What they should continue to do (existing good practice)
+2. What they should **start** doing (new good practice)
+3. What they should **stop** doing (eliminiate bad practices)
+
+## 3 Linting
 
 It can be tough for development teams to format their code in a consistent way: naming of variables and constants, extra whitespace, irregular indentation, and other “sloppiness” then often leads to actual bugs in the program.
 
@@ -19,7 +37,7 @@ It can be tough for development teams to format their code in a consistent way: 
 
 Whilst strictly not part of the _linting_ process, if you are using a _compiled language_ a good test is whether each source code file **compiles** correctly!
 
-## 2 Code Duplication
+## 4 Code Duplication
 
 The **Don't Repeat Yourself** (DRY) principle states that you should not have duplicate code scattered around your project as it makes it harder to find and fix bugs, but how can you check this?
 
@@ -36,7 +54,7 @@ There are tools for all main programming languages that can flag up duplicate co
         - are the results more or less useful?
     3. As a team, decide on the settings you will be using and make sure they are used consistently for the remainder of the project.
 
-## 3 Checking Dependencies
+## 5 Checking Dependencies
 
 Every time you import a library/framework into your project it gets added to the codebase which means it takes longer to run the program and the size of the code increases. For this reason you should not be importing any dependency that you don't use.
 
@@ -54,7 +72,7 @@ In some languages, all dependencies have to be recorded in a configuration file 
 
 If you are using a language that uses a config file you should run these two additional tests.
 
-## 4 Profiling
+## 6 Profiling
 
 Software profiling is a dynamic program analysis that measures, for example, the space (memory) or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls.
 
@@ -71,7 +89,7 @@ Most mainstream languages include a profiler:
     - Does it reveal any useful information about your program?
 5. Can you use this data to improve your program?
 
-# 5 Software Complexity Analysis
+# 7 Software Complexity Analysis
 
 The final step is to generate a report into the relative complexity of different parts of your system using the appropriate software complexity analysis tool for your chosen language.
 

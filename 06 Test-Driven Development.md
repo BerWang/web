@@ -28,48 +28,7 @@ The first step is to make sure that everyone in the team has been assigned the c
 3. In the **Allowed to merge** dropdown list choose 'Masters', this will prevent except _code owners) from merging any code into this branch.
 4. In the **Allowed to push** dropdown list make sure that you choose `No one`, we don't want any code to be pushed directly into this branch.
 
-## 2 Sprint Planning
-
-As a team:
-
-1. Choose a person in your team to act as the **Scrum Master** and as the **Product Owner**.
-2. With the client present, discuss the remaining stories on the user story map:
-    1. Remove any stories that are no longer relevent.
-    2. Add user stories to reflect any additional functionality identified by the client.
-3. re-prioritise the user stories by moving them up or down the user story map.
-4. Identify what can be achieved in the next sprint and draw a horizontal line across the user story map to clearly identify this.
-5. Take each of these user stories and, with the client present:
-    1. The product owner describes it from the user's perspective
-    2. The team and client discuss how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
-6. Once the client has left:
-    1. Break the story into the component tasks and write these on sticky notes.
-    2. Use planning poker to estimate how many hours each task will take (split any tasks that you estimate will take more than 4 hours).
-    3. Create a new Kanban board with 5 columns: to do, write tests, implementation, refactoring, done.
-    4. Move any tasks you didn't complete in the first sprint onto this new board.
-    5. Add the new tasks for this sprint to the left column of your new Kanban board.
-    6. Draw up a fresh burndown chart for the current sprint.
-
-```
-╔════════════════╦════════════════╦════════════════╦════════════════╦════════════════╗
-║ To Do          ║ Write Tests    ║ Implementation ║ Refactoring    ║ Done           ║
-╟────────────────╫────────────────╫────────────────╫────────────────╫────────────────╢
-║   ┌────────┐   ║                ║   ┌────────┐   ║                ║                ║
-║   │        │   ║                ║   │        │   ║                ║                ║
-║   └────────┘   ║                ║   └────────┘   ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║                ║
-╚════════════════╩════════════════╩════════════════╩════════════════╩════════════════╝
-In the example above note that one of the tasks from the previous sprint had been
-started but was not completed. It has remained in the implementation stage.
-
-The new tasks for the current sprint have been added into the first column.
-```
-
-## 3 Conducting the Sprint
+## 2 Conducting the Sprint
 
 In this second sprint you will be adopting some additional agile concepts:
 
@@ -86,7 +45,7 @@ In this second sprint you will be adopting some additional agile concepts:
 
 These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing.
 
-### 3.1 Creating a Pull/Merge Requests
+### 2.1 Creating a Pull/Merge Requests
 
 This should be carried out only if the feature is complete and all the automated tests (functional and non-functional) pass.
 
@@ -98,7 +57,7 @@ This should be carried out only if the feature is complete and all the automated
 6. Add a title and description to the merge request, this should explain the work that has been done.
 7. Click on **Submit merge request**
 
-### 3.2 Approving a Pull/Merge Request
+### 2.2 Approving a Pull/Merge Request
 
 All requests will need to be reviewed by the **Code Owner**.
 
@@ -111,7 +70,7 @@ All requests will need to be reviewed by the **Code Owner**.
 
 If the code is not ready for merging you should add a comment and send it back to the development team. If the code is far from ready you can **close** the merge request.
 
-### 3.1 Daily Standup Meeting
+## 3 Daily Standup Meeting
 
 Your development team will still need to carry out a **Daily Standup meeting** every morning. Before this meeting, the _Scrum Master_ should:
 
@@ -137,7 +96,7 @@ If any problems were identified during the standup these will need to be resolve
 
 Now each team have tasks assigned and will need to implement these before the next daily standup.
 
-### 3.2 Development Process
+### 3.1 Development Process
 
 Once the tasks have been agreed the teams should immediately start working on them. The process is much more structured than the one used in the previous sprint. Make sure you follow each step carefully:
 
@@ -151,21 +110,3 @@ Once the tasks have been agreed the teams should immediately start working on th
     1. Switch to the master branch.
     2. Merge the feature branch into the master branch.
     3. Delete the feature branch.
-
-## 4 Review Meeting
-
-You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
-
-1. The **Product Owner** reads the user story/storys completed during the sprint.
-2. The **Scrum Master** demonstrates the new features to the client.
-3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
-
-The team then move on to the next _sprint planning meeting_ whilst the client is present.
-
-## 5 Retrospective
-
-Each week the development team should meet up (without the client) and ask each member of the team to identify:
-
-1. What they should continue to do (existing good practice)
-2. What they should **start** doing (new good practice)
-3. What they should **stop** doing (eliminiate bad practices)
