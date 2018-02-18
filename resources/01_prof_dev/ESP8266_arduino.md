@@ -43,9 +43,19 @@ To find out which COM port you have connected your NodeMCU development board to,
 
 For programming you will need to select the COM port and Baud Rate 115200 Upload Speed.
 
+## Useful Libraries
+
+You will need to install a number of libraries to add more functionality to your Arduino projects. These need to be unzipped and placed in a `libraries/` directory inside the save directory. There are many libraries to use but you might find the following useful:
+
+1. The [ESP8266/Arduino](https://github.com/esp8266/Arduino/releases) library was installed when you added the json link to the boards manager. It includes the [ESP8266WiFi](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html) library to connect to WiFi access points using an SSID and password.
+2. The [imroy/PuSubClient](https://github.com/Imroy/pubsubclient) library makes it simple to connect and publish to an MQTT broker (server) from an ESP8266.
+3. Adafruit have created their own [Adafruit_MQTT_Library](https://github.com/adafruit/Adafruit_MQTT_Library) which makes it easy to connect to and publish data to their cloud server.
+4. The [ArduinoUnit](https://github.com/mmurdoch/arduinounit/releases) library allows you to write and run unit and integration tests.
+
 ## Connecting to WiFi
 
 One of the most important jobs is to make sure the NodeMCU can connect to a WiFI network, otherwise you won't be able to send any data to the API. There is a useful library called `ESP8266WiFi` which was installed if you followed the steps above. Below is a simple sketch to test the connection to the WiFi network.
+
 ```cpp
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
