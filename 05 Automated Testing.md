@@ -3,24 +3,6 @@
 
 In this worksheet you will be concluding your first sprint and learning about how automated tests can improve the quality of your code. You should refer to the [lecture slides](https://goo.gl/VHD2SH).
 
-## 1 Review Meeting
-
-You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
-
-1. The **Product Owner** reads the user story/storys completed during the sprint.
-2. The **Scrum Master** demonstrates the new features to the client.
-3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
-
-The team then move on to the next _sprint planning meeting_ whilst the client is present.
-
-## 2 Retrospective
-
-Each week the development team should meet up (without the client) and ask each member of the team to identify:
-
-1. What they should continue to do (existing good practice)
-2. What they should **start** doing (new good practice)
-3. What they should **stop** doing (eliminiate bad practices)
-
 Each week you will be expected to complete a series of lab activities. You will be required to reflect on these in your assignment so make sure you keep records of what you have done.
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1xy3MWh96JUdI8DiAtOUFznA0aEf4FBzp8zbIrPBtTdw).
@@ -29,46 +11,91 @@ In this worksheet you will be critically reviewing the code your team have writt
 
 To help you complete the labs, there are working examples for different languages in the `exercises/05_code_quality/` directory.
 
-## 3 Sprint Planning
+## 1 Review Meeting
+
+You will be given a date for the review meeting, this will typically be a week after the start of the sprint. During this meeting you will be expected to do a local demo of the software you built during the sprint so make sure you are prepared.
+
+The product owner should produce a one page summary of the features to be demonstrated. Use the table below as a template:
+
+| Type   | Description | Status           | Demo |
+| ------ | ----------- | ---------------- | :--: |
+| Story  | xxx         | completed        | Y    |
+| Story  | xxx         | incomplete (why) | N    |
+| Bugfix | xxx         | completed        | Y    |
+
+Make sure this has been sent to the client the night before the review meeting and ensure there are paper-copies for everyone in the meeting. The Scrum Master should also ensure that there is an up to date User story map and Kanban board visible to everyone in the meeting.
+
+1. Introductions: everyone explains what they have been working on. Keep this brief!
+2. **Explain Features:** The _Product Owner_ goes go through summary of stories and tasks completed based on the summary circulated before the meeting.
+3. Demo new functionality: product owner demos features and gets feedback from the client. This is recorded by all members of the team and any bugs identified are immediately added to the Kanban board.
+4. Discuss key events/issues: The Scrum Master now discusses and resolves issues:
+        1. Bugs and issues added to the Kanban board
+6. The team review and update the User Story Map based on client feedback
+8. Stories discussed and planned with the client.
+
+
+1. The **Product Owner** reads the user story/storys completed during the sprint.
+2. The **Scrum Master** demonstrates the new features to the client.
+3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
+
+## 2 Sprint Planning
 
 As a team:
 
-1. Choose a person in your team to act as the **Scrum Master** and as the **Product Owner**.
-2. With the client present, discuss the remaining stories on the user story map:
-    1. Remove any stories that are no longer relevent.
-    2. Add user stories to reflect any additional functionality identified by the client.
-3. re-prioritise the user stories by moving them up or down the user story map.
-4. Identify what can be achieved in the next sprint and draw a horizontal line across the user story map to clearly identify this.
-5. Take each of these user stories and, with the client present:
+1. Identify who will be the **Scrum Master** and who will be the **Product Owner**, perhaps you can rotate the jobs to other members of the team?
+2. Ideally with the client present, take the first user story from the top row of your user story map:
     1. The product owner describes it from the user's perspective
-    2. The team and client discuss how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
-6. Once the client has left:
+    2. Discusses how it can be implemented and work collaboratively on a whiteboard/flipchart to define it's UI until the client/product owner is satisfied/
+    3. Explain the success criteria (how will the team know they have completed the story implementation.
+3. Once the client has left:
     1. Break the story into the component tasks and write these on sticky notes.
-    2. Use planning poker to estimate how many hours each task will take (split any tasks that you estimate will take more than 4 hours).
-    3. Create a new Kanban board with 5 columns: to do, write tests, implementation, refactoring, done.
-    4. Move any tasks you didn't complete in the first sprint onto this new board.
-    5. Add the new tasks for this sprint to the left column of your new Kanban board.
-    6. Draw up a fresh burndown chart for the current sprint.
+    2. Use planning poker to estimate how many hours each task will take.
+        - If the estimated time for a task is longer than 4 hours, consider splitting the task down.
+    3. Add them to the left column of your Kanban board.
+    4. Finally the _Scrum Master_:
+        1. adds up the estimated durations for the tasks on the Kanban board and
+        2. draws out a burndown chart:
+            1. The X axis should show the days in the sprint.
+            2. the Y axis should show the combined duration.
+        3. draws a staight line from the top of the Y axis to the end of the X axis to indicate the optimal burn rate.
+
+### 2.1 The Kanban Board
+
+Any tasks left incompleted should be left on the board
 
 ```
-╔════════════════╦════════════════╦════════════════╦════════════════╦════════════════╗
-║ To Do          ║ Write Tests    ║ Implementation ║ Refactoring    ║ Done           ║
-╟────────────────╫────────────────╫────────────────╫────────────────╫────────────────╢
-║   ┌────────┐   ║                ║   ┌────────┐   ║                ║                ║
-║   │        │   ║                ║   │        │   ║                ║                ║
-║   └────────┘   ║                ║   └────────┘   ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║                ║
-║   ┌────────┐   ║                ║                ║                ║                ║
-║   │        │   ║                ║                ║                ║                ║
-║   └────────┘   ║                ║                ║                ║                ║
-╚════════════════╩════════════════╩════════════════╩════════════════╩════════════════╝
-In the example above note that one of the tasks from the previous sprint had been
-started but was not completed. It has remained in the implementation stage.
+╔═════════╦════════════════╦════════════════╦═════════════════╦════════════════╦════════════════╗
+║ Story   ║ To Do          ║ Planning       ║ Write Tests     ║ Implementation ║ Done           ║
+╟─────────╫────────────────╫────────────────╫─────────────────╫────────────────╫────────────────╢
+║    A    ║   ┌────────┐   ║                ║                 ║                ║                ║
+║         ║   │   a    │   ║                ║                 ║                ║                ║
+║         ║   └────────┘   ║                ║                 ║                ║                ║
+╟─────────╫────────────────╫────────────────╫─────────────────╫────────────────╫────────────────╢
+║    B    ║                ║                ║                 ║   ┌────────┐   ║                ║
+║         ║                ║                ║                 ║   │   b    │   ║                ║
+║         ║                ║                ║                 ║   └────────┘   ║                ║
+╟─────────╫────────────────╫────────────────╫─────────────────╫────────────────╫────────────────╢
+║    C    ║   ┌────────┐   ║                ║                 ║                ║                ║
+║         ║   │   c    │   ║                ║                 ║                ║                ║
+║         ║   └────────┘   ║                ║                 ║                ║                ║
+║         ║   ┌────────┐   ║                ║                 ║                ║                ║
+║         ║   │   d    │   ║                ║                 ║                ║                ║
+║         ║   └────────┘   ║                ║                 ║                ║                ║
+╚═════════╩════════════════╩════════════════╩═════════════════╩════════════════╩════════════════╝
 
-The new tasks for the current sprint have been added into the first column.
+In this example, user story A was completed but because there was a bug identified during the 
+product demonstration, it remains on the board and the bug (a) is added to the tasks.
+User story B remains on the board because it was not completed in the previous sprint.
+User story C has been added to the current sprint.
 ```
+
+## 2 Retrospective
+
+Each week the development team should meet up (without the client) and ask each member of the team to identify:
+
+1. What they should continue to do (existing good practice)
+2. What they should **start** doing (new good practice)
+3. What they should **stop** doing (eliminiate bad practices)
 
 ## 4 Unit Testing
 
