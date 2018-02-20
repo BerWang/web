@@ -30,13 +30,7 @@ Make sure this has been sent to the client the night before the review meeting a
 3. Demo new functionality: product owner demos features and gets feedback from the client. This is recorded by all members of the team and any bugs identified are immediately added to the Kanban board.
 4. Discuss key events/issues: The Scrum Master now discusses and resolves issues:
         1. Bugs and issues added to the Kanban board
-6. The team review and update the User Story Map based on client feedback
-8. Stories discussed and planned with the client.
-
-
-1. The **Product Owner** reads the user story/storys completed during the sprint.
-2. The **Scrum Master** demonstrates the new features to the client.
-3. Any bugs identified are added to the Kanban board to be addressed in the next sprint.
+5. The team review and update the User Story Map based on client feedback
 
 ## 2 Sprint Planning
 
