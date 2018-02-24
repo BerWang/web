@@ -9,26 +9,7 @@ In your first sprint we focussed on the **Scrum Metholology**. In this second sp
 
 For this to work you need a modularised code base for each aspect of your product with all code covered by comprehensive unit and integration tests with 100% coverage. If this is not the case, go back to last week's lab worksheet and complete these exercises.
 
-## 1 Configuring Pull Requests
-
-In your first sprint you all had full access to the _Master Branch_ meaning anyone in the team could commit to it and merge branches into it. As you quickly discovered this caused a lot of problems. In this sprint your team will be making the master branch into a **protected branch**, restricting who can interact with it and how.
-
-### 1.1 Permissions
-
-The first step is to make sure that everyone in the team has been assigned the correct permission levels.
-
-1. One person in each _sub-team_ (eg, API, iOS, etc.) should be the designated **Code Owner**.
-2. There are four permission levels: Guest, Developer, Reporter, Master. Everyone in the team should have developer permission.
-3. The designated **Code Owner** for each repository should be given **Master** permissions.
-
-### 1.2 Protected Branches
-
-1. In your GitLab repositories go to `Settings > Repository` and expand the **Protected Branches** section.
-2. In the **Branch** dropdown list choose `master`.
-3. In the **Allowed to merge** dropdown list choose 'Masters', this will prevent except _code owners) from merging any code into this branch.
-4. In the **Allowed to push** dropdown list make sure that you choose `No one`, we don't want any code to be pushed directly into this branch.
-
-## 2 Conducting the Sprint
+## 1 Conducting the Sprint
 
 In this second sprint you will be adopting some additional agile concepts:
 
@@ -39,36 +20,29 @@ In this second sprint you will be adopting some additional agile concepts:
     3. Write code to pass the tests.
     4. Refactor the code, ensuring all tests still pass.
 3. Pair programming (during the sprint, each member of the team should spend at least 2 days working with another member of the team using the _pair programming_ technique).
-4. Implement pull requests to merge the feature into the master branch:
-    1. When a task has been completed (and the entire test suite passes) the developer should create a **pull request** (see below).
-    2. The _pull request_ will need to be reviewed by the **Code Owner** who will need to merge the code into the **Master Branch**.
 
-These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing.
+These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing. To support this new workflow you will need to modify your Kanban board by adding some additional columns. These were explained in the lecture and you will be given detailed instruction in this worksheet. Make sure you replace any tasks on the new board.
 
-### 2.1 Creating a Pull/Merge Requests
-
-This should be carried out only if the feature is complete and all the automated tests (functional and non-functional) pass.
-
-1. Click on the **Merge Requests** tab.
-2. Click on the **New merge request** button.
-3. The _source branch_ is the feature branch and the _target branch_ should be the master branch.
-4. Click on the **Compare branches and continue** button.
-5. Review the changes at the bottom of the next screen.
-6. Add a title and description to the merge request, this should explain the work that has been done.
-7. Click on **Submit merge request**
-
-### 2.2 Approving a Pull/Merge Request
-
-All requests will need to be reviewed by the **Code Owner**.
-
-1. The number of merge requests needing approval are shown on the **Merge Requests** tab.
-2. Review the changes:
-    1. Pull the branch.
-    2. Review the changes (and run tests).
-3. Check the **Remove source branch** box.
-4. Click on the **Merge** button.
-
-If the code is not ready for merging you should add a comment and send it back to the development team. If the code is far from ready you can **close** the merge request.
+```
+╔═════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╗
+║ Story   ║ To Do       ║ Plan        ║ Write Tests ║ Implement   ║ Refactor    ║ Regression  ║ Done        ║
+╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
+║    A    ║  ┌───────┐  ║             ║             ║             ║             ║             ║             ║
+║         ║  │   a   │  ║             ║             ║             ║             ║             ║             ║
+║         ║  └───────┘  ║             ║             ║             ║             ║             ║             ║
+╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
+║    B    ║             ║             ║             ║  ┌───────┐  ║             ║             ║             ║
+║         ║             ║             ║             ║  │   b   │  ║             ║             ║             ║
+║         ║             ║             ║             ║  └───────┘  ║             ║             ║             ║
+╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
+║    C    ║  ┌──────┐   ║             ║             ║             ║             ║             ║             ║
+║         ║  │   c  │   ║             ║             ║             ║             ║             ║             ║
+║         ║  └──────┘   ║             ║             ║             ║             ║             ║             ║
+║         ║  ┌──────┐   ║             ║             ║             ║             ║             ║             ║
+║         ║  │   d  │   ║             ║             ║             ║             ║             ║             ║
+║         ║  └──────┘   ║             ║             ║             ║             ║             ║             ║
+╚═════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╝
+```
 
 ## 3 Daily Standup Meeting
 
@@ -98,14 +72,28 @@ Now each team have tasks assigned and will need to implement these before the ne
 
 ### 3.1 Development Process
 
-Once the tasks have been agreed the teams should immediately start working on them. The process is much more structured than the one used in the previous sprint. Make sure you follow each step carefully:
+Once the tasks have been agreed the teams should immediately start working on them. The process is much more structured than the one used in the previous sprint. Make sure you follow each step carefully. The task should be moved across the Kanban board according to the instructions.
 
-1. A local feature branch is created if the task is new. This should be given a logical name such as `feature-xxx`.
-2. This new branch should be _pushed_ to the remote so it can be seen by the rest of the team.
-3. Everyone working on the feature should pull the branch and switch to it.
+In this sprint you will be using a technique called **pair programming** whereby you will be developing the code in pairs with one person writing the code (the _driver_) and the other person checking it and making suggestions for improvement (the _navigator_). Switch the roles every 30 mins.
+
+1. The developer picks a task to work on from the **ToDo** column:
+    1. They write their initials on the task and move it to the **Plan** column.
+2. A local feature branch is created if the task is new. This should be given a logical name such as `feature-xxx`.
+    1. This new branch should be _pushed_ to the remote so it can be seen by the rest of the team.
+    2. Everyone working on the feature should pull the branch and switch to it.
+3. The developer decides how it should be implemented, these plans should be shared with the rest of the team to get feedback.
+    1. They now move the task to the **Write Tests** column.
 4. A set of **unit tests** and **integration tests** should be written to define the new functionality.
-5. Now code should be written to pass the tests making sure all the **non-functional tests** such as the _linter_ and _code duplication checker_ still pass.
-6. Once the unit and integration tests pass and the code in the branch adheres to the defined non-functional tests, it will need to be tidied up (refactored). Keep running the tests to make sure the refactoring doesn't break the code.
+    1. The tests should be run and seen to fail (we have not written the functionality yet).
+    2. The task is now moved to the **Implement** column.
+5. Now code should be written to pass the tests.
+    1. Configure your development environment to automatically run the tests every time you modify a file and save.
+    2. Once all the tests pass you should run your code coverage tool. If you don't get 100% coverage you will need to write additional tests.
+    3. Once you have implemented the functionality and checked for 100% code coverage move the task to the **Refactor** column.
+6. Once the unit and integration tests pass and you have 100% code coverage it will need to be tidied up (refactored).
+    1. Study the code and identify ways it can be tidied up and made easier to understand.
+    2. Keep running the tests to make sure the refactoring doesn't break the code.
+    3. Once the code has been cleaned up and the tests still pass move the task to the **Regression** column.
 7. Now the branch can be merged into the master branch:
     1. Switch to the master branch.
     2. Merge the feature branch into the master branch.
