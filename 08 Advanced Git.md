@@ -5,15 +5,6 @@ Each week you will be expected to complete a series of lab activities. You will 
 
 You should refer to [this week's presentation](https://drive.google.com/open?id=1JmtlJWZy5Y5pFhDoggkLzaCSrbSa3plBh105nZtU2qA).
 
-In this worksheet you will be learning about some of the more powerful features of the Git version control system as well as the additional functionality offered by Git remote hosting sites such as **GitHub** and **GitLab**.
-
-In this third sprint you will continue to use the skills you have learned from the previous sprints but you will add:
-
-1. Correctly configure Git to ignore specific files and directories.
-4. Implement pull requests to merge the feature into the master branch:
-    1. When a task has been completed (and the entire test suite passes) the developer should create a **pull request** (see below).
-    2. The _pull request_ will need to be reviewed by the **Code Owner** who will need to merge the code into the **Master Branch**.
-
 ## 1 What Will You Be Doing?
 
 In this third sprint you will be adopting some additional agile concepts. The focus in this sprint is to improve the overall quality of your code-base:
