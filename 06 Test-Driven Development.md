@@ -24,24 +24,24 @@ In this second sprint you will be adopting some additional agile concepts:
 These extra skills will initially _slow your development process down_ as you get to grips with them however eventually you will see improvements both in the _velocity of development_ and in the _overall quality of the code_ your team are producing. To support this new workflow you will need to modify your Kanban board by adding some additional columns. These were explained in the lecture and you will be given detailed instruction in this worksheet. Make sure you replace any tasks on the new board.
 
 ```
-╔═════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╦═════════════╗
-║ Story   ║ To Do       ║ Plan        ║ Write Tests ║ Implement   ║ Refactor    ║ Regression  ║ Done        ║
-╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
-║    A    ║  ┌───────┐  ║             ║             ║             ║             ║             ║             ║
-║         ║  │   a   │  ║             ║             ║             ║             ║             ║             ║
-║         ║  └───────┘  ║             ║             ║             ║             ║             ║             ║
-╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
-║    B    ║             ║             ║             ║  ┌───────┐  ║             ║             ║             ║
-║         ║             ║             ║             ║  │   b   │  ║             ║             ║             ║
-║         ║             ║             ║             ║  └───────┘  ║             ║             ║             ║
-╟─────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╫─────────────╢
-║    C    ║  ┌──────┐   ║             ║             ║             ║             ║             ║             ║
-║         ║  │   c  │   ║             ║             ║             ║             ║             ║             ║
-║         ║  └──────┘   ║             ║             ║             ║             ║             ║             ║
-║         ║  ┌──────┐   ║             ║             ║             ║             ║             ║             ║
-║         ║  │   d  │   ║             ║             ║             ║             ║             ║             ║
-║         ║  └──────┘   ║             ║             ║             ║             ║             ║             ║
-╚═════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╩═════════════╝
+╔═══════╦═══════════╦═══════════╦═══════════╦═══════════╦═══════════╦═══════════╦═══════════╗
+║ Story ║ To Do     ║ Plan      ║ Tests     ║ Implement ║ Refactor  ║ Regressn  ║ Done      ║
+╟───────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╢
+║ A     ║ ┌───────┐ ║           ║           ║           ║           ║           ║           ║
+║       ║ │   a   │ ║           ║           ║           ║           ║           ║           ║
+║       ║ └───────┘ ║           ║           ║           ║           ║           ║           ║
+╟───────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╢
+║ B     ║           ║           ║           ║ ┌───────┐ ║           ║           ║           ║
+║       ║           ║           ║           ║ │   b   │ ║           ║           ║           ║
+║       ║           ║           ║           ║ └───────┘ ║           ║           ║           ║
+╟───────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╫───────────╢
+║ C     ║ ┌───────┐ ║           ║           ║           ║           ║           ║           ║
+║       ║ │   c   │ ║           ║           ║           ║           ║           ║           ║
+║       ║ └───────┘ ║           ║           ║           ║           ║           ║           ║
+║       ║ ┌───────┐ ║           ║           ║           ║           ║           ║           ║
+║       ║ │   d   │ ║           ║           ║           ║           ║           ║           ║
+║       ║ └───────┘ ║           ║           ║           ║           ║           ║           ║
+╚═══════╩═══════════╩═══════════╩═══════════╩═══════════╩═══════════╩═══════════╩═══════════╝
 ```
 
 ## 3 Daily Standup Meeting
@@ -82,7 +82,7 @@ In this sprint you will be using a technique called **pair programming** whereby
     1. This new branch should be _pushed_ to the remote so it can be seen by the rest of the team.
     2. Everyone working on the feature should pull the branch and switch to it.
 3. The developer decides how it should be implemented, these plans should be shared with the rest of the team to get feedback.
-    1. They now move the task to the **Write Tests** column.
+    1. They now move the task to the **Tests** column.
 4. A set of **unit tests** and **integration tests** should be written to define the new functionality.
     1. The tests should be run and seen to fail (we have not written the functionality yet).
     2. The task is now moved to the **Implement** column.
