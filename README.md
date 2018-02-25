@@ -34,11 +34,12 @@ During this module you will be working in medium-sized multi-skilled development
 4. Effective sprints (and your first sprint)
 5. Automated code testing
 6. Test-driven development (and the second sprint)
-7. Advanced version control
-8. Continuous integration (and the third sprint)
+7. Non-functional testing
+8. Advanced Git (and the third sprint)
 9. Acceptance testing
-10. Continuous delivery (and the final sprint)
-11. Exam revision
+10. Continuous integration (and the fourth sprint)
+11. Automated deployment and exam revision
+12. Continuous delivery (and the bonus sprint)
 
 ## The Team
 
