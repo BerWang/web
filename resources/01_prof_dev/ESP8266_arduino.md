@@ -13,6 +13,8 @@ Install the [CH340 Drivers](https://sparks.gogo.co.nz/ch340.html) for your chose
 
 You may need to install the [NodeMCU Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) for your chosen platform.
 
+Here are the [Official FTDI Drivers](http://www.ftdichip.com/Drivers/VCP.htm) for the different operating systems.
+
 Arduino > Preferences
 
 Paste the following into the **Additional Boards Manager** box.
