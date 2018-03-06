@@ -66,8 +66,7 @@ H:\_Lecturer\302CEM\cxxtest-4.4\cxxtest-4.4\bin\cxxtestgen --error-printer -o ru
 
 .\runner
 
-Note on Uni PCs I manged to get this working through the default windows command line - cmd.exe
-Windows powershell.exe did not work for me!
+Note on Uni PCs I manged to get this working through the default windows command line - cmd.exe.  Note Windows powershell.exe did not work for me!
 
 
 Once you have this working from command line you can then investigate automated testing via creating you own custom build scripts.
