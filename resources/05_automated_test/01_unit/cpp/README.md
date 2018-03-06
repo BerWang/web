@@ -27,7 +27,54 @@ https://github.com/buserror/simavr
 
 https://github.com/covcom/122COM/blob/2016-17_jan/testinglecture_handout.pdf
 
-todo more
+## Creating your first Cxx Test
+
+### Install CxxTest and get g++
+
+This process can be done from command line on Windows or Mac.  Just make sure you have a C++ compiler installed (e.g. g++) and have downloaded CxxTest.
+You can download CxxTest from [here](https://sourceforge.net/projects/cxxtest/files/cxxtest/)
+
+Once you have CxxTest installed you can unzip to a suitbale directory on your system.
+
+On the University PCs g++ is **not** installed by default!  In order to get it you can launch codeblocks from the apps anywhere system, and then you will find the g++ in the directory:  C:\Program Files (x86)\CodeBlocks\MinGW\bin\g++.exe
+
+### Creating your first Cxx Test Suite
+
+Unit testing involes testing your own code.  I.e. you should not be testing any API or library calls.  You will need to seperate your source code from your API calls.  I suggest creating a seperate class with methods for your business logic code (i.e. any code **not** invloved wih input or output API calls).
+
+So in my example I have Maths.h and Maths.cpp which contains my business logic (a simple add function).  For yours, you may be calculating a moving average etc.
+Then you will need to write a test suite for CxxTest to work, let's call it - TestSuiteCXX.h
+You can see an example for the structure of a Cxx test suite [here](http://cxxtest.com/guide.html).
+
+We can run the test suite fro command line with the following 3 statements:
+
+cxxtestgen --error-printer -o runner.cpp MyTestSuite1.h
+
+g++ -o runner -I$CXXTEST runner.cpp
+
+./runner
+
+This will give you output such as:
+Running cxxtest tests (1 test).OK!
+
+Now, you **will** need to modify these commands based on the your project paths on the system you use and the CxxTest and g++ install directories etc.
+On my system (Uni PC) the commands look like:
+
+H:\_Lecturer\302CEM\cxxtest-4.4\cxxtest-4.4\bin\cxxtestgen --error-printer -o runner.cpp TestSuiteCxx.h
+
+"C:\Program Files (x86)\CodeBlocks\MinGW\bin\g++" -o runner -IH:\_Lecturer\302CEM\cxxtest-4.4\cxxtest-4.4 runner.cpp Maths.cpp
+
+.\runner
+
+Note on Uni PCs I manged to get this working through the default windows command line - cmd.exe
+Windows powershell.exe did not work for me!
+
+
+Once you have this working from command line you can then investigate automated testing via creating you own custom build scripts.
+
+The build process including tests can also be automated (i.e. automated testing) via a build system e.g. Makefiles, an example is here:
+https://emou.wordpress.com/2009/10/02/unit-testing-in-c-using-cxxtest/
+
 
 ## Switching from the Arduino IDE to using VSCode
 
