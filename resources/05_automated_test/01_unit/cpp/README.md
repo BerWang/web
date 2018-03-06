@@ -46,7 +46,7 @@ So in my example I have Maths.h and Maths.cpp which contains my business logic (
 Then you will need to write a test suite for CxxTest to work, let's call it - TestSuiteCXX.h
 You can see an example for the structure of a Cxx test suite [here](http://cxxtest.com/guide.html).
 
-We can run the test suite fro command line with the following 3 statements:
+We can run the test suite from command line with the following 3 statements:
 
 cxxtestgen --error-printer -o runner.cpp MyTestSuite1.h
 
