@@ -34,7 +34,7 @@ https://github.com/covcom/122COM/blob/2016-17_jan/testinglecture_handout.pdf
 This process can be done from command line on Windows or Mac.  Just make sure you have a C++ compiler installed (e.g. g++) and have downloaded CxxTest.
 You can download CxxTest from [here](https://sourceforge.net/projects/cxxtest/files/cxxtest/)
 
-Once you have CxxTest installed you can unzip to a suitbale directory on your system.
+Once you have CxxTest installed you can unzip to a suitable directory on your system.
 
 On the University PCs g++ is **not** installed by default!  In order to get it you can launch codeblocks from the apps anywhere system, and then you will find the g++ in the directory:  C:\Program Files (x86)\CodeBlocks\MinGW\bin\g++.exe
 
