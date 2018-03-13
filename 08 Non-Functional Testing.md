@@ -1,7 +1,7 @@
 
 # Non-Functional Testing
 
-Lets start by adding a suite of tests to improve the general code quality. These won't test how well the code solves the user stories.
+Lets start by adding a suite of tests to improve the general code quality. These won't test how well the code solves the user stories. Refer to the [lecture slides](https://drive.google.com/open?id=1TAyjgDdy-812mwhqrRCVT_MPNhvwApjsAJACmaSqSV8).
 
 ## 1 Review Meeting
 

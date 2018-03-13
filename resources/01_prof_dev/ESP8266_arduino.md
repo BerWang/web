@@ -1,6 +1,10 @@
 
 # Configuring ESP8266 Development Using the Arduino IDE
 
+Although the IoT kit comes complete with an [ESP8266 development board](https://www.losant.com/blog/top-6-esp8266-modules) which can be programmed in C++ using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) or with [MicroPython](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html), you should only use it if you are already familiar with either of these development environments. If not you are advised to use whatever microcontroller and tool chain you are most comfortable with.
+
+The rest of this worksheet covers setting up the Arduino IDE to be able to use it to create scripts and flash them. 
+
 You will need to install drivers on your computer. Look on the base of the NodeCMU. If it states you need the **2102 driver** you can download and install [here](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
 
 Install the Arduino IDE
@@ -8,6 +12,8 @@ Install the Arduino IDE
 Install the [CH340 Drivers](https://sparks.gogo.co.nz/ch340.html) for your chosen platform.
 
 You may need to install the [NodeMCU Drivers](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers) for your chosen platform.
+
+Here are the [Official FTDI Drivers](http://www.ftdichip.com/Drivers/VCP.htm) for the different operating systems.
 
 Arduino > Preferences
 
@@ -19,15 +25,17 @@ Click on OK to close the Preferences window
 
 Tools > Boards > Board manager.
 
-find `esp8266 by esp8266 community` and install.
+find `esp8266 by esp8266 community` and install the latest version (2.4.0 at the time of writing).
 
 ## Board setup for programming
 
 After installing the drivers, you can choose the correct board in your IDE.
 
-In Arduino IDE --> Tools --> Board --> Generic ESP8266 Module
+In Arduino IDE --> Tools --> Board --> NodeMCU 1.0 (ESP 12E Module)
 
-If the sketch doesn't upload correctly you may need to change the board type to `NodeMCU 1.0 (ESP 12E Module)`.
+If the option is available, modify the reset method in Arduino IDE to "nodemcu" by selecting `Tools -> Reset Method -> nodemcu`.
+
+If the sketch doesn't upload correctly you may need to change the board type to `Generic ESP8266 Module`.
 
 NOTE
 
@@ -36,8 +44,6 @@ Next you need to set the COM port and baud rate.
 To find out the COM port that the arduino is plugged into, you can unplug the arduino, check the port which are active via Tools --> Port in Arduino IDE.  Then plug the board in again and you should see an additional COM port listed and select it.
 
 On a Mac the port looks like `/dev/cu-wchusbserial1460`.
-
-You may need to modify the reset method in Arduino IDE to "nodemcu".  You can do this by selecting Tools --> Reset Method --> nodemcu.
 
 To find out which COM port you have connected your NodeMCU development board to, you can use Device Manager or a Serial Watcher [Apps Anywhere](https://appsanywhere.coventry.ac.uk/) program.
 
