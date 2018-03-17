@@ -25,6 +25,13 @@ You will need to create a `.gitlab-ci.yml` file in the root directory of your pr
 
 You will also need to configure GitLab to only allow merging if all tests have passed. In this way you can bypass the requirement for the code to be reviewed by the Scrum Master which should speed up the process of integrating code into the Master branch.
 
+### 1.1 Examples
+
+To help you configure your GitLab CI pipeline there are a couple of sample repositories you should be studying which cover most of the platforms you are developing for:
+
+1. [ci-arduino](https://gitlab.com/covcom/ci-arduino) shows how to build a CI pipeline using the [PlatformIO](https://platformio.org) tools.
+2. [ci-nodejs](https://gitlab.com/covcom/continuous-integration-example) shows how to build a CI and CD pipeline for a NodeJS API.
+
 ### 1.1 Continuous Integration and Arduino Code
 
 The challenge for carrying out unit and integration tests for Arduino code is that it has to run on a server rather than on a physical microcontroller. There are links to useful web resources in the `exercises/08_ci/arduino/` directory.
