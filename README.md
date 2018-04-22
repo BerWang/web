@@ -74,3 +74,10 @@ They would like to have a smartphone app to use the data in the following ways:
 - Map of the area with overlays showing pollution levels.
 - Summary of the pollution in the user's current location mapped against acceptable norms
 - alerts if pollution exceeds the agreed levels.
+
+## Git Tags
+
+```
+$ git tag -a 1718JANMAY 9b89d29 -m "1718JANMAY"
+$ git push --tags origin master
+```
