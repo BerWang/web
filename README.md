@@ -30,15 +30,16 @@ During this module you will be working in medium-sized multi-skilled development
 
 1. Professional development
 2. Agile planning (planning your agile project)
-3. Architecture
-4. Agile development (and your first sprint)
+3. Sprint planning
+4. Effective sprints (and your first sprint)
 5. Automated code testing
 6. Test-driven development (and the second sprint)
-7. Advanced version control
-8. Continuous integration (and the third sprint)
+7. Non-functional testing
+8. Advanced Git (and the third sprint)
 9. Acceptance testing
-10. Continuous delivery (and the final sprint)
-11. Exam revision
+10. Continuous integration (and the fourth sprint)
+11. Automated deployment and exam revision
+12. Continuous delivery (and the bonus sprint)
 
 ## The Team
 
@@ -73,3 +74,10 @@ They would like to have a smartphone app to use the data in the following ways:
 - Map of the area with overlays showing pollution levels.
 - Summary of the pollution in the user's current location mapped against acceptable norms
 - alerts if pollution exceeds the agreed levels.
+
+## Git Tags
+
+```
+$ git tag -a 1718JANMAY 9b89d29 -m "1718JANMAY"
+$ git push --tags origin master
+```

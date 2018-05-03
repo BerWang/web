@@ -51,6 +51,12 @@ What is BDD?
 
 ----
 
+What is the "Iron Triangle of Planning" and what are the three limitations, explain each?
+
+Describe both waterfall and agile approaches with respect to these limitations.
+
+----
+
 List and explain four problems with detailed specifications.
 
 How does an agile methodology reduce risk?
@@ -82,6 +88,14 @@ Explain the following terms used in agile development:
 2. Proof of Concept
 3. Minimum viable product
 4. Timeboxing
+
+----
+
+What is "Docker"?
+
+Explain the purpose of the relationship between **Docker Engine**, **Docker Compose** and **Docker Machine**.
+
+WHat is the purpose and what are the benefits of **Docker Swarm**.
 
 ----
 

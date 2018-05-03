@@ -8,7 +8,7 @@ You have been placed in multi-skilled teams and will be working in these through
 Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 
 1. Thomas Bassett
-2. Daniel Steven Beglin
+2. Marius Gamulea
 3. Nikhil Dassor
 4. Tahir Saddique Gulzed
 5. Jabor Mubarak J M Al-Ali
@@ -56,7 +56,8 @@ Tuesday 09:00-11:00 and Wednesday 11:00-13:00
 5. James Mensah
 6. Ross Patrick Aneurin Miller
 7. Kate Sturmey
-8. Gongzhi Wang 			
+8. Gongzhi Wang
+9. Mfoniso Jackson
 
 ## 🦊 Team Fox
 
@@ -123,6 +124,7 @@ Tuesday 11:00-13:00 and Friday 09:00-11:00
 6. Jessica Pearson
 7. Erin Rai
 8. Jaewoong Yu
+9. Daniel Steven Beglin
 
 ## 🐰 Team Rabbit
 
