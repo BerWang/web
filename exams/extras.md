@@ -91,6 +91,10 @@ Explain the following terms used in agile development:
 
 ----
 
+How can the **Black Sheep Effect** impact team behaviour?
+
+----
+
 What is "Docker"?
 
 Explain the purpose of the relationship between **Docker Engine**, **Docker Compose** and **Docker Machine**.
@@ -193,18 +197,6 @@ Explain two the benefits of Using the Cloud
 Explain two drawbacks of using the Cloud
 
 Define and explain three types of cloud services.
-
-----
-
-Explain how a server load balancer works
-
-Explain how a server cluster works
-
-----
-
-Explain, with the aid of a diagram, the principles behind server virtualisation.
-
-List two benefits of employing virtualisation.
 
 ----
 
