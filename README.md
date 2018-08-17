@@ -28,6 +28,8 @@ Start with master read-only repository (forking workflow).
 
 ## 6 Automated Code Testing
 
+## 7 Test-Driven Development
+
 ## 7 Automated Acceptance Testing
 
 ## 8 Advanced Version Control
