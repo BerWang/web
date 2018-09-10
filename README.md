@@ -7,27 +7,32 @@ Version control using GitLab.
 
 Start with master read-only repository (forking workflow).
 
-## 1 NodeJS and Express
+## 1 Test-Driven Development
 
-- Week 1 - Software Project Management Overview
-- introduction to NodeJS
-- Building websites using Express
+- Lecture
+    - Week 1 - Software Project Management Overview LEC
+    - Copy of 05 Automated Testing
+    - Copy of 06 Test-Driven Development (2)
+- Lab
+    - introduction to NodeJS
+    - Building websites using Express
+    - Writing Unit Tests
+    - Test Harness
+    - Employing Test-Driven Development
 
-## 2 Version Control
+## 2 Web APIs & Client JS
+
+- building a simple API (GET/POST) using TDD (and Postman)
+- building a simple client using TDD
+- extra resources from 302CEM: client-side JS and MQTT
+
+## 3 Version Control (fit into the previous 2 weeks?)
 
 - Forking workflow
 - GitLab
 - Basic branching
 - Copy of 04a Version Control Revision
 - Copy of 04b Branching
-
-## 3 Test-Driven Development
-
-- Writing Unit Tests
-- Test Harness
-- Employing Test-Driven Development
-- Copy of 05 Automated Testing
-- Copy of 06 Test-Driven Development (2)
 
 ## 4 Introduction to Software Architecture
 
