@@ -1,5 +1,5 @@
 
-# New Structure
+# Software Quality and Process Management
 
 All development to be done using NodeJS (and Express/Handlebars).
 
@@ -7,37 +7,85 @@ Version control using GitLab.
 
 Start with master read-only repository (forking workflow).
 
-## 1 Software Systems
+## 1 Test-Driven Development
 
-## 2 Version Control
+- Lecture
+    - Week 1 - Software Project Management Overview LEC
+    - Copy of 05 Automated Testing
+    - Copy of 06 Test-Driven Development (2)
+- Lab
+    - introduction to NodeJS
+    - Building websites using Express
+    - Writing Unit Tests
+    - Test Harness
+    - Employing Test-Driven Development
 
-1. Forking workflow
-2. GitLab
-3. Basic branching
+## 2 Web APIs & Client JS
 
-## 3 Architecture
+- building a simple API (GET/POST) using TDD (and Postman)
+- building a simple client using TDD
+- extra resources from 302CEM: client-side JS and MQTT
 
-1. HTTP v MQTT
-2. MVC
+## 3 Version Control (fit into the previous 2 weeks?)
 
-## 4 Software Quality Indicators and Metrics
+- Forking workflow
+- GitLab
+- Basic branching
+- Copy of 04a Version Control Revision
+- Copy of 04b Branching
 
-## 5 Project Management
+## 4 Introduction to Software Architecture
 
-1. estimation
+- HTTP v MQTT
+- MVC
+- Design Patterns
+- Week 2 - Software Architecture Patterns
+- BEA chapter 1: Software Architecture
+- Domain-Driven Design
 
-## 6 Automated Code Testing
+## 5 Architectural Coupling
 
-## 7 Test-Driven Development
+- BEA chapter 4: Architectural Coupling
+- Copy of 09 Acceptance Testing
 
-## 8 Acceptance Testing
+## 6 Software Quality
+
+- Week 6 - Software Quality Metrics
+- Week 7 - Software quality measurement and indicators
+- Week 8 - Software quality metrics and ISO_IEC standard
+
+## 7 Fitness Functions
+
+- BEA chapter 2: Fitness Functions
+- Week 6 - Cyclomatic Complexity
+- Copy of 08 Non-Functional Testing
+
+## 8 Software Development
+
+- Week 9 - Capability Maturity Models
 
 ## 9 Advanced Version Control
 
 1. GitFlow?
 2. Rebasing
+3. Copy of 07 Advanced Version Control
 
 ## 10 Continuous Integration and Delivery
+
+- BEA chapter 3: Engineering Incremental Change
+- Copy of 10 Continuous Integration and Delivery
+- Copy of 11 Deploying Code
+
+----
+
+# Stuff to Remove
+
+Removing any content related to agile processes
+
+## 5 Project Management
+
+1. Week 5 - Agile Software Estimation Techniques
+2. Week 5 - Software Project Cost Estimate Models
 
 ----
 
@@ -57,29 +105,3 @@ Start project with a hub and spoke architecture. Each student (team?) contribute
 # Sample Tasks
 
 1. System log
-
-----
-
-# Original Structure
-
-## 1 Module Introduction
-
-## 2 Software Systems
-
-## 3 Guest Speaker
-
-## 4 Guest Speaker
-
-## 5 Project Cost Estimation
-
-## 6 Software Quality Metrics
-
-## 7 Software Quality Indicators
-
-## 8 Software Quality Models and Standards
-
-## 9 Software Maturity Models
-
-## 10 Case Study
-
-## 11 Assignment
