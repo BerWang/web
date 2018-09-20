@@ -30,14 +30,14 @@ Start with master read-only repository (forking workflow).
 
 ## 7 Test-Driven Development
 
-## 7 Automated Acceptance Testing
+## 8 Acceptance Testing
 
-## 8 Advanced Version Control
+## 9 Advanced Version Control
 
 1. GitFlow?
-1. Rebasing
+2. Rebasing
 
-## 8 Continuous Integration and Delivery
+## 10 Continuous Integration and Delivery
 
 ----
 
