@@ -1,47 +1,39 @@
 
 # Software Quality and Process Management
 
-All development to be done using NodeJS (and Express/Handlebars).
+On completion of this module, a student should be able to:
 
-Version control using GitLab.
+1. Select, evaluate and apply standards, tools and techniques for assuring software quality
+2. Critically review a software development process and identify its ranking in an accepted capability maturity model.
+3. Critically evaluate an architectural design against accepted quality criteria.
+4. Select, evaluate and use tools and techniques to successfully manage a large scale software project, including configuration management and version control.
+5. Estimate the cost and duration of a software project.
 
-Start with master read-only repository (forking workflow).
+## Module Content
 
-## 1 Test-Driven Development
+The module content is split into the following topics. Each topic lasts for one week. The lab activities for each are provided in numbered markdown files in the home directory of this repository with the supporting materials in the `exercises/` directory. You should start by cloning this repository into your development workstation. This might be a desktop computer/laptop or you might use your Chromebook and clone into an instance of an online IDE such as Cloud9 or CodeAnywhere.
 
-- Lecture
-    - Week 1 - Software Project Management Overview LEC
-    - Copy of 05 Automated Testing
-    - Copy of 06 Test-Driven Development (2)
-- Lab
-    - introduction to NodeJS
-    - Building websites using Express
-    - Writing Unit Tests
-    - Test Harness
-    - Employing Test-Driven Development
+### 1 ECMA6
 
-## 2 Web APIs & Client JS
+In the first week you will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module. There are two lab to complete and you should aim to get both completed in this first week:
 
-- building a simple API (GET/POST) using TDD (and Postman)
-- building a simple client using TDD
-- extra resources from 302CEM: client-side JS and MQTT
+1. Templates and Forms
+2. Dynamic Websites
 
-## 3 Version Control (fit into the previous 2 weeks?)
+### 2 Test-Driven Development
 
-- Forking workflow
-- GitLab
-- Basic branching
-- Copy of 04a Version Control Revision
-- Copy of 04b Branching
+In the second week we will be extending your understanding of ECMA6 by learning how to apply the principles of Test-Driven Development (TDD) when writing code in the ECMA6 programming language. You will be required to complete two labs this week:
 
-## 4 Introduction to Software Architecture
+1. TDD Express
+2. TDD API
 
-- HTTP v MQTT
-- MVC
-- Design Patterns
-- Week 2 - Software Architecture Patterns
-- BEA chapter 1: Software Architecture
-- Domain-Driven Design
+### 3 Domain-Driven Design
+
+In the third week you will be assigned the topic for your individual coursework assignment and will apply the Domain-Driven Design (DDD) techniques to build a domain model. This will form part of your assignment submission. If you have time you will be able to continue your ECMA6 learning.
+
+### 4 Software Architecture
+
+In week four you will be expected to use your understanding to produce three different architectural designs based on your domain model and evaluate these to identify the best.
 
 ## 5 Architectural Coupling
 
