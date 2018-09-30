@@ -15,12 +15,16 @@ The module content is split into the following topics. Each topic lasts for one 
 
 ### 1 ECMA6
 
+[Lecture Slides](https://drive.google.com/open?id=1RcI1HSyJpAV64TPEjqzp0Udad9IGZvo4uF7sapCFrkE)
+
 In the first week you will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module. There are two lab to complete and you should aim to get both completed in this first week:
 
 1. Templates and Forms
 2. Dynamic Websites
 
 ### 2 Test-Driven Development
+
+[Lecture Slides](https://drive.google.com/open?id=14lBIsoru7s4qwpVGa6hhd1Iq1ezXSvZYk38RSNAZT50)
 
 In the second week we will be extending your understanding of ECMA6 by learning how to apply the principles of Test-Driven Development (TDD) when writing code in the ECMA6 programming language. You will be required to complete two labs this week:
 
@@ -29,9 +33,13 @@ In the second week we will be extending your understanding of ECMA6 by learning 
 
 ### 3 Domain-Driven Design
 
+[Lecture Slides](https://drive.google.com/open?id=15roChBN5xnttLZYg7Wdk7b26W5Q23nCYNycLj8GNy5w)
+
 In the third week you will be assigned the topic for your individual coursework assignment and will apply the Domain-Driven Design (DDD) techniques to build a domain model. This will form part of your assignment submission. If you have time you will be able to continue your ECMA6 learning.
 
 ### 4 Software Architecture
+
+[Lecture Slides](https://drive.google.com/open?id=1Ux83hzw-DdcBWn6PUXz_xF3b-ytE4PsWLpSKS_dqBfw)
 
 In week four you will be expected to use your understanding to produce three different architectural designs based on your domain model and evaluate these to identify the best.
 
