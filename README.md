@@ -17,7 +17,11 @@ The module content is split into the following topics. Each topic lasts for one 
 
 [Lecture Slides](https://drive.google.com/open?id=1RcI1HSyJpAV64TPEjqzp0Udad9IGZvo4uF7sapCFrkE)
 
-In the first week you will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module. There are two lab to complete and you should aim to get both completed in this first week:
+In the first week you will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module.
+
+It is recommended that you use the Codeanywhere development environment and, if you are unfamiliar with this you should follow [this worksheet](https://github.coventry.ac.uk/205CDE-1718JANMAY/TEACHING-MATERIALS/blob/master/01%20Setup.md), substituting this repository URL when you clone the repository.
+
+There are two lab to complete and you should aim to get both completed in the first two weekw:
 
 1. Templates and Forms
 2. Dynamic Websites
@@ -26,7 +30,7 @@ In the first week you will need to understand the syntax of the ECMA programming
 
 [Lecture Slides](https://drive.google.com/open?id=14lBIsoru7s4qwpVGa6hhd1Iq1ezXSvZYk38RSNAZT50)
 
-In the second week we will be extending your understanding of ECMA6 by learning how to apply the principles of Test-Driven Development (TDD) when writing code in the ECMA6 programming language. You will be required to complete two labs this week:
+In this week we will be extending your understanding of ECMA6 by learning how to apply the principles of Test-Driven Development (TDD) when writing code in the ECMA6 programming language. You will be required to complete two labs this week:
 
 1. TDD Express
 2. TDD API
@@ -35,13 +39,13 @@ In the second week we will be extending your understanding of ECMA6 by learning 
 
 [Lecture Slides](https://drive.google.com/open?id=15roChBN5xnttLZYg7Wdk7b26W5Q23nCYNycLj8GNy5w)
 
-In the third week you will be assigned the topic for your individual coursework assignment and will apply the Domain-Driven Design (DDD) techniques to build a domain model. This will form part of your assignment submission. If you have time you will be able to continue your ECMA6 learning.
+At this stage you will have been assigned to an assignment topic and will apply the Domain-Driven Design (DDD) techniques to build a domain model. This will form part of your assignment submission. If you have time you will be able to continue your ECMA6 learning.
 
 ### 4 Software Architecture
 
 [Lecture Slides](https://drive.google.com/open?id=1Ux83hzw-DdcBWn6PUXz_xF3b-ytE4PsWLpSKS_dqBfw)
 
-In week four you will be expected to use your understanding to produce three different architectural designs based on your domain model and evaluate these to identify the best.
+Now you will be expected to use your understanding to produce three different architectural designs based on your domain model and evaluate these to identify the best.
 
 ## 5 Architectural Coupling
 
