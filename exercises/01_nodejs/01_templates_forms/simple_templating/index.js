@@ -8,6 +8,8 @@ const handlebars = require('express3-handlebars').create({defaultLayout: 'main'}
 app.engine('handlebars', handlebars.engine)
 app.set('view engine', 'handlebars')
 
+app.use(express.static('public'))
+
 const port = 8080
 
 app.get('/', (req,res) => {

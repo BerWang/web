@@ -9,9 +9,9 @@ We will start by producing dynamic web pages that combine a static layout with d
 
 There are a number of _templating view engines_ that are compatible with Express however in this worksheet we will be using one of the more popular ones, called [Handlebars](https://www.npmjs.com/package/handlebars). This needs to be imported into your script and set the default _layout page_.
 
-Locate the files in the `06_templating/01_date/` directory, install the dependencies and start the server.
-
 ### 1.1 Basic Templating
+
+Locate the files in the `01_nodejs/01_templates_forms/simple_templating/` directory, install the dependencies and start the server.
 
 Access the base route `/`, notice that you are seeing a basic html page. Open the script:
 
@@ -24,13 +24,22 @@ Access the base route `/`, notice that you are seeing a basic html page. Open th
 	2. This refers to the template `views/home.handlebars`
 3. The contents of the `home.handebars` template is inserted into the layout file replacing the `{{{body}}}` placeholder.
 
-#### 1.1.1 Test Your Understanding
+#### 1.1.1 Static Files
+
+When an html page is loaded into a browser it contains link to other _static_ files such as stylesheets and images. These need to be stored in a directory on the Express server which is visible to the browser:
+
+1. Open the `index.js` script and locate line 11, this tells the Express web server to make the contents of the `public/` directory visible to external clients.
+2. Locate the `public/` directory and notice it contains two directories
+		1. One called `css/` containing the stylesheet
+		2. And one called `images/` containing some image files.
+3. Because all the pages share the same stylesheet, the `views/layouts/main.handlebars` file includes a link to the stylesheet.
+4. We have also added an `img` element to the `home.handlebars` html to display the image.
+
+#### 1.1.2 Test Your Understanding
 
 1. Create a `/hello` route that uses a template file called `hello.handlebars` to display a heading with the text `Hello World!`
-2. Use the knowledge from the css lab to add and link an external stylesheet to display the heading in red.
-	1. Define a directory for static files.
-	2. Create a `style.css` file in this directory that sets the heading red.
-	3. Add a link to the _main layout_ file to import this stylesheet.
+2. Modify the external stylesheet to display the heading in dark red.
+3. Find a smiley face image online and display this on the page.
 
 ### 1.2 Inserting Data into a Template
 
