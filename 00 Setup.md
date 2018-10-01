@@ -77,7 +77,7 @@ REMEMBER: to change directory use the command:                    $cd
           to navigate to the previous directory use the command:  $cd ..
 
 ```shell
-$ cd TEACHING-MATERIALS/exercises/01_setup/
+$ cd TEACHING-MATERIALS/exercises/01_nodejs/01_templates_forms/01_date/
 $ ls
 ```
 
@@ -95,6 +95,12 @@ Notice we get an error! if you study the `index.js` file you will see that on li
 
 ```shell
 $ npm install express
+$ node index.js
+```
+You will now habve another error and will need to install another package:
+
+```shell
+$ npm install express3-handlebars
 $ node index.js
   app listening on port 8080
 ```
