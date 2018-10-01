@@ -54,13 +54,13 @@ Notice you get an error, we need to install the missing module using the _Node P
 ```shell
 $ npm install express
 $ node index.js
-  Error: Cannot find module 'express3-handlebars'
+  Error: Cannot find module 'express-handlebars'
 ```
 
 We get a different error explaining that there is another missing module:
 
 ```shell
-$ npm install express3-handlebars
+$ npm install express-handlebars
 $ node index.js
   app listening on port 8080
 ```

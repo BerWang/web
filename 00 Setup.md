@@ -100,7 +100,7 @@ $ node index.js
 You will now habve another error and will need to install another package:
 
 ```shell
-$ npm install express3-handlebars
+$ npm install express-handlebars
 $ node index.js
   app listening on port 8080
 ```
