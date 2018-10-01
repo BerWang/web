@@ -1,18 +1,17 @@
 
-# Templating
+# The ECMA6 Programming Language
 
-Up to now you have seen two ways the server can send response data to the client web browser:
+In this lab you will get to grips with the ECMA6 programming language by learning to build dynamic websites
 
-1. Sending the contents of an HTML file. This is great for complex web pages but you can't include dynamic data.
-2. Using the `res.write()`, `res.send()` and `res.end()` functions to send dynamic data. The limitation is that its quite clunky and would be completely inpractical for complex web pages.
+## 1 Templating
 
-In this section you will be introduced to a third approach which combines the best features of each the other two approaches, the use of a **templating view engine**.
+We will start by producing dynamic web pages that combine a static layout with dynamic data using a **templating view engine**.
 
 There are a number of _templating view engines_ that are compatible with Express however in this worksheet we will be using one of the more popular ones, called [Handlebars](https://www.npmjs.com/package/handlebars). This needs to be imported into your script and set the default _layout page_.
 
 Locate the files in the `06_templating/01_date/` directory, install the dependencies and start the server.
 
-## 1 Basic Templating
+### 1.1 Basic Templating
 
 Access the base route `/`, notice that you are seeing a basic html page. Open the script:
 
@@ -25,7 +24,7 @@ Access the base route `/`, notice that you are seeing a basic html page. Open th
 	2. This refers to the template `views/home.handlebars`
 3. The contents of the `home.handebars` template is inserted into the layout file replacing the `{{{body}}}` placeholder.
 
-### 1.1 Test Your Understanding
+#### 1.1.1 Test Your Understanding
 
 1. Create a `/hello` route that uses a template file called `hello.handlebars` to display a heading with the text `Hello World!`
 2. Use the knowledge from the css lab to add and link an external stylesheet to display the heading in red.
@@ -33,7 +32,7 @@ Access the base route `/`, notice that you are seeing a basic html page. Open th
 	2. Create a `style.css` file in this directory that sets the heading red.
 	3. Add a link to the _main layout_ file to import this stylesheet.
 
-## 2 Inserting Data into a Template
+### 1.2 Inserting Data into a Template
 
 So far we have not done anything particularly useful except separate out the _layout_ from the content. In this section you will learn how to insert data directly into a template before it is rendered to the browser.
 
@@ -57,7 +56,7 @@ To understand what happens to this data we need to understand the _template_. Lo
 	1. The `{{title}}` placeholder is replaced by the string `My First Template`.
 	2. The `{{date}}` placeholder is replaced with the date string we built in the script.
 
-### 2.1 Test Your Understanding
+#### 1.2.1 Test Your Understanding
 
 1. Use suitable properties of the [`Date` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to display the date in a variety of different formats in a series of paragraph elements:
 	1. dd/mm/yyyy
@@ -65,7 +64,7 @@ To understand what happens to this data we need to understand the _template_. Lo
 2. Add a table to display some information about the client computer (using the `req.connection` object).
 3. Extend the table to display the header information (using the `req.headers` object).
 
-## 3 Repeating Data
+### 1.3 Repeating Data
 
 So far we have inserted data from object properties into our templates. This works find for single records however often we will have multiple records to display such as the results of a database query. In this situation we will need to repeat a block of html code such as a list item or table row.
 
@@ -86,14 +85,14 @@ Open the `food.handlebars` template:
 
 This allows the handlebars template view engine to handle repeated data.
 
-### 3.1 Test Your Understanding
+#### 1.3.1 Test Your Understanding
 
 1. Modify the template to display the shopping items in a html table instead of an ordered list.
 2. Add a second column to display the quantities of each item.
 3. Add a table header to display column headings.
 4. Without adding any more html, colour every other row of the table in light grey.
 
-## 4 Putting it Together
+### 1.4 Putting it Together
 
 You have covered a lot of topics over the first few weeks of the module. Before you continue, complete the challenges listed below. These will help you revise all the content you have covered.
 
@@ -114,15 +113,13 @@ Now try to complete the following challenges:
 8. Add all the database fields to the product details page.
 9. Modify the stylesheet to improve the appearance.
 
-# Forms
+## 2 Forms
 
 In this final part of the worksheet you will be building forms that can send data to a web server.
 
-### 5.1 POST vs GET
-
 Lets start by looking at how forms send data to the server. This can be done using the HTTP `GET` method or using the `POST` method. Lets try out both so we can understand the differences.
 
-#### 5.1.1 Submitting Data Using POST
+### 2.1 Submitting Data Using POST
 
 Make sure the web server is running and access the `/postform` route and open the corresponding html file.
 
@@ -138,7 +135,7 @@ Make sure the web server is running and access the `/postform` route and open th
     2. Notice that it contains 2 query parameters in a querystring.
     3. The names of the query parameters correspond to the values in the `name` attributes in the `<input>` elements.
 
-#### 5.1.2 Submitting Data Using GET
+### 2.2 Submitting Data Using GET
 
 Make sure the web server us running and access the `/getform` route and open the corresponding html file.
 
@@ -151,11 +148,11 @@ Make sure the web server us running and access the `/getform` route and open the
     1. Notice that the request uses the `GET` method. This corresponds to the `method` attribute in the `<form>` element.
     2. The URL contains the data (remember there is only a request _body_ when the `POST` method is used.
 
-### 5.2 Form Controls
+### 2.3 Form Controls
 
 In the previous section the form used the `<input>` element which displayed simple text boxes where you could enter anything. In this section you are going to learn about how to use a wide range of different controls to capture user input.
 
-#### 5.2.1 Input Elements
+#### 2.3.1 Input Elements
 
 HTML defines a number of input types that can be used in forms. The commonly used ones are:
 
@@ -175,7 +172,7 @@ The main reason for introducing these new input types is for mobile devices with
 
 ![android picker](http://developer.android.com/images/ui/pickers.png)
 
-### Hidden parameters
+#### 2.3.2 Hidden parameters
 
 Sometimes we need a way to submit some additional parameter to the server. This can be done by using a `hidden` input parameter.
 A hidden parameter has no onscreen appearance, but it will be sent to the server.
@@ -188,7 +185,7 @@ A hidden parameter has no onscreen appearance, but it will be sent to the server
 </form>
 ```
 
-#### 5.2.2 Lists
+#### 2.3.3 Lists
 
 The problem with the `<input>` elements is that it forces users to input _free text_ which means the data will require a lot of validation. For example if asked to input a city users might enter `Coventry`, `coventry`, `Cov`, `Coventry City` and any number of variations. Where possible you should require users to choose from a predefined list.
 
@@ -233,7 +230,7 @@ The `select` element defines a drop-down list, and the `option` element is used 
 
 Every `option` element should have a unique value, just like in checkboxes and radio buttons.
 
-#### 5.2.3 Test Your Understanding
+#### 2.3.4 Test Your Understanding
 
 1. Create a new route in the `index.js` file called `/register`.
 2. Create an html file called `registerform.html`.
@@ -242,7 +239,7 @@ Every `option` element should have a unique value, just like in checkboxes and r
 5. Make sure you understand the data displayed when the form is posted.
 6. Change the form so it makes a `GET` request.
 
-### 5.3 Labelling Forms
+### 2.4 Labelling Forms
 
 `<label>` elements are used to connect texts and controls that are used together in forms. For example radio buttons and check boxes often come with preceding texts that describe the choice. However if the user clicks the text nothing happens. That's because the browser doesn't know the connection between the text and the neighboring control. They must be wrapped up with label element.
 
@@ -297,7 +294,7 @@ In user interfaces it also a common practice to give hints on the kind of data i
 
 ![Example of a value and placeholder](exercises/.images/input_hint.png)
 
-#### 5.3.1 Test Your Understanding
+#### 2.4.1 Test Your Understanding
 
 Make sure the web server is running and access the `/semantic` route. Open the html file containing the form that is being diplayed.
 
@@ -305,11 +302,11 @@ Make sure the web server is running and access the `/semantic` route. Open the h
 2. Rearrange your form with legends and fieldsets in order to make it easier for the user to understand.
 3. Give input hints to the user whenever possible.
 
-### 5.4 Form Validation
+### 2.5 Form Validation
 
 Form validation is traditionally done using JavaScript. But HTML5 introduces some new ways of doing it, which makes validation a lot easier.
 
-#### 5.4.1 'required' attribute
+#### 2.5.1 'required' attribute
 
 Now return to the very first example in this lab
 
@@ -329,7 +326,7 @@ If we add a `required` attribute to the query input, it will become `<input requ
 
 Behind the scene, the browser tries to verify user's input. There are some other input attributes that can serve for validation purposes. For example, `min` and `max` attributes for numerical input types such as `number` or `month`; `size` and `maxlength` for limiting the number of characters entered.
 
-#### 5.4.2 'pattern' attribute based on regular expression
+#### 2.5.2 'pattern' attribute based on regular expression
 
 In addition to using different input types, we can also use patterns a.k.a.regular expressions. Using patterns, we can validate user inputs even more precisely.
 
@@ -343,6 +340,6 @@ For example, a Finnish social security number (similar to UK National Insurance 
 
 \d means a digit, \\- means the "-", [chars] means a set of characters.
 
-### 5.4.3 Test your understanding
+#### 2.5.3 Test your understanding
 
 Open file **form-skel.html**. Validate the user's data in Student id, email address and score by using patterns.
