@@ -11,15 +11,17 @@ On completion of this module, a student should be able to:
 
 ## Module Content
 
-The module content is split into the following topics. Each topic lasts for one or two weeks. The lab activities for each are provided in numbered markdown files in the home directory of this repository with the supporting materials in the `exercises/` directory. You should start by cloning this repository into your development workstation. This might be a desktop computer/laptop or you might use your Chromebook and clone into an instance of an online IDE such as Cloud9 or CodeAnywhere.
+The module content is split into the following topics. Each topic lasts for one or two weeks. The lab activities for each are provided in numbered markdown files in the home directory of this repository with the supporting materials in the `exercises/` directory. You should start by cloning this repository into your development workstation. This might be:
+
+1. Using the Windows 10 lab computers (download Visual Studio Code from the AppsAnywhere server)
+2. Using your own laptop computer
+3. or you might use your Chromebook and clone into an instance of an online IDE such as [Goorm](https://www.goorm.io/). For help with this option you will find a lab called **Goorm Setup**.
 
 ### 1 ECMA6
 
 [Lecture Slides](https://drive.google.com/open?id=1RcI1HSyJpAV64TPEjqzp0Udad9IGZvo4uF7sapCFrkE)
 
 You will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module.
-
-It is recommended that you use the Goorm development environment and, if you are unfamiliar with this you should follow the **Goorm Setup** worksheet.
 
 There are two labs to complete and you should aim to get both completed in the first two weeks:
 
