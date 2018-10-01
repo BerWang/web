@@ -19,7 +19,7 @@ The module content is split into the following topics. Each topic lasts for one 
 
 You will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module.
 
-It is recommended that you use the Codeanywhere development environment and, if you are unfamiliar with this you should follow [this worksheet](https://github.coventry.ac.uk/205CDE-1718JANMAY/TEACHING-MATERIALS/blob/master/01%20Setup.md), substituting the url in the lab for that from this 340CT one.
+It is recommended that you use the Codeanywhere development environment and, if you are unfamiliar with this you should follow the **Setup** worksheet.
 
 There are two labs to complete and you should aim to get both completed in the first two weeks:
 
