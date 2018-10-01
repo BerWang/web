@@ -11,17 +11,17 @@ On completion of this module, a student should be able to:
 
 ## Module Content
 
-The module content is split into the following topics. Each topic lasts for one week. The lab activities for each are provided in numbered markdown files in the home directory of this repository with the supporting materials in the `exercises/` directory. You should start by cloning this repository into your development workstation. This might be a desktop computer/laptop or you might use your Chromebook and clone into an instance of an online IDE such as Cloud9 or CodeAnywhere.
+The module content is split into the following topics. Each topic lasts for one or two weeks. The lab activities for each are provided in numbered markdown files in the home directory of this repository with the supporting materials in the `exercises/` directory. You should start by cloning this repository into your development workstation. This might be a desktop computer/laptop or you might use your Chromebook and clone into an instance of an online IDE such as Cloud9 or CodeAnywhere.
 
 ### 1 ECMA6
 
 [Lecture Slides](https://drive.google.com/open?id=1RcI1HSyJpAV64TPEjqzp0Udad9IGZvo4uF7sapCFrkE)
 
-In the first week you will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module.
+You will need to understand the syntax of the ECMA programming language which you will be using to develop your software during this module.
 
-It is recommended that you use the Codeanywhere development environment and, if you are unfamiliar with this you should follow [this worksheet](https://github.coventry.ac.uk/205CDE-1718JANMAY/TEACHING-MATERIALS/blob/master/01%20Setup.md), substituting this repository URL when you clone the repository.
+It is recommended that you use the Codeanywhere development environment and, if you are unfamiliar with this you should follow [this worksheet](https://github.coventry.ac.uk/205CDE-1718JANMAY/TEACHING-MATERIALS/blob/master/01%20Setup.md), substituting the url in the lab for that from this 340CT one.
 
-There are two lab to complete and you should aim to get both completed in the first two weekw:
+There are two labs to complete and you should aim to get both completed in the first two weeks:
 
 1. Templates and Forms
 2. Dynamic Websites
