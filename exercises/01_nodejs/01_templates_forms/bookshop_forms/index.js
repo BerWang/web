@@ -4,7 +4,7 @@
 
 const express = require('express')
 
-const handlebars = require('express3-handlebars').create({defaultLayout: 'main'})
+const handlebars = require('express-handlebars').create({defaultLayout: 'main'})
 const bodyParser = require('body-parser')
 const app = express()
 app.use(express.static('public'))
