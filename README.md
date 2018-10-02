@@ -15,7 +15,7 @@ The module content is split into the following topics. Each topic lasts for one 
 
 1. Using the Windows 10 lab computers (download Visual Studio Code from the AppsAnywhere server)
 2. Using your own laptop computer
-3. or you might use your Chromebook and clone into an instance of an online IDE such as [Goorm](https://www.goorm.io/). For help with this option you will find a lab called **Goorm Setup**.
+3. or you might use your Chromebook and clone into an instance of an online IDE such as [Goorm](https://www.goorm.io/). For help with this option you will find a lab called **Setup**.
 
 ### 1 ECMA6
 
