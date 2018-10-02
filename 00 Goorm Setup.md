@@ -27,6 +27,8 @@ git clone https://github.coventry.ac.uk/340CT-1819SEPJAN/TEACHING-MATERIALS.git 
 
 This creates a `labs/` directory containing all the files from the repository.
 
+By default real-time linting is enabled however this currently uses an old linter and is not ECMA6 compatible. You should disable real-time linting from the **Project** menu.
+
 ## Updating NodeJS
 
 We can see the current version of NodeJS by running the `node -v` command. The latest version is 10.11.0 and so we need to upgrade this.
