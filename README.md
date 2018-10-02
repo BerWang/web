@@ -1,13 +1,9 @@
 
 # Software Quality and Process Management
 
-All development to be done using NodeJS (and Express/Handlebars).
+## 1 NodeJS and Express
 
-Version control using GitLab.
-
-Start with master read-only repository (forking workflow).
-
-## 1 Test-Driven Development
+## 2 Test-Driven Development
 
 - Lecture
     - Week 1 - Software Project Management Overview LEC
@@ -20,32 +16,15 @@ Start with master read-only repository (forking workflow).
     - Test Harness
     - Employing Test-Driven Development
 
-## 2 Web APIs & Client JS
+## 3 Introduction to Software Architecture
 
-- building a simple API (GET/POST) using TDD (and Postman)
-- building a simple client using TDD
-- extra resources from 302CEM: client-side JS and MQTT
-
-## 3 Version Control (fit into the previous 2 weeks?)
-
-- Forking workflow
-- GitLab
-- Basic branching
-- Copy of 04a Version Control Revision
-- Copy of 04b Branching
-
-## 4 Introduction to Software Architecture
-
-- HTTP v MQTT
-- MVC
-- Design Patterns
 - Week 2 - Software Architecture Patterns
 - BEA chapter 1: Software Architecture
-- Domain-Driven Design
 
 ## 5 Architectural Coupling
 
 - BEA chapter 4: Architectural Coupling
+- Domain-Driven Design
 - Copy of 09 Acceptance Testing
 
 ## 6 Software Quality
