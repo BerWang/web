@@ -173,5 +173,7 @@ Complete the following tasks. After each, complete and submit the form to ensure
 1. Add a box for the user's email address in the personal detail section.
 2. Create a new fieldset for the user's address and add input boxes to capture this. Make sure each box has a unique, descriptive `name` attribute.
 3. You will find a json file containing a longer list of courses. Replace the static list with the data contained in this file (you will need to pass some repeating data to the template).
+    1. To load the data from a file you need to use the [`fs.readfile()`](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) function.
+    2. You are loading a JSON-formatted string from the file. To turn this into an object you need to use [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse).
 4. Display the form data on the page rather than just the JSON string (you will need to pass each item through to the template and insert into individual placeholders).
 5. Add a link to the data page to return to the form.
