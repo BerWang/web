@@ -109,31 +109,6 @@ This allows the handlebars template view engine to handle repeated data.
 3. Add a table header to display column headings.
 4. Without adding any more html, colour every other row of the table in light grey.
 
-### 1.4 Putting it Together
-
-You have covered a lot of topics over the first few weeks of the module. Before you continue, complete the challenges listed below. These will help you revise all the content you have covered.
-
-The `repeating_data/` directory contains a 2-page template-driven dynamic website based on the data you used in the **Databases** lab. Install the dependencies, start the server and access the base route `/` and the `/details/1` route then study the script `index.js`.
-
-#### 1.4.1 Test Your Understanding
-
-Now try to complete the following challenges:
-
-1. Add a route called `/about` that displays information about the fictional bookshop.
-2. Add a footer that appears on all pages using the correct html5 element.
-3. Convert the list of books into a table.
-4. Add a column to display the ISBN number
-5. Add a hyperlink to the book titles to jump to the correct book details page.
-6. Add a column that displays links to take you to the [Amazon product page](https://www.amazon.co.uk/gp/search/ref=sr_adv_b/?search-alias=stripbooks&field-isbn=9781491943120) (hint: use the ISBN number and study this link carefully!).
-7. Create and link a stylesheet to improve the page appearance:
-    1. Style the header.
-    2. Style the footer.
-    3. Make the table easier to read.
-8. Add all the database fields to the product details page.
-9. Modify the stylesheet to improve the appearance.
-
-If you can complete them all successfully, well done! You are ready to move onto the next section.
-
 ## 2 Forms
 
 In this final part of the worksheet you will be building forms that can send data to a web server. Locate the `simple_forms/` directory, install the necessary modules and start the server.
