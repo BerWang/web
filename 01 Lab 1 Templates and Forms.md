@@ -123,7 +123,7 @@ Make sure the web server is running and access the `/postform` route and open th
 2. Click on the the **Submit** button.
 3. Examine the URL carefully:
     1. Notice that it points to the base route `/` with no additional data in the URL.
-4. Open the _Chrome developer tools_ and look at the _http request_:
+4. Open the _Chrome developer tools_ and look at the _http request_ (select the **Network** tab and click on the URL in the **Name** column):
     1. Notice that the request uses the `POST` method. This corresponds to the `method` attribute in the `<form>` element.
     2. The request header includes a `Content-Type` header which contains the value `application/x-www-form-urlencoded`.
 5. There is a _request body_ which contains the form data:
