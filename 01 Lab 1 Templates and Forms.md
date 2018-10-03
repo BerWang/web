@@ -9,11 +9,17 @@ We will start by producing dynamic web pages that combine a static layout with d
 
 There are a number of _templating view engines_ that are compatible with Express however in this worksheet we will be using one of the more popular ones, called [Handlebars](https://www.npmjs.com/package/handlebars). This needs to be imported into your script and set the default _layout page_.
 
+For this part of the lab you will be working with the website found in the `01_nodejs/01_templates_forms/simple_templating/` directory, the same one you used in the previous setup exercise.
+
+1. As you have already seen, this displays a simple message together with the picture of a clock.
+2. Add `/date` to the end of the URL, notice that this now displays a page showing the current date.
+3. Finally replace the `/date` with `/food`, again notice you are viewing a different page, this time listing some different foods.
+
+By changing the URL you tell the server to send you different web pages. This is how the World-Wide-Web works. The bit of text after the server name and port is known as the **route**. Open the `index.js` file and study the script, can you see how it is serving up the three different pages?
+
 ### 1.1 Basic Templating
 
-Locate the files in the `01_nodejs/01_templates_forms/simple_templating/` directory, install the dependencies and start the server.
-
-Access the base route `/`, notice that you are seeing a basic html page. Open the script:
+The URL without any additions is called the **base** route, and is shown with a `/`. Locate the `app.get()` function that handles this route.
 
 1. We start by importing the Handlebars package and create a default layout called main. This defines the `main.handlebars` page as the one to use as the default website layout.
 	1. Open the `views/layouts/main.handlebars` file.
