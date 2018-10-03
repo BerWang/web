@@ -66,9 +66,7 @@ app.get('/details/:id', (req, res) => {
 	})
 })
 
-app.get('/form', async(req, res) => {
-	res.sendFile(`${__dirname}/html/form.html`)
-})
+app.get('/form', async(req, res) => res.render('form'))
 
 app.post('/add', async(req, res) => {
 	console.log(req.body)

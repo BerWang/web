@@ -115,7 +115,7 @@ This is known as a dynamic (or data-driven) website. By the end of this section 
 	2. We loop through the array and for each index we take the data, wrap it in html tags and append it to the variable.
 	3. Finally we append the closing list element.
 8. We print this to the terminal on line 37 to check the html is correct.
-9. Finally we pass this string to the `index.html` template and render it in the browser.
+9. Finally we pass this string to the `home.handlebars` template and render it in the browser.
 
 ### 2.1 Test Your Understanding
 
@@ -127,10 +127,10 @@ This is known as a dynamic (or data-driven) website. By the end of this section 
 
 ## 3 Adding Search Functionality
 
-There are not many books in our database so displaying them all is not a problem however once we increase the number of books significantly we need to find a way to filter them. In this section we will be implementing a simple search functionality. Start by opening the `index.html` template file.
+There are not many books in our database so displaying them all is not a problem however once we increase the number of books significantly we need to find a way to filter them. In this section we will be implementing a simple search functionality.
 
 1. If you look directly under the first route you will see a second route commented out (lines 42-63). Comment out the route you have been using in section 2 and uncomment this one. Restart the script.
-2. Notice the route uses a different template (`newindex.html`) which contains an html form. This will display a search box and button.
+2. Notice the route uses a different template (`newindex.handlebars`) which contains an html form. This will display a search box and button.
 3. Type in your search term `sqlite` and click on the search button, this reloads the page. You will see the search term `sqlite` remains in the text box and the page displays the books that match your search term.
 	1. Click in the _address bar_ in your browser and look carefully at the URL.
 	2. It ends with the string `?q=hello`.
@@ -170,7 +170,7 @@ Make sure the script is running and try accessing the `/details/1` route. This d
 2. Now we call the `all()` function that is part of the database (`db`) object. This returns a JavaScript object containing the first matching record.
 	1. The callback runs after the query completes or an error occurs.
 	2. If no error occurs, the entire object is displayed in the terminal and passed to the html template.
-3. If you open the `details.html` template you can see the placeholder names match the database fields.
+3. If you open the `details.handlebars` template you can see the placeholder names match the database fields.
 
 ### 4.1 Linking the Pages
 
@@ -203,8 +203,8 @@ To create a working form you need to have two routes:
 
 There is already a working form. Access the `/form` route in your browser, this will display a simple html form where you can enter a book title, isbn and description. Try adding a book using this (there are some extra examples in the `books.csv` file). Notice that when you click on the add button you end up back at the list of books and the new one has been added to the end. Lets look under the bonnet to see how this has been achieved. Open the `index.js` script.
 
-1. Towards the end of the script there is a `/form` route which sends the contents of the `form.html` file to the browser. This is how we display the form.
-2. In the `form.html` file you will see that we have created a simple html form. Note:
+1. Towards the end of the script there is a `/form` route which sends the contents of the `form.handlebars` template to the browser. This is how we display the form.
+2. In the `form.handlebars` file you will see that we have created a simple html form. Note:
 	1. The `form` element contains a couple of important attributes:
 		1. The `action="/add"` attribute directs the form to send its data to the `/add` route.
 		2. The `method="post"` attribute directs the form to send its data in the message body and not in the URL.
