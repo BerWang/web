@@ -17,7 +17,7 @@ Start by installing the tools on your computer:
     2. `$ sudo apt-get install sqlite3 libsqlite3-dev`
 3. It a bit of a pain to install on Windows 10 but there is a good [YouTube video](https://youtu.be/zOJWL3oXDO8) that covers the process.
 
-If you use the terminal/command prompt to navigate to the `exercises/13_website/bookshop/` directory you will find a prebuilt database called `bookshop.db`. To open a database you use the `sqlite3 bookshop.db` command. Note: if the file you specify does not exist, a new database will be created. Open the `bookshop.db` database.
+If you use the terminal/command prompt to navigate to the `exercises/01_nodejs/02_dynamic_website/bookshop/` directory you will find a prebuilt database called `bookshop.db`. To open a database you use the `sqlite3 bookshop.db` command. Note: if the file you specify does not exist, a new database will be created. Open the `bookshop.db` database.
 
 Notice that the prompt changes to `sqlite>`, this means you are interacting with the `sqlite3` program. There are a number of special [commands](https://www.sqlite.org/cli.html) that include standard SQL statements as well as special sqlite commands (these start with a period/dot and are sometimes called _dotcommands_. Try the following commands (note: the up arrow recalls previous commands):
 
@@ -96,7 +96,7 @@ Using the data in the `books.csv` file, add the authors to each of your book rec
 
 ## 2 Building a Dynamic Web Page
 
-Now you have a working database containing some useful data you need to display this in a web page. Start by locating and running the `index.js` script in the `bookshop/` directory (you will need to install the dependencies first). Notice that there is a message in the terminal to let you know the script has connected to the database. Now view the web page, notice it displays the book titles from your database (including the ones you added).
+Now you have a working database containing some useful data you need to display this in a web page. Start by locating and running the `index.js` script in the same `bookshop/` directory (you will need to install the dependencies first). Notice that there is a message in the terminal to let you know the script has connected to the database. Now view the web page, notice it displays the book titles from your database (including the ones you added).
 
 This is known as a dynamic (or data-driven) website. By the end of this section you will have a clear understanding of how this can be created using NodeJS. Lets look at how this works. Open the `index.js` script.
 
