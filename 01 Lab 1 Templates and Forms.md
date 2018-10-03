@@ -76,10 +76,7 @@ To understand what happens to this data we need to understand the _template_. Lo
 1. Use suitable properties of the [`Date` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) to add paragraph elements to display the following:
     1. The current time in the 24 hour time format: HH:MM:SS
     2. a Unix timestamp (number of seconds since 1st Jan 1970)
-2. Add a table to display some information about the client computer (using the `req.connection` object).
-    1. To find out what data the object contains, print it to the console using `console.log(req.connection)`.
-3. Extend the table to display the header information (using the `req.headers` object).
-4. Insert a picture of a calendar.
+2. Insert a picture of a calendar.
 
 ### 1.3 Repeating Data
 
@@ -168,7 +165,7 @@ locate and open the `complex_forms/` directory. Install the required modules and
 
 #### 2.4.1 Test Your Understanding
 
-Complete the following tasks. After each, complete and submit the form to ensure all data is avaialable:
+Complete the following tasks. After each, complete and submit the form to ensure all data is available:
 
 1. Add a box for the user's email address in the personal detail section.
 2. Create a new fieldset for the user's address and add input boxes to capture this. Make sure each box has a unique, descriptive `name` attribute.
