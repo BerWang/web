@@ -173,5 +173,6 @@ Complete the following tasks. After each, complete and submit the form to ensure
     1. To load the data from a file you need to use the [`fs.readfile()`](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) function.
     2. You are loading a JSON-formatted string from the file. To turn this into an object you need to use [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse).
     3. You then need to extract the array from the object (try using [`console.log()`](https://developer.mozilla.org/en-US/docs/Web/API/Console) to visualise the data.
+    4. You then need to pass this array to the handlebars template and insert a helper in this template to insert the courses into the dropdown list.
 4. Display the form data on the page rather than just the JSON string (you will need to pass each item through to the template and insert into individual placeholders).
 5. Add a link to the data page to return to the form.
