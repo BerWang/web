@@ -128,6 +128,12 @@ Make sure the web server is running and access the `/postform` route and open th
     2. Notice that it contains 2 query parameters in a querystring.
     3. The names of the query parameters correspond to the values in the `name` attributes in the `<input>` elements.
 
+#### 2.1.1 Test Your Understanding
+
+1. Currently all the form data is processed in a loop and added to the table:
+    1. Modify the `home.handlebars` template to display the full name as a second level heading.
+2. Add a new field to store an email address
+
 ### 2.2 Submitting Data Using GET
 
 Make sure the web server us running and access the `/getform` route and open the corresponding html file.
