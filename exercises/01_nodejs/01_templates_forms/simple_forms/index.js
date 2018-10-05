@@ -5,53 +5,35 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 app.use(bodyParser.urlencoded({ extended: true }))
+
+const handlebars = require('express-handlebars').create({defaultLayout: 'main'})
+app.engine('handlebars', handlebars.engine)
+app.set('view engine', 'handlebars')
+
 app.use(express.static('public'))
 
 const port = 8080
 
-app.get('/postform', (req, res) => {
-	res.sendFile(`${__dirname}/html/post.html`)
-})
+app.get('/postform', (req, res) => res.render('postform') )
 
-app.get('/getform', (req, res) => {
-	res.sendFile(`${__dirname}/html/get.html`)
-})
+app.get('/getform', (req, res) => res.render('getform') )
 
-app.get ('/lists', (req, res) => {
-	res.sendFile(`${__dirname}/html/lists.html`)
-})
+app.get ('/lists', (req, res) => res.render('lists') )
 
-app.get ('/semantic', (req, res) => {
-	res.sendFile(`${__dirname}/html/form-skel.html`)
-})
+app.get ('/semantic', (req, res) => res.render('semantic') )
 
 // this route processes data in the querystring
 app.get('/', (req, res) => {
-	res.write('<html><body><h1>Retrieving Data in Querystring</h1><table>')
-	for (const param in req.query) {
-		res.write(`<tr><td>${param}</td><td>${req.query[param]}</td></tr>`)
- 	}
-	res.write('</table></body></html>')
+	const params = []
+	for (const param in req.query) params.push({key: param, value: req.query[param]})
+	res.render('home', {params: params})
 })
 
 // this route processes data in the request body
 app.post('/', (req, res) => {
-
-	console.log(req.body)
-
-	const data = req.body
-	res.write('<html><body><h2>Retrieving Data in Body</h2><table>')
-	for (const key in data) {
-		if (data.hasOwnProperty(key)) {
-			console.log(key)
-			console.log(data[key])
-			res.write(`<tr><td>${key}</td><td>${data[key]}</td></tr>`)
-		}
-	}
-	res.write('</table></body></html>')
-	res.end()
+	const data = []
+	for (const key in req.body) data.push({key: key, value: req.body[key]})
+	res.render('post', {bodydata: data})
 })
 
-app.listen(port, () => {
-	console.log(`app listening on port ${port}`)
-})
+app.listen(port, () => console.log(`app listening on port ${port}`) )
